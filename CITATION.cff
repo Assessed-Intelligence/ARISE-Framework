@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use or reference the ARISE Framework, please cite it as below and include the required attribution notice from LICENSE.md."
+title: "ARISE Framework: Assurance of Responsible, Innovative & Secure Environments"
+type: dataset
+authors:
+  - family-names: "Scarpino"
+    given-names: "Joshua"
+    affiliation: "Assessed Intelligence LLC"
+  - name: "Assessed Intelligence LLC"
+    website: "https://assessedintelligence.com"
+version: "1.0.0"
+date-released: "2026-07-11"
+url: "https://ariseframework.com"
+repository-code: "https://github.com/assessed-intelligence/arise-framework"
+license-url: "https://assessedintelligence.com/license/"
+keywords:
+  - AI governance
+  - cybersecurity
+  - risk management
+  - compliance
+  - assurance
+  - responsible AI
+notes: "ARISE is a trademark of Assessed Intelligence LLC. Published under the ARISE Public Use License (Non-Commercial)."
