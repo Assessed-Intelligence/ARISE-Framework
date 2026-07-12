@@ -1,0 +1,159 @@
+requirement_id,control_id,priority,requirement
+P.AC.M-01-req-01,P.AC.M-01,1,"Documentation: Model cards with fairness assumptions, metrics, mitigations, limitations; re-evaluate on data/model changes."
+P.AC.M-01-req-02,P.AC.M-01,1,"Metric Definition: Select context-appropriate fairness metrics (e.g., demographic parity, equalized odds)."
+P.AC.M-01-req-03,P.AC.M-01,1,Fairness evaluation and documented results pre-production for risk-bearing models.
+P.AC.M-01-req-04,P.AC.M-01,2,"Data Interventions: Balanced sampling, reweighing, augmentation; label quality audits."
+P.AC.M-01-req-05,P.AC.M-01,2,"Post-Processing: Threshold adjustments, calibration, or output filters."
+P.AC.M-01-req-06,P.AC.M-01,2,"Proxy Variable Identification: Conduct feature correlation analysis to identify and mitigate ""proxy"" variables that are statistically correlated with protected attributes, preventing the model from circumventing fairness constraints."
+P.AC.M-01-req-07,P.AC.M-01,3,In-Model Constraints: Fairness-aware training/regularization; constrained optimization.
+P.AC.M-02-req-01,P.AC.M-02,1,Fallback & SLOs: Define fallback models/heuristics; set response SLOs and quality SLOs.
+P.AC.M-02-req-02,P.AC.M-02,2,"Stress & Corruption Tests: Evaluate under noise, occlusion, domain shift; benchmark against robustness suites."
+P.AC.M-02-req-03,P.AC.M-02,2,Uncertainty & Drift: Calibrate outputs; detect covariate/label drift; trigger rollback/HITL when thresholds breach.
+P.AC.M-02-req-04,P.AC.M-02,2,Monitoring Infrastructure: Robustness tests and drift monitors in place for production models.
+P.AC.M-02-req-05,P.AC.M-02,2,"Out-of-Distribution (OOD) Filtering: Implement an input validation layer that uses statistical or neural methods to detect and reject inputs that are fundamentally different from the training distribution, preventing the model from making high-confidence incorrect ""hallucinated"" predictions."
+P.AC.M-02-req-06,P.AC.M-02,3,Adversarial Resilience: Test adversarial examples; apply adversarial training where appropriate.
+P.AC.M-03-req-01,P.AC.M-03,1,"Disclosures: Provide user-facing notices, known limitations, and appropriate guidance for decisions."
+P.AC.M-03-req-02,P.AC.M-03,1,"Governance Artifacts: Maintain explanation artifacts, modeling assumptions, and rationale in model/system cards."
+P.AC.M-03-req-03,P.AC.M-03,2,"Explainer Selection: Choose global/local explainers aligned to user roles (e.g., SHAP, LIME, feature attributions)."
+P.AC.M-03-req-04,P.AC.M-03,2,Documentation & Disclosure: Explanation method documented for each production model; user-appropriate disclosures for high-impact use.
+P.AC.M-03-req-05,P.AC.M-03,2,"Counterfactual Generation: For models affecting individual rights or benefits, provide counterfactual explanations to ensure meaningful transparency and recourse."
+P.AC.M-03-req-06,P.AC.M-03,3,Coverage & Quality: Track explanation coverage and stability; validate against user comprehension needs.
+P.AC.S-01-req-01,P.AC.S-01,1,"Provenance & Licensing: Record source, license terms, consent/usage rights; block unvetted datasets."
+P.AC.S-01-req-02,P.AC.S-01,1,"Sensitivity Tags: Label datasets with confidentiality, regulatory flags, and usage constraints; propagate tags to features/exports."
+P.AC.S-01-req-03,P.AC.S-01,1,Access & Monitoring: Segregate training vs. inference stores; log read/write; anomaly alerts on unusual reads.
+P.AC.S-01-req-04,P.AC.S-01,2,Integrity Controls: Hashes/checksums; signed dataset manifests; tamper-evident storage; watermarking/canary data where feasible.
+P.AC.S-01-req-05,P.AC.S-01,2,"User-Generated Data Governance: Moderate/cleanse UGC; define retention, consent, and redaction policies."
+P.AC.S-01-req-06,P.AC.S-01,2,"Quality & Bias Metadata: Attach statistical summaries and quality reports to dataset metadata, documenting known skew, missingness, and demographic balance to inform model development and bias mitigation."
+P.AC.S-01-req-07,P.AC.S-01,3,All production datasets carry provenance and sensitivity tags.
+P.AC.S-02-req-01,P.AC.S-02,1,"Input/Output Guardrails: Content filtering, policy/guard prompts, output sanitization; prevent chain-of-thought leakage."
+P.AC.S-02-req-02,P.AC.S-02,1,Rate-Limit & Abuse Prevention: Per-tenant throttles; high-risk pattern detection; honeypot prompts/canaries.
+P.AC.S-02-req-03,P.AC.S-02,1,"Adversarial Testing: Red-team for jailbreaks, prompt-injection chains, data poisoning; capture signatures into detections."
+P.AC.S-02-req-04,P.AC.S-02,1,Model/IP Protection: Encrypt artifacts; watermark/trace where feasible; model access segmentation; API threat detection.
+P.AC.S-02-req-05,P.AC.S-02,1,Telemetry: Log prompts/responses (privacy-aware); detect anomalous patterns and exfil attempts.
+P.AC.S-02-req-06,P.AC.S-02,2,Sandbox & Isolation: Execute tools and retrieval in restricted sandboxes; restrict outbound calls; validate tool schemas.
+P.AC.S-02-req-07,P.AC.S-02,2,"Semantic Sequence Analysis: Implement stateful monitoring across multi-turn conversations to detect ""Prompt Smuggling"" or incremental jailbreak attempts that appear benign in isolation but collectively violate safety policies."
+P.AC.S-02-req-08,P.AC.S-02,2,Continuous Validation: Guardrails and rate-limits on all public model endpoints; adversarial tests before production.
+P.AT-01-req-01,P.AT-01,1,Accountability: Managers ensure team completion; HR tracks compliance.
+P.AT-01-req-02,P.AT-01,1,"Role-Based Delivery: Tailored content for executives (governance), developers (secure AI SDLC), and auditors (assurance)."
+P.AT-01-req-03,P.AT-01,2,"Curriculum Design: Modular training covering bias, fairness, explainability, data governance, TEVV, and legal obligations."
+P.AT-01-req-04,P.AT-01,2,Assessment: Require knowledge checks and maintain completion records.
+P.AT-01-req-05,P.AT-01,2,Frequency: Conduct annually or after policy updates.
+P.AT-01-req-06,P.AT-01,2,"Just-in-Time (JIT) Awareness Prompts: Implement contextual, in-application reminders or warnings that appear when users or developers are performing high-risk actions (e.g., uploading data to a public LLM or modifying a model's safety weights)."
+P.AT-01-req-07,P.AT-01,3,"AI Lab Exercises: Scenario-based simulations (prompt-injection, poisoning, fairness audit)."
+P.AT-02-req-01,P.AT-02,1,"Baseline Program: Mandatory annual training covering password hygiene, phishing, data handling, and incident reporting."
+P.AT-02-req-02,P.AT-02,1,"Specialized Roles: Admins, developers, and analysts receive advanced modules (secure coding, threat detection, forensic handling)."
+P.AT-02-req-03,P.AT-02,2,Simulated Campaigns: Regular phishing tests; corrective micro-training for failures.
+P.AT-02-req-04,P.AT-02,2,"Metrics Reporting: Track participation, test success, and behavioral improvements."
+P.AT-02-req-05,P.AT-02,2,"Executive & Board Strategic Briefings: Conduct annual briefings for senior leadership and the Board of Directors, focusing on the strategic threat landscape, organizational risk posture, and emerging regulatory trends."
+P.AT-03-req-01,P.AT-03,1,Governance training overview within 90 days of appointment.
+P.AT-03-req-02,P.AT-03,1,"Leadership Workshops: Annual sessions covering governance roles, risk appetite, audit responsibilities, and regulatory trends."
+P.AT-03-req-03,P.AT-03,2,"Committee Orientation: Onboarding decks for ethics, privacy, and security committees."
+P.AT-03-req-04,P.AT-03,2,Records Management: Archive attendance and materials.
+P.AT-03-req-05,P.AT-03,2,"Regulatory Cross-Mapping Sessions: Conduct structured reviews for governance owners to map internal controls against global regulatory requirements (e.g., EU AI Act, NIST AI RMF, GDPR) to ensure unified compliance."
+P.AT-03-req-06,P.AT-03,3,Simulation Exercises: Tabletop governance reviews for AI incidents or regulatory breaches.
+P.DS-01-req-01,P.DS-01,1,"Classification Scheme: Define tiers (Public, Internal, Confidential, Restricted, Safety-Critical)."
+P.DS-01-req-02,P.DS-01,1,Labeling Enforcement: Require data-at-rest and in-motion labels via metadata or DLP tags.
+P.DS-01-req-03,P.DS-01,2,"Handling Procedures: Define approved transfer, sharing, and destruction methods."
+P.DS-01-req-04,P.DS-01,2,"AI-Dataset Tagging: Tag datasets with provenance, license, sensitivity, and consent status."
+P.DS-01-req-05,P.DS-01,2,Storage & Retention: Encrypt and store per classification; align retention with policy.
+P.DS-01-req-06,P.DS-01,2,Access Controls: Tie read/write privileges to classification level.
+P.DS-01-req-07,P.DS-01,2,"Automated Classification Verification: Implement automated scanning tools to periodically validate that data stored in repositories matches its assigned classification label (e.g., identifying unencrypted PII in a ""Public"" bucket)."
+P.DS-01-req-08,P.DS-01,3,Full Inventory Compliance: All datasets labeled; retention schedule enforced across all production and development environments.
+P.DS-02-req-01,P.DS-02,1,"Encryption Coverage: Enforce encryption for data-at-rest, in-transit, and for model files."
+P.DS-02-req-02,P.DS-02,1,Key Management: Centralized KMS/HSM for key lifecycle; rotate keys annually or on compromise. (key inventory accurate and current.)
+P.DS-02-req-03,P.DS-02,2,Algorithm Standards: Use FIPS-validated or equivalent ciphers; maintain crypto-agility plan.
+P.DS-02-req-04,P.DS-02,2,"AI Model Protection: Encrypt model weights, embeddings, and inference cache; watermark sensitive models where feasible."
+P.DS-02-req-05,P.DS-02,2,Certificate Management: Automated issuance and renewal; revoke expired or compromised certs.
+P.DS-02-req-06,P.DS-02,2,Pipeline & Inter-Node Encryption: Enforce mutual TLS (mTLS) and encryption for data-in-transit between distributed training nodes and temporary processing buffers to prevent data interception during the active training phase.
+P.ES-req-01,P.ES,1,Baseline Hardening: CIS or equivalent baselines; full-disk encryption; secure boot; kernel/hypervisor protections.
+P.ES-req-02,P.ES,1,"EDR/EPP: Mandatory EDR with behavior analytics, isolation, memory scanning; alerting to SIEM; automated quarantine."
+P.ES-req-03,P.ES,1,Patch & Vulnerability: OS and third-party patching ≤ 14 days for critical; agent enforcement; vulnerability scanning and risk-based remediation.
+P.ES-req-04,P.ES,1,Application Control: Allow-listing for privileged tiers; block unsigned drivers; restrict model-tooling to approved packages.
+P.ES-req-05,P.ES,1,"Container/Edge: Immutable images, signed builds, runtime sensors; minimal base images; host isolation."
+P.ES-req-06,P.ES,2,Identity & Secrets: Passwordless or MFA for admin actions; no local static secrets; short-lived tokens.
+P.ES-req-07,P.ES,2,"Telemetry & Response: Endpoint logs to SIEM; SOAR playbooks for containment, triage, and wipe/reimage flows."
+P.ES-req-08,P.ES,2,Data Controls: USB control; DLP for local exfiltration; prevent caching of sensitive embeddings unless encrypted.
+P.ES-req-09,P.ES,2,"Model & Cache Integrity Monitoring: Implement file integrity monitoring (FIM) or cryptographic hash validation for locally stored model weights and inference caches to detect unauthorized tampering or ""poisoning"" of the local model state."
+P.IM-req-01,P.IM,1,"Access Provisioning: Use RBAC/ABAC; require approvals, documented justifications, and auto-revocation on role change or termination."
+P.IM-req-02,P.IM,1,Authentication Controls: Enforce MFA for all privileged and remote access; require adaptive or risk-based authentication for critical systems.
+P.IM-req-03,P.IM,1,Least Privilege Enforcement: Continuously review entitlements; implement JIT (Just-in-Time) elevation and time-boxed administrative sessions.
+P.IM-req-04,P.IM,2,"Identity Governance & Administration (IGA): Implement centralized identity lifecycle management covering provisioning, modification, and de-provisioning."
+P.IM-req-05,P.IM,2,Machine & API Identity Management: Use certificate-based or workload identities; rotate secrets automatically; forbid shared credentials.
+P.IM-req-06,P.IM,2,"Segregation of Duties: Prevent conflicting access (e.g., developer vs. deployer, auditor vs. operator)."
+P.IM-req-07,P.IM,2,Human–AI Identity Integration: Assign unique identifiers to AI agents; track actions to human sponsors; prohibit unsupervised autonomous privilege escalation.
+P.IM-req-08,P.IM,2,Periodic Review: Quarterly user-access reviews validated by business owners; document remediation of excessive rights.
+P.IM-req-09,P.IM,2,"Audit & Monitoring: Log all authentication, privilege-use, and identity lifecycle events; monitor anomalies."
+P.IM-req-10,P.IM,3,"Non-Human Account Discovery & Remediation: Implement automated scanning to identify ""orphan"" service accounts, expired API keys, and unmanaged machine identities that are no longer associated with active workloads or applications."
+P.NS-req-01,P.NS,1,"Segmentation: Micro-segmentation by environment, data sensitivity, and workload; deny-by-default east–west; software-defined segmentation."
+P.NS-req-02,P.NS,1,"Perimeter & API Security: WAF and API gateways for authentication, schema validation, rate limits; bot/injection protections."
+P.NS-req-03,P.NS,1,Identity-Aware Access: ZTNA for user and service access; mTLS for service-to-service; JWT validation at gateways.
+P.NS-req-04,P.NS,2,Egress Governance: Default deny outbound; curated egress; DLP and DNS filtering; model-endpoint exfil heuristics.
+P.NS-req-05,P.NS,2,Telemetry & Analytics: NetFlow/VPC flow logs; IDS/IPS with ML rules for AI traffic patterns; UEBA for anomalies.
+P.NS-req-06,P.NS,2,Testing & Response: Network penetration tests performed; automated rule reviews; SOAR-driven blocking.
+P.NS-req-07,P.NS,2,In-Transit Model Integrity: Enforce strict certificate pinning and cryptographic hashing for model artifact transfers to prevent interception or modification of model files during distribution across the network.
+P.PC-req-01,P.PC,1,Data Minimization: Collect and retain only data necessary for defined purposes.
+P.PC-req-02,P.PC,1,"De-identification: Apply anonymization, pseudonymization, or differential-privacy techniques."
+P.PC-req-03,P.PC,1,Privacy Controls in AI: Require training datasets to exclude or mask PII unless lawfully justified.
+P.PC-req-04,P.PC,1,Access Limitation: Enforce need-to-know and least-privilege for personal data.
+P.PC-req-05,P.PC,2,Audit Trails: Maintain logs of access and sharing.
+P.PC-req-06,P.PC,2,"Privacy Leakage Scanning: Implement automated discovery tools to detect PII/PHI in unstructured data stores, application logs, and model training caches to identify and remediate data proliferation."
+P.PC-req-07,P.PC,3,"Privacy Enhancing Technologies (PETs): Implement secure computation (homomorphic encryption, federated learning)."
+P.PS-req-01,P.PS,1,Configuration Baselines: CIS benchmarks; preventive guardrails (policy-as-code) enforced in IaC and cloud policy engines.
+P.PS-req-02,P.PS,1,Model Security & Vulnerability Management: Signed model artifacts; integrity verification on pull; continuous scanning of images and clusters; admission control.
+P.PS-req-03,P.PS,2,Identity & Secrets: Least-privilege IAM; workload identity federation; dynamic secrets; no long-lived keys in CI/CD.
+P.PS-req-04,P.PS,2,Logging & Monitoring: Control-plane audit logs; Kubernetes audit; registry access logs; anomaly detection for container escapes or rogue pulls.
+P.PS-req-05,P.PS,2,Change & Drift Control: Detect drift vs. declared state; auto-rollback on policy violations.
+P.PS-req-06,P.PS,2,"Micro-segmentation: Implement granular network policies to isolate AI training clusters, model registries, and inference endpoints from general corporate traffic and one another."
+P.PS-req-07,P.PS,3,Supply Chain Integrity: Image and artifact signing; SLSA L3+ provenance attestation; SBOM/MBOM verification.
+P.PS-req-08,P.PS,3,"Runtime Protections: PodSecurity, seccomp/AppArmor, read-only root FS, eBPF sensors; block non-compliant workloads."
+P.PY-01-req-01,P.PY-01,1,"Perimeter & Entry: Badging, visitor vetting, mantraps where applicable; audit logs retained. (Visitor logs for all data rooms; dual-control access.)"
+P.PY-01-req-02,P.PY-01,1,Secure Areas: Server rooms with dual-factor entry for admins; CCTV with retention; media cabinets locked.
+P.PY-01-req-03,P.PY-01,1,Media Handling: Chain-of-custody for drives; encrypted transport; certified disposal.
+P.PY-01-req-04,P.PY-01,2,"Hardware Tamper Detection: Implement tamper-evident seals on server chassis and high-value AI compute hardware, combined with port-locking devices and physical intrusion sensors that trigger immediate alerts to the SOC upon unauthorized physical manipulation."
+P.PY-02-req-01,P.PY-02,1,"Fire & Water: Fire suppression (inert gas/clean agent), water leak detection."
+P.PY-02-req-02,P.PY-02,1,"Power & Cooling: UPS, generators, redundant HVAC; sensor alerting to NOC/SOC (Redundant power/cooling for critical rooms; maintenance logs.)."
+P.PY-02-req-03,P.PY-02,2,Monitoring & Maintenance: Preventive maintenance schedules; thresholds and alarms; regional redundancy for cloud placements.
+P.PY-02-req-04,P.PY-02,3,"Rack-Level Environmental Sensing: Implement localized sensors within high-density GPU racks to monitor for micro-climates, specific hot spots, and vibration, allowing for automated workload throttling or shutdown before hardware damage occurs."
+P.PY-03-req-01,P.PY-03,1,"Emergency Procedures: Evacuation routes, muster protocols, emergency communications."
+P.PY-03-req-02,P.PY-03,1,"Secure Evacuation of Data/Media: Emergency seals, transport procedures, custody logs."
+P.PY-03-req-03,P.PY-03,2,"Secure Evacuation of Data/Media: Emergency seals, transport procedures, custody logs."
+P.PY-03-req-04,P.PY-03,2,"Coordinated Emergency Power-Off (EPO): Install accessible and clearly labeled emergency power-off systems for high-density AI compute clusters, integrated with fire suppression and evacuation signaling to prevent electrical hazards during a facility incident."
+P.RC-req-01,P.RC,1,"Data Resilience: Immutable backups, point-in-time recovery, encryption, and cross-region copies; periodic restore tests including model artifacts."
+P.RC-req-02,P.RC,1,RTO/RPO defined for all Tier-1/2 services; quarterly failover tests.
+P.RC-req-03,P.RC,2,Architecture for Resilience: Active/active or active/passive; multi-AZ/region; data replication with RPO/RTO per BIA tier.
+P.RC-req-04,P.RC,2,"Graceful Degradation: Define cut-down modes, feature flags, and AI safe-mode behavior (fallback models, rules engines, HITL)."
+P.RC-req-05,P.RC,2,"Capacity & Auto remediation: Autoscaling, health checks, circuit breakers, bulkheads; error budgets and SLOs; automated failover for critical services."
+P.RC-req-06,P.RC,2,Dependency Resilience: Document dependencies; alternate providers or read-only/queueing modes for upstream degradation.
+P.RC-req-07,P.RC,2,Runbooks & Training: Recovery playbooks; on-call training; tabletop exercises tied to BIA scenarios.
+P.RC-req-08,P.RC,2,"Continuous Improvement: PIRs drive updates to runbooks, thresholds, capacity, and fallback logic."
+P.RC-req-09,P.RC,2,"AI Inference Resource Protection: Implement rate-limiting and request-validation at the edge to prevent resource exhaustion attacks targeting high-compute AI endpoints, ensuring availability for legitimate traffic."
+P.RC-req-10,P.RC,3,Chaos & Failure Injection: Scheduled game days and chaos tests; feed findings into remediation backlog.
+P.RP-01-req-01,P.RP-01,1,BIA & Priorities: Tier services; define maximum tolerable downtime and recovery priorities.
+P.RP-01-req-02,P.RP-01,1,"Continuity Playbooks: Manual fallback, reduced capability modes, and AI outage scenarios."
+P.RP-01-req-03,P.RP-01,1,Validated Workarounds: Annual continuity tests; documented workarounds validated.
+P.RP-01-req-04,P.RP-01,1,Workforce Continuity: Role cross-training; remote access contingencies.
+P.RP-01-req-05,P.RP-01,2,Exercises: Tabletop and live exercises; partner/customer communications rehearsals.
+P.RP-01-req-06,P.RP-01,3,"Upstream Dependency Mapping: Identify and document ""invisible"" single points of failure, such as specific third-party model APIs, data labeling services, or niche cloud regions, and establish alternate providers or cached operational modes for each."
+P.RP-02-req-01,P.RP-02,1,Backup Strategy: 3-2-1 rule; encrypted immutable copies; model registry and feature store backups.
+P.RP-02-req-02,P.RP-02,1,Restore Validation: Scheduled full/partial restores; verification of integrity and signing.
+P.RP-02-req-03,P.RP-02,2,Alternate Routing: Cold/warm/hot DR sites; alternate inference routes.
+P.RP-02-req-04,P.RP-02,2,Documentation & Drills: DR runbooks; semi-annual drills; vendor DR evidence for critical SaaS.
+P.RP-02-req-05,P.RP-02,2,"Automated DR Orchestration: Utilize Infrastructure as Code (IaC) and automated recovery scripts to provision the recovery environment and deploy model pipelines, minimizing Mean Time to Recovery (MTTR) and reducing manual configuration errors."
+P.RP-02-req-06,P.RP-02,3,Advanced Validation: Annual restore tests for Tier-1; documented pass/fail with remediation.
+P.SC-req-01,P.SC,1,Intake & Vetting: Security/legal review; license compliance; provenance validation; risk scoring.
+P.SC-req-02,P.SC,2,SBOM/MBOM: Require and verify; track vulnerabilities; enforce policy exceptions with expiry.
+P.SC-req-03,P.SC,2,Signature & Attestation: Verify signatures and provenance on import; quarantine unverified artifacts.
+P.SC-req-04,P.SC,2,Runtime Guardrails: Egress restrictions; API allow-lists; request-signing; model inference quotas.
+P.SC-req-05,P.SC,2,Monitoring & Renewal: Track vendor advisories; auto-patch windows; periodic re-attestation.
+P.SC-req-06,P.SC,3,Shadow AI & Dependency Discovery: Implement automated scanning of developer environments and CI/CD pipelines to detect unvetted third-party AI models or libraries that have bypassed formal intake processes.
+P.SC-req-07,P.SC,3,Third-party components Include SBOM/MBOM and signature verification.
+P.SD-req-01,P.SD,1,Policy & Standards: Secure coding standards; IaC policies; dependency policies; model packaging standards.
+P.SD-req-02,P.SD,1,Secrets Hygiene: No secrets in code; vault-backed tokens; rotated credentials.
+P.SD-req-03,P.SD,1,"Threat Modeling: Required at design; include AI-specific abuse, data leakage, model theft."
+P.SD-req-04,P.SD,1,Scanning: SAST/DAST/IAST/SCA; IaC scanning; model/package scanning; policy gates in CI/CD.
+P.SD-req-05,P.SD,2,Provenance & Integrity: Signed builds; reproducible pipelines; attestation for artifacts/models.
+P.SD-req-06,P.SD,2,Release Controls: Change approvals; environment promotion gates; SBOM/MBOM attached to releases.
+P.SD-req-07,P.SD,2,Defect Management: Risk-based SLAs; prioritize exploitable vulns; maintain audit trails.
+P.SD-req-08,P.SD,2,Penetration Testing Program: Define application-specific penetration requirements and scope.
+P.SD-req-09,P.SD,2,IDE Security Plugins: Deploy security linting and real-time vulnerability feedback tools within developer IDEs to catch insecure coding patterns and hardcoded secrets at the point of creation.
+P.SD-req-10,P.SD,3,Automated Scanning with CI/CD gates blocking critical issues; SBOM for all released components.

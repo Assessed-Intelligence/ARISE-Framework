@@ -1,0 +1,25 @@
+arise_control_id,HIPAA Regulation,rationale
+M.RM-02,164.308(a)(1) Risk Analysis,Operationalizes the required risk assessment methodology (likelihood vs. impact) for all systems including AI to identify threats to ePHI.
+G.GV.P-01,164.308(a)(5) Security Awareness,Governs the lifecycle of policy acknowledgement and training completion tracking required to prove workforce Awareness.
+R.IM-01,164.308(a)(7) Contingency Plan,Establishes the resilience and recovery protocols (Data Backup Disaster Recovery) necessary to restore ePHI availability.
+M.RM-01,164.308(b)(1) Business Associate Contracts,Enforces the Vendor Procurement Plan and specifically tracks the execution of Business Associate Agreements (BAAs).
+P.AC.I-01,164.308(a)(3) Workforce Security,Operationalizes Authorization/Supervision and Termination Procedures for workforce members accessing ePHI.
+P.AC.I-01,164.308(a)(4) Info Access Management,Enforces Isolating Health Care Clearinghouse Functions and Access Authorization logic.
+V.TE-02,164.308(a)(8) Evaluation,Mandates the periodic technical and non-technical evaluation of the security posture against environmental changes.
+P.AC.I-01,164.310(a)(1) Facility Access Controls,Covers the authorization logic for accessing secure physical environments where ePHI is housed.
+P.AC.I-01,164.310(b) Workstation Use,Establishes the policy for acceptable use of workstations to ensure screens and data are not exposed.
+P.DS-01,164.310(c) Workstation Security,Enforces technical safeguards (like privacy screens or locking mechanisms) on physical computing assets.
+D.AE-04,164.310(d) Device & Media Controls,Operationalizes Disposal and Media Re-use requirements ensuring ePHI is purged before hardware retirement.
+P.AC.I-01,164.312(a)(1) Access Control (Unique User ID),Mandates unique user identification and emergency access procedures to prevent shared accounts.
+P.AC.I-01,164.312(a)(2)(iii) Automatic Logoff,Requires the technical implementation of session timeouts to prevent unauthorized access on unattended terminals.
+I.IM-03,164.312(b) Audit Controls,Establishes the log retention and examination protocols necessary for forensic audit trails of ePHI activity.
+P.DS-02,164.312(c)(1) Integrity,Manages cryptographic hashing to validate that health data has not been improperly altered.
+P.DS-02,164.312(c)(2) Mechanism to Authenticate ePHI,Requires technical methods to corroborate that ePHI has not been altered or destroyed in an unauthorized manner.
+P.AC.I-01,164.312(d) Person or Entity Authentication,Mandates the use of unique authentication (passwords biometrics) to verify identity.
+P.DS-02,164.312(e)(1) Transmission Security,Mandates encryption standards (TLS 1.2+) for ePHI data in transit satisfying the Addressable specification.
+G.GV.P-01,164.316(a) Policies and Procedures,Governs the documentation and mandatory 6-year retention of all administrative policies.
+R.IC.E-01,164.400 Breach Notification Rule,Establishes the formal regulatory reporting protocol to HHS/OCR and patients within the 60-day window.
+I.OD-03,164.502 Privacy Rule (Minimum Necessary),Operationalizes data minimization by enforcing strict retention schedules and access limits.
+I.OD-02,164.524 Right of Access,Ensures ePHI is classified and indexed enabling the organization to fulfill patient access requests.
+G.GV.A-06,164.520 Notice of Privacy Practices,Governs the lifecycle and accuracy of the external Notice of Privacy Practices (NPP).
+G.ST.O-01,164.530 Personnel Designations,Formally designates the Privacy Official and Security Official required by law.

@@ -1,0 +1,75 @@
+requirement_id,control_id,priority,requirement
+D.AD-req-01,D.AD,1,Behavioral Baselines: Establish and maintain profiles of normal activity for systems and models.
+D.AD-req-02,D.AD,1,Response Alignment: Ensure alerts trigger appropriate incident playbooks.
+D.AD-req-03,D.AD,2,Integration: Feed anomaly detections into centralized monitoring and incident systems.
+D.AD-req-04,D.AD,2,Validation & Tuning: Periodically test detection accuracy and retrain models; review and tune at least annually.
+D.AD-req-05,D.AD,2,"Cross-Domain Anomaly Correlation: Implement logic to correlate anomalies across the network, application, and AI inference layers (e.g., matching a spike in outbound traffic with a cluster of unusual model prompts) to identify coordinated attacks."
+D.AD-req-06,D.AD,3,"Detection Methods: Use ML, rules, and heuristics to identify anomalies and ethical risks (e.g., bias shifts)."
+D.CM-req-01,D.CM,1,"Telemetry Collection: Aggregate logs, metrics, and AI inference data across systems and environments."
+D.CM-req-02,D.CM,1,Alerting & Escalation: Define thresholds and escalation criteria for deviations or anomalies.
+D.CM-req-03,D.CM,2,Baseline & Drift Detection: Define normal operational baselines for systems and models; monitor for performance drift and fairness bias.
+D.CM-req-04,D.CM,2,Automation & Correlation: Integrate monitoring data into centralized SIEM/SOAR or AI observability platforms.
+D.CM-req-05,D.CM,2,Retention & Integrity: Protect and retain monitoring data per regulatory and evidentiary standards.
+D.CM-req-06,D.CM,2,Governance Oversight: Report monitoring outcomes to governance committees and integrate into audit planning.
+D.CM-req-07,D.CM,2,"Downstream Impact Monitoring: Monitor for unexpected spikes in negative real-world outcomes (e.g., disproportionate denials, safety reports, or legal inquiries) to detect model failures that internal statistical metrics may fail to capture."
+D.CM-req-08,D.CM,3,Universal Coverage: 24/7 monitoring coverage for all critical assets and models; thresholds reviewed quarterly.
+D.ID-req-01,D.ID,1,"IOC Feed Integration: Subscribe to authoritative feeds (ISACs, threat intel services)."
+D.ID-req-02,D.ID,1,Response Workflows: Define playbooks for confirmed IOCs.
+D.ID-req-03,D.ID,2,Correlation & Analysis: Automate IOC correlation with system telemetry.
+D.ID-req-04,D.ID,2,Validation: Validate IOC coverage and accuracy regularly.
+D.ID-req-05,D.ID,2,Reporting: Escalate verified IOCs through the incident response process.
+D.ID-req-06,D.ID,2,"AI-Specific Threat Indicators: Curate and monitor for ""AI-native"" IOCs, including known adversarial prompt signatures, anomalous model-inversion traffic patterns, and unique signatures associated with ""poisoned"" dataset repositories."
+D.ID-req-07,D.ID,3,IOC database updated weekly; automated IOC correlation for all monitored assets.
+D.IM-req-01,D.IM,1,"Incident Classification: Define types and severity levels (including AI-specific categories like ""Model Hijacking"" or ""Data Poisoning"")."
+D.IM-req-02,D.IM,1,"Reporting & Escalation: Establish clear channels; fulfill regulatory notification obligations (GDPR, AI Act)."
+D.IM-req-03,D.IM,1,Root Cause Analysis (RCA): Identify underlying vulnerabilities and control gaps immediately following containment.
+D.IM-req-04,D.IM,2,"Response Coordination: Integrate SOC, legal, PR, and communications functions."
+D.IM-req-05,D.IM,2,"AI Forensic Capture: Implement procedures to freeze and export the specific model version, weights, and inference telemetry (input/output/metadata) involved in an incident to enable deterministic replay and analysis in a secure environment."
+D.IM-req-06,D.IM,3,24/7 Response & PIR: 24/7 incident reporting channel; post-incident review (PIR) within 10 business days of closure.
+D.MT-req-01,D.MT,1,"Evidence Review: Require attestations, SOC/ISO/AI assurance reports."
+D.MT-req-02,D.MT,1,Issue Escalation: Track and remediate vendor-related incidents; define communication protocols for breaches.
+D.MT-req-03,D.MT,2,Continuous Monitoring: Use automated tools for vendor security scoring and public vulnerability monitoring.
+D.MT-req-04,D.MT,2,"Ethical Oversight: Validate AI suppliers for fairness, transparency, and accountability practices."
+D.MT-req-05,D.MT,2,Sub-Processor & API Discovery: Implement automated traffic analysis or CASB (Cloud Access Security Broker) tools to identify where third-party vendors are forwarding organizational data to secondary sub-processors or external AI APIs.
+D.MT-req-06,D.MT,3,Full Compliance Coverage: All critical vendors have an active risk score and current assurance documentation.
+D.SA-01-req-01,D.SA-01,1,Independence: Use qualified assessors independent from operations.
+D.SA-01-req-02,D.SA-01,1,Assessment Planning: Define annual schedule covering all system types.
+D.SA-01-req-03,D.SA-01,2,"Fully Documented Testing Program: Conduct vulnerability, code(e.g., SAST, DAST, IAST, SCA...) tests."
+D.SA-01-req-04,D.SA-01,2,Tracking & Remediation: Document findings and verify closure.
+D.SA-01-req-05,D.SA-01,3,Integration: Feed results into risk management and audit functions.
+D.SA-01-req-06,D.SA-01,3,"Ongoing comprehensive assessment cycle; all findings tracked to closure within SLA. (e.g., Weekly Cadence with Reporting)"
+D.SA-02-req-01,D.SA-02,1,"Define annual scope covering both standard infrastructure (Cloud, API) and AI components (Models, RAG pipelines, Training Data)."
+D.SA-02-req-02,D.SA-02,2,"Standard Execution: Conduct standard penetration testing on hosting infrastructure, APIs, and web applications."
+D.SA-02-req-03,D.SA-02,2,"AI Execution: Conduct manual adversarial testing targeting AI logic (e.g., Jailbreaking, Prompt Injection, Extraction)."
+D.SA-02-req-04,D.SA-02,2,Remediation: Document findings from all testing streams and track to closure within SLA.
+D.SA-02-req-05,D.SA-02,3,"Automation AI Fuzzing: Implement automated adversarial evaluation tools (e.g., Garak, PyRIT) for continuous model testing."
+D.SA-02-req-06,D.SA-02,3,"Scenario Simulation: Simulate attacks on the AI supply chain, including model poisoning and third-party library compromise."
+D.SA-03-req-01,D.SA-03,1,"Thresholds & SLAs: Defined severity levels (e.g., CVSS scores) and mandatory remediation timelines (e.g., Critical < 7 days, High < 30 days)."
+D.SA-03-req-02,D.SA-03,1,"Scope: Maintain an automated inventory of all assets (Cloud, On-prem) and AI artifacts (Model Registries, Training Servers) to ensure 100% coverage."
+D.SA-03-req-03,D.SA-03,2,Execution: Conduct weekly automated vulnerability scans on all critical systems and identified AI infrastructure.
+D.SA-03-req-04,D.SA-03,2,"AI Specific Supply Chain Scanning Scan: AI development environments for vulnerable dependencies (e.g., malicious PyPI packages, outdated ML libraries)."
+D.SA-03-req-05,D.SA-03,2,"emediation: Integration   Integrate scanning tools with ticketing systems (e.g., Jira) and patch management to assign findings to owners automatically"
+D.SA-03-req-06,D.SA-03,3,Pipeline CI/CD & Model Ops: Embed scanning into the software (CI/CD) and Model (MLOps) delivery pipelines to block vulnerable builds before deployment.
+D.SA-03-req-07,D.SA-03,3,"Analysis Risk Context: Prioritize remediation based on threat intelligence and asset criticality (e.g., ""Is this AI server internet-facing?"") rather than just raw CVSS score."
+D.SA-04-req-01,D.SA-04,1,"Strategy Annual Schedule: Define an annual calendar of exercises ensuring coverage of Cyber, IT Disaster Recovery, and AI System failures."
+D.SA-04-req-02,D.SA-04,1,"Roles: Identify and assign cross-functional participants (Legal, PR, IT, Data Science/AI Heads) for each scenario type."
+D.SA-04-req-03,D.SA-04,2,Execution: Conduct discussion-based (tabletop) exercises to walk through playbooks and decision-making pathways.
+D.SA-04-req-04,D.SA-04,2,"AI Scenario: Simulate specific AI failures: Model Poisoning (Integrity), Inference Latency (Availability), or Mass Hallucination (Reputation)."
+D.SA-04-req-05,D.SA-04,2,"Document ""Lessons Learned"" and assign corrective actions (CAPA) with deadlines."
+D.SA-04-req-06,D.SA-04,3,Update the actual Response Playbooks and BCP documents based on the gaps found during the exercise.
+D.SA-04-req-07,D.SA-04,3,"Drift ValidationMove beyond tabletops to technical simulations (e.g., actual failover of systems, restoring from vaulted backups)."
+D.SA-05-req-01,D.SA-05,1,"Defined the ""No-Go"" policy: Critical severity findings must fail the CI/CD build automatically (Blocking Gate)."
+D.SA-05-req-02,D.SA-05,1,"Scope Repository Inventory: Maintain an automated inventory of all source code repositories, including ""Sandbox"" AI environments and Data Science repos."
+D.SA-05-req-03,D.SA-05,2,Execution SAST/SCA: Integrate Static Analysis (SAST) and Dependency Scanning (SCA) into the standard application CI/CD pipeline.
+D.SA-05-req-04,D.SA-05,2,Execution: Implement specialized scanners   to detect code flaws and hardcoded secrets often missed by standard SAST.
+D.SA-05-req-05,D.SA-05,2,"Integrate findings directly into developer workflows (e.g., Pull Request comments) to verify remediation before code merge."
+D.SA-05-req-06,D.SA-05,3,"Implement pre-commit hooks or pipeline scanners specifically to detect and block API Keys (OpenAI, AWS) and Credentials."
+D.SA-05-req-07,D.SA-05,3,Conduct Dynamic Analysis (DAST) on running applications/APIs to validate that code vulnerabilities are actually exploitable.
+D.SA-05-req-08,D.SA-05,3,"AI Artifacts Model Scanning: Scan model binary files (e.g., .pkl, .h5) for malware or deserialization attacks before ingestion."
+D.TI-req-01,D.TI,1,"Sources & Validation: Subscribe to validated TI feeds (CISA, ISACs, vendors)."
+D.TI-req-02,D.TI,1,"Integration: Feed TI into patching, monitoring, and training workflows."
+D.TI-req-03,D.TI,2,Dissemination: Distribute actionable TI to relevant teams.
+D.TI-req-04,D.TI,2,Feedback Loop: Update risk register with new threat categories.
+D.TI-req-05,D.TI,2,"Adversarial AI TTP Mapping: Map incoming threat intelligence to the MITRE ATLAS framework to identify specific tactics, techniques, and procedures (TTPs) targeting the organization's AI model lifecycle and inference endpoints."
+D.TI-req-06,D.TI,3,Analysis & Correlation: Map external intelligence to internal vulnerabilities.
+D.TI-req-07,D.TI,3,Weekly review of intelligence bulletins; monthly updates to threat landscape assessments.

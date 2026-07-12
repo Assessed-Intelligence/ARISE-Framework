@@ -1,0 +1,7 @@
+arise_control_id,ISO IEC 42005 Control ID(s),ISO IEC 42005 Control Item(s),rationale
+I.AM-01,ISO/IEC 42005 clauses 5; 6,"AI system description, scope, context, intended purpose, users, stakeholders, and assessment planning.",ARISE inventory provides the system definition and context needed before an AI impact assessment can be performed.
+G.RM-04,ISO/IEC 42005 clauses 6; 7; 8; 9,"Impact assessment planning, impact identification, evaluation, mitigation, documentation, and monitoring.",ARISE risk management directly supports the AI impact assessment lifecycle.
+G.LR-03,ISO/IEC 42005 clauses 6; 7,"Legal, rights, safety, privacy, ethical, and societal impact considerations.",ARISE regulatory compliance maps to determining legal and rights-based obligations during AI impact assessment.
+P.DS-01,ISO/IEC 42005 clauses 7; 8,"Data quality, provenance, representativeness, affected populations, and data-related impacts.",ARISE dataset controls support the data-related components of impact assessment.
+P.AC.M-03,ISO/IEC 42005 clauses 7; 8; 9,"Transparency, explainability, affected-party understanding, and contestability.",ARISE explainability maps to impact-assessment requirements addressing stakeholder understanding and contestability.
+V.CI-03,ISO/IEC 42005 clauses 8; 9,"Review, approval, mitigation verification, monitoring, and reassessment.",ARISE verification supports confirming that impact-assessment mitigations were completed and continue to operate.

@@ -1,0 +1,5 @@
+arise_control_id,ISO IEC 42006 Control ID(s),ISO IEC 42006 Control Item(s),rationale
+G.GV.S-02,ISO/IEC 42006 clauses 4; 5; 6; 7,"Certification body governance, impartiality, competence, process, and management-system requirements for ISO/IEC 42001 audits.",ARISE standards governance supports mapping audit and certification criteria into the control environment.
+V.CI-03,ISO/IEC 42006 clauses 7; 9,"Audit planning, assessment, evidence review, certification decisions, surveillance, and recertification.",ARISE verification maps to evidence testing and certification readiness activities.
+G.AT-01,ISO/IEC 42006 clauses 6; 7,"Auditor, certification personnel, and AIMS role competence requirements.",ARISE training maps to competence records required for audit and assurance roles.
+D.IM,ISO/IEC 42006 clauses 7; 10,"Nonconformity handling, corrective action, complaint handling, and follow-up.",ARISE incident management maps to issue handling and corrective action closure in certification programs.

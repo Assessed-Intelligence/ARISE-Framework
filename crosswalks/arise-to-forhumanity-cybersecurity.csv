@@ -1,0 +1,56 @@
+arise_control_id,ForHumanity Cybersecurity Criteria,rationale
+G.AC-01,CY-GL-AL-TM-TM-001-2504,Control 'Top Management Commitment' primarily addresses governance and leadership
+G.AC-02,CY-GL-AL-EO-TM-001-2504,Control 'Charters & Committees' primarily addresses incident response and management
+G.AC-03,CY-GL-AL-TM-TM-001-2504,Control 'Executive Leadership & Board Oversight' primarily addresses incident response and management
+G.GV.C-01,CY-GL-AL-AU-TM-001-2504,Control 'COC: Acceptable Use' primarily addresses monitoring and logging
+G.GV.P-01,CY-GL-AL-RM-CY-001-2504; CY-GL-AL-RM-CY-002-2504,Control 'Core Policies' primarily addresses monitoring and logging
+G.GV.P-02,CY-GL-AL-RM-CY-001-2504; CY-GL-AL-DS-CY-001-2504,Control 'Security Policies' primarily addresses monitoring and logging
+G.GV.P-03,CY-GL-AL-BC-CY-001-2504,Control 'Response & Resilience Policies' primarily addresses incident response and management
+G.GV.P-07,CY-GL-AL-PM-TM-001/002/003/004-2504; CY-GL-AL-IA-TM-002-2504,Control 'HR Policies' primarily addresses governance and leadership.
+G.GV.P-08,CY-GL-AL-VM-CY-001-0425,Control 'Supply-Chain Policies' primarily addresses monitoring and logging
+G.GV.S-01,CY-GL-AL-IA-CY-001-2504,Control 'Core Standards' primarily addresses third-party and vendor risk
+G.GV.S-02,CY-GL-AL-IA-CY-001-2504; CY-GL-AL-DS-CY-001-2504; CY-GL-AL-CK-TM-001-2504; CY-GL-AL-SC-CY-002-2504,Control 'Security Standards' primarily addresses monitoring and logging
+G.GV.S-03,CY-GL-AL-BC-CY-001-2504,Control 'Response & Resilience Standards' primarily addresses incident response and management
+G.LR-04,CY-GL-AL-RC-CO-001-2504; CY-GL-AL-RL-AC-001-2504,Control 'Cybersecurity Regulatory Compliance' primarily addresses monitoring and logging
+G.RM-01,CY-GL-AL-RM-CY-002-2504,Control 'Risk Management Framework' primarily addresses monitoring and logging
+G.RM-02,CY-GL-AL-RM-TM-002-2504,Control 'Risk Appetite and Tolerance' primarily addresses governance and leadership.
+G.RM-04,CY-GL-AL-RM-CY-002-2504; CY-GL-AL-RM-CY-003-2504,Control 'Risk-Management Program: Cybersecurity' primarily addresses monitoring and logging
+G.RM-05,CY-GL-AL-VM-CY-001/002-2504,Control 'Risk-Management Program: Third-Party' primarily addresses monitoring and logging
+G.ST.B,CY-GL-AL-DN-CY-002-2504; CY-GL-AL-DN-CY-003-2504; CY-GL-AL-SD-CY-002-2504; CY-GL-AL-IA-CY-001-2504,Control 'System Boundaries' primarily addresses third-party and vendor risk
+G.ST.O-01,CY-GL-AL-RL-AC-001-2504,Control 'Mission Statement' primarily addresses monitoring and logging
+G.ST.O-02,CY-GL-AL-RL-AC-001-2504; CY-GL-AL-RM-CY-001-2504,Control 'Goals & Context' primarily addresses monitoring and logging
+G.ST.S-02,CY-GL-AL-AM-CY-001-2504; CY-GL-AL-AM-CY-002-2504; CY-GL-AL-RM-CY-001-2504,Control 'Security Scope' primarily addresses general security and AI governance.
+G.ST.S-03,CY-GL-AL-RL-AC-001-2504; CY-GL-AL-RC-CO-001-2504,Control 'Regulatory Scope' primarily addresses monitoring and logging.
+I.AM-03,"CY-GL-AL-RA-TM-001-2504, CY-GL-AL-RA-CY-001-2504",Control 'BYOD Asset Management' primarily addresses monitoring and logging
+I.DG-01,CY-GL-AL-DS-AC-001-2504,Control 'Data Mapping' primarily addresses monitoring and logging
+I.RM-01,"CY-GL-AL-RM-CY-002-2504, CY-GL-AL-RM-CY-003-2504",Control 'Risk Identification' primarily addresses monitoring and logging
+I.RM-02,"CY-GL-AL-TE-CY-001-2504, CY-GL-AL-RM-CY-015-2504",Control 'Insider Threat' primarily addresses monitoring and logging
+I.SC-01,"CY-GL-AL-VM-CY-001-2504, CY-GL-AL-VM-CY-002-2504",Control 'Supply Chain Risk' primarily addresses monitoring and logging
+I.TM-01,"CY-GL-AL-VM-CY-006-2504, CY-GL-AL-VM-CY-007-2504",Control 'Threat Management' primarily addresses monitoring and logging
+M.CM,CY-GL-AL-CM-AC-001-2504,Control 'Change Management' primarily addresses code
+M.DV-02,CY-GL-AL-SD-CY-001-2504,Control 'Software Development Lifecycle (SDLC)' primarily addresses code
+M.HR,"CY-GL-AL-PM-TM-001-2504, CY-GL-AL-PM-TM-002-2504; CY-GL-AL-PM-TM-003-2504; CY-GL-AL-PM-TM-004-2504; CY-GL-AL-IA-TM-002-2504",Control 'Human Resources' primarily addresses monitoring and logging
+M.OV-03,CY-GL-AL-EO-TM-001-2504,Control 'Security Oversight Committee' primarily addresses monitoring and logging
+M.RM-01,"CY-GL-AL-VM-CY-001-2504, CY-GL-AL-VM-CY-002-2504",Control 'Third-Party Risk Management' primarily addresses monitoring and logging
+M.RM-03,CY-GL-AL-RM-CY-002-2504; CY-GL-AL-RM-CY-003-2504,Control 'Cybersecurity Risk Management' primarily addresses monitoring and logging
+M.RP,CY-GL-AL-IM-CY-003-2504,Control 'Reporting' primarily addresses incident response and management
+P.AC.S-02,CY-GL-AL-VM-CY-005-2504,Control 'AI-Specific Attack Vectors' primarily addresses monitoring and logging
+P.AC.M-02,CY-GL-AL-RM-CY-003-2504,Control 'Robustness' primarily addresses monitoring and logging
+P.DS-01,CY-GL-AL-TM-TM-003-2504; CY-GL-AL-DS-AC-006-2504,Control 'Classification & Handling' primarily addresses access control and identity.
+P.DS-02,CY-GL-AL-CK-TM-001-2504; CY-GL-AL-CK-CY-001-2504; CY-GL-AL-CK-CY-002-2504,Control 'Cryptographic Management' primarily addresses general security and AI governance.
+P.ES,CY-GL-AL-AM-CY-001-2504; CY-GL-AL-SC-CY-002-2504; CY-GL-AL-RA-CY-001-2504; CY-GL-AL-AM-TM-001-2504,Control 'Endpoint Security' primarily addresses monitoring and logging
+P.IM,CY-GL-AL-IA-CY-001-2504,Control 'Identity Management' primarily addresses monitoring and logging
+P.NS,CY-GL-AL-DN-CY-002-2504; CY-GL-AL-DN-CY-003-2504; CY-GL-AL-DN-CY-001-2504,Control 'Network Security' primarily addresses monitoring and logging
+P.PS,CY-GL-AL-SC-CY-002-2504; CY-GL-AL-IA-CY-001-2504; CY-GL-AL-SD-CY-001-2504,Control 'Platform Security' primarily addresses monitoring and logging
+P.PY-01,CY-GL-AL-PE-CY-001-2504; CY-GL-AL-IA-CY-001-2504(H),Control 'Access Controls' primarily addresses monitoring and logging
+P.RC,CY-GL-AL-BC-CY-001-2504; CY-GL-AL-RM-CY-003-2504,Control 'Resilience Controls' primarily addresses monitoring and logging
+P.RP-01,CY-GL-AL-BC-CY-001-2504; CY-GL-AL-BC-CY-008-2504,Control 'Business Continuity' primarily addresses business continuity and resilience.
+P.RP-02,CY-GL-AL-BC-CY-001-2504; CY-GL-AL-BC-CY-002-2504,Control 'Disaster Recovery' primarily addresses third-party and vendor risk
+P.SC,CY-GL-AL-VM-CY-001-2504,Control 'Supply Chain' primarily addresses monitoring and logging
+P.SD,CY-GL-AL-SD-CY-001-2504,Control 'Secure Development' primarily addresses code
+R.IM-01,CY-GL-AL-IM-CY-001-2504(2.c),Control 'Containment' primarily addresses monitoring and logging
+R.IM-02,CY-GL-AL-IM-CY-001-2504(2.d),Control 'Eradication' primarily addresses incident response and management
+R.IM-03,CY-GL-AL-BC-CY-001-2504; CY-GL-AL-BC-CY-002-2504,Control 'Disaster Recovery' primarily addresses incident response and management
+V.AD-02,CY-GL-AL-SC-CY-001-2504,Control 'External Audit: Security Audit' primarily addresses general security and AI governance.
+V.CI-03,CY-GL-AL-QM-QM-001-2504,Control 'Internal Audit: Security Audit' primarily addresses monitoring and logging
+V.TE-01,CY-GL-AL-VM-CY-004-2504,Control 'Testing' primarily addresses governance and leadership

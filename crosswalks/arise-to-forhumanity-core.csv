@@ -1,0 +1,76 @@
+arise_control_id,ForHumanity CORE Criteria,rationale
+G.AC-01,CO-GL-PR-TM-AC-001-2503,Control 'Top Management Commitment' primarily addresses governance and leadership
+G.AC-02,CO-GL-PR-EO-AC-001-2509; CO-GL-PR-EO-AC-002-2509; CO-GL-PR-SC-AC-001-2510; CO-GL-PR-TM-AC-002-2503,Control 'Charters & Committees' primarily addresses incident response and management
+G.AC-03,CO-GL-PR-TM-AC-001-2503; CO-GL-PR-TM-AC-002-2503; CO-GL-PR-TM-AC-003-2503,Control 'Executive Leadership & Board Oversight' primarily addresses incident response and management
+G.GV.A-01,CO-GL-PR-TM-AC-001-2503; CO-GL-PR-TM-AC-002-2503; CO-GL-PR-TP-AC-001/002-0425; CO-GL-PR-RM-AC-023-2510,Control 'Accountability' primarily addresses general security and AI governance.
+G.GV.A-02,CO-GL-PR-BM-AC-001-2504; CO-GL-PR-BM-AC-006-2504,Control 'Fairness' primarily addresses incident response and management.
+G.GV.A-03,CO-GL-PR-DG-AC-011-2504; CO-GL-PR-ET-EC-010-2504; CO-GL-PR-RM-AC-004-2510,Control 'Inclusivity' primarily addresses general security and AI governance.
+G.GV.A-04,CO-GL-PR-ET-EC-005-2504,Control 'Cultural Considerations' primarily addresses code
+G.GV.A-05,CO-GL-PR-ET-EC-007-2504; CO-GL-PR-ET-EC-009-2504,Control 'Tensions and Trade-offs' primarily addresses privacy and data protection.
+G.GV.A-06,CO-GL-PR-TM-AC-001-2503(P); CO-GL-PR-EX-EC-001-2504; CO-GL-PR-RM-AC-023-2510,Control 'Transparency' primarily addresses general security and AI governance.
+G.GV.C-02,CO-GL-PR-ET-EC-003-2504,Control 'COC: Data Ethics' primarily addresses governance and leadership
+G.GV.C-03,CO-GL-PR-ET-EC-003-2504,Control 'COC: Ethical Principles for AI & Tech' primarily addresses monitoring and logging
+G.GV.P-01,CO-GL-PR-RM-AC-003-2510; CO-GL-PR-BM-AC-001-2504; CO-GL-AL-MO-AC-002-0425,Control 'Core Policies' primarily addresses monitoring and logging
+G.GV.P-03,CO-PR-AL-IM-AC-001-0425,Control 'Response & Resilience Policies' primarily addresses incident response and management
+G.GV.P-04,CO-GL-PR-BM-AC-001-2504; CO-GL-PR-ET-EC-001-2504; CO-GL-PR-RM-AC-003-2510,Control 'AI Policies' primarily addresses monitoring and logging
+G.GV.P-05,CO-GL-PR-DP-AC-001-2504; CO-GL-PR-DP-AC-002-2504,Control 'Privacy Policies' primarily addresses incident response and management
+G.GV.P-06,CO-GL-PR-ET-EC-003-2504; CO-GL-PR-ET-EC-004-2504,Control 'Ethics Policies' primarily addresses monitoring and logging
+G.GV.P-08,CO-PR-AL-VM-AC-001-0425,Control 'Supply-Chain Policies' primarily addresses monitoring and logging
+G.GV.P-09,CO-GL-PR-DG-AC-003-2504,Control 'Data-Governance Policies' primarily addresses monitoring and logging
+G.GV.S-01,CO-GL-PR-DG-AC-003-2504,Control 'Core Standards' primarily addresses third-party and vendor risk
+G.GV.S-03,CO-PR-AL-IM-AC-001-0425,Control 'Response & Resilience Standards' primarily addresses incident response and management
+G.GV.S-04,CO-GL-PR-BM-AC-001-2504; CO-GL-PR-EX-EC-001-2504; CO-GL-PR-DG-AC-003-2504,Control 'AI Standards' primarily addresses monitoring and logging
+G.LR-01,CO-GL-PR-DP-AC-001-2504; CO-GL-PR-RL-AC-002-2503,Control 'Data Privacy Compliance' primarily addresses monitoring and logging
+G.LR-02,CO-GL-PR-ET-EC-004-2504(I),Control 'Intellectual Property (IP) Management' primarily addresses monitoring and logging
+G.LR-03,CO-GL-PR-RC-CO-001/002-0425; CO-GL-PR-RL-AC-002-2503,Control 'AI Regulatory Compliance' primarily addresses monitoring and logging
+G.LR-04,CO-GL-AL-RC-CO-001-2504,Control 'Cybersecurity Regulatory Compliance' primarily addresses monitoring and logging
+G.LR-05,CO-GL-PR-BM-AC-001-2504; CO-GL-PR-BM-AC-006-2504; CO-GL-PR-ET-EC-001-2504,Control 'Ethical Use
+G.OV,CO-GL-PR-ET-EC-001-2504; CO-GL-PR-ET-EC-003-2504; CO-GL-PR-ET-EC-004-2504; CO-GL-PR-ET-EC-009-2504; CO-GL-PR-ET-EC-010-2504; CO-GL-PR-TE-TM-001-2504,Control 'Org Values & Governance' primarily addresses monitoring and logging
+G.PR-01,CO-GL-PR-DP-AC-001/002-2504; CO-GL-PR-RM-AC-006-2510,Control 'Privacy Program' primarily addresses monitoring and logging
+G.RM-01,CO-GL-PR-RM-AC-003-2510,Control 'Risk Management Framework' primarily addresses monitoring and logging
+G.RM-02,CO-GL-PR-RM-TM-001-2510; CO-GL-PR-RM-AC-003-2510(E),Control 'Risk Appetite and Tolerance' primarily addresses governance and leadership.
+G.RM-03,CO-GL-PR-RM-AC-003-2510; CO-GL-PR-RM-AC-004-2510,Control 'Risk Management Program: AI' primarily addresses monitoring and logging
+G.RM-05,CO-PR-AL-VM-AC-001/002-0425,Control 'Risk-Management Program: Third-Party' primarily addresses monitoring and logging
+G.ST.B,CO-GL-PR-TE-AC-001-2518,Control 'System Boundaries' primarily addresses third-party and vendor risk
+G.ST.O-01,CO-GL-PR-TM-AC-001-2503; CO-GL-PR-RL-AC-001-2503; CO-GL-PR-RL-AC-002-2503; CO-GL-AL-OC-AC-001-2504,Control 'Mission Statement' primarily addresses monitoring and logging
+G.ST.O-02,CO-GL-PR-TM-AC-001-2503; CO-GL-PR-RL-AC-001-2503; CO-GL-PR-RL-AC-002-2503; CO-GL-PR-RM-AC-003-2510,Control 'Goals & Context' primarily addresses monitoring and logging
+G.ST.S-01,CO-GL-AL-OC-AC-001-2504; CO-GL-PR-RM-AC-001-2510; CO-GL-PR-RM-AC-004-2510,Control 'AI Scope' primarily addresses monitoring and logging
+G.ST.S-02,CO-GL-AL-OC-AC-001-2504,Control 'Security Scope' primarily addresses general security and AI governance.
+G.ST.S-03,CO-GL-PR-RL-AC-002-2503; CO-GL-PR-RC-CO-001-0425,Control 'Regulatory Scope' primarily addresses monitoring and logging.
+I.AM-01,CO-GL-AL-OC-AC-001-2504,Control 'AI System Inventory' primarily addresses monitoring and logging
+I.DG-01,CO-GL-PR-DG-AC-003-2504,Control 'Data Mapping' primarily addresses monitoring and logging
+I.IM-01,CO-GL-PR-ET-EC-005-2504,Control 'AI Impacts' primarily addresses incident response and management
+I.RM-01,CO-GL-PR-RM-AC-003-2510,2
+I.SC-01,CO-PR-AL-VM-AC-001-0425,4
+I.TH-02,CO-GL-PR-ET-EC-012-2504,CO-GL-PR-EI-AC-001-2504
+M.CM,CO-GL-AL-CM-AC-001-2504; CO-GL-AL-CM-AC-003-2504,Control 'Change Management' primarily addresses code
+M.DV-01,CO-GL-PR-SD-AC-001-0425; CO-GL-PR-TE-AC-001-2518,Control 'AI System Lifecycle' primarily addresses monitoring and logging
+M.OV-01,CO-GL-PR-ET-EC-001-2504; CO-GL-PR-ET-EC-009-2504; CO-GL-PR-ET-EC-010-2504,Control 'Ethics Oversight Committee' primarily addresses monitoring and logging
+M.OV-02,CO-GL-PR-DP-AC-001-2504; CO-GL-PR-RL-AC-002-2503,Control 'Privacy Oversight Committee' primarily addresses incident response and management
+M.PM,CO-GL-AL-MO-AC-002-0425; CO-GL-PR-ET-EC-012-2504,Control 'Performance Metrics' primarily addresses monitoring and logging
+M.PR,CO-GL-PR-DP-AC-001-2504; CO-GL-PR-DP-AC-002-2504; CO-GL-PR-RM-AC-006-2510,Control 'Privacy Program' primarily addresses monitoring and logging
+M.RM-01,CO-PR-AL-VM-AC-001-0425; CO-PR-AL-VM-AC-002-0425,Control 'Third-Party Risk Management' primarily addresses monitoring and logging
+M.RM-02,CO-GL-PR-RM-AC-003-2510; CO-GL-PR-RM-AC-004-2510,Control 'AI Risk Management' primarily addresses monitoring and logging
+M.RP,CO-GL-PR-RM-AC-022-2510; CO-GL-PR-TM-AC-002-2503,Control 'Reporting' primarily addresses incident response and management
+P.AC.M-01,CO-GL-PR-BM-AC-001-2504,Control 'Bias' primarily addresses general security and AI governance.
+P.AC.M-02,CO-GL-PR-TE-AC-003-2518,Control 'Robustness' primarily addresses monitoring and logging
+P.AC.M-03,CO-GL-PR-EX-EC-001-2504; CO-GL-PR-EX-AC-001-2504,Control 'Explainability' primarily addresses governance and leadership.
+P.AC.S-01,"CO-GL-PR-DG-AC-003-2504(E:G), CO-GL-PR-DG-AC-006-2504",Control 'Datasets & Tagging' primarily addresses monitoring and logging
+P.AT-01,CO-GL-PR-TE-AC-001-2504; CO-GL-PR-TE-TM-001-2504,Control 'AI Training' primarily addresses governance and leadership
+P.AT-03,CO-GL-PR-TE-TM-004-2504,Control 'Governance Training' primarily addresses incident response and management
+P.DS-01,CO-GL-PR-DP-AC-002-2504(A),Control 'Classification & Handling' primarily addresses access control and identity.
+P.PC,CO-GL-PR-DP-AC-002-2504(H); CO-GL-PR-DS-AC-001-2504,Control 'Privacy Controls' primarily addresses monitoring and logging
+P.RP-01,CO-PR-AL-IM-AC-001-0425,Control 'Business Continuity' primarily addresses business continuity and resilience.
+P.SC,CO-PR-AL-VM-AC-001-0425,Control 'Supply Chain' primarily addresses monitoring and logging
+R.IM-01,CO-PR-AL-IM-AC-004-0425(C),Control 'Containment' primarily addresses monitoring and logging
+R.IM-02,CO-PR-AL-IM-AC-004-0425(D),Control 'Eradication' primarily addresses incident response and management
+R.IR-01,CO-PR-AL-IM-AC-001-0425,Control 'Incident Response: AI' primarily addresses monitoring and logging
+R.IR-03,CO-GL-PR-DP-AC-002-2504,Control 'Incident Response: Privacy' primarily addresses incident response and management
+V.AD-01,CO-GL-PR-RC-CO-001-0425,Control 'External Audit: AI Audit' primarily addresses monitoring and logging
+V.CI-01,CO-GL-AL-MO-AC-003-0425; CO-GL-AL-OC-AC-004-2504,Control 'Reporting Channels' primarily addresses incident response and management
+V.CI-02,CO-GL-PR-QM-AC-002-2504,Control 'Internal Audit: AI Audit' primarily addresses monitoring and logging
+V.CI-03,CO-GL-PR-QM-AC-002-2504,Control 'Internal Audit: Security Audit' primarily addresses monitoring and logging
+V.TE-01,CO-GL-PR-TE-AC-001-2518; CO-GL-PR-TE-AC-003-2518,Control 'Testing' primarily addresses governance and leadership
+V.TE-02,CO-GL-PR-TE-AC-003-2518; CO-GL-PR-TE-AC-004-2518,Control 'Evaluation' primarily addresses monitoring and logging
+V.TE-03,CO-GL-PR-QM-QM-001-2504; CO-GL-PR-QM-AC-002-2504,Control 'Verification' primarily addresses monitoring and logging
+V.TE-04,CO-GL-PR-QM-AC-003-2504; CO-GL-PR-QM-TM-003-2504,Control 'Validation' primarily addresses monitoring and logging

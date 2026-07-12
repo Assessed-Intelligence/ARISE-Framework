@@ -1,0 +1,44 @@
+control_id,parent_id,domain,title,objective,requirement_count
+G.AC-01,G.AC,GOVERN,Top Management Commitment,"Demonstrate visible, sustained leadership commitment to the management system; provide resources, set direction, and enable continual improvement.",6
+G.AC-02,G.AC,GOVERN,Charters & Committees,"Operate formal committees with independent oversight for security, privacy, resilience, and AI governance.",6
+G.AC-03,G.AC,GOVERN,Executive Leadership & Board Oversight,"Provide strategic direction and independent oversight of the management system, risk posture, and compliance through the Board or governing body.",6
+G.GV.A-01,G.GV.A,GOVERN,Accountability,Ensure every AI decision/outcome has a traceable human owner with authority to act on risk findings.,4
+G.GV.A-02,G.GV.A,GOVERN,Fairness,Adopt quantitative fairness metrics and enforce mitigation when disparities exceed thresholds.,4
+G.GV.A-03,G.GV.A,GOVERN,Inclusivity,Promote inclusive data practices with demographic representation and cultural relevance; engage diverse stakeholders.,4
+G.GV.A-04,G.GV.A,GOVERN,Cultural Considerations,"Respect cultural norms and jurisdictional sensitivities in outputs, labeling, and UX; require contextual review before global deployments.",3
+G.GV.A-05,G.GV.A,GOVERN,Tensions and Trade-offs,"Document trade-offs between accuracy, privacy, interpretability, and fairness; justify risk acceptance with leadership approval and transparent communication.",4
+G.GV.A-06,G.GV.A,GOVERN,Transparency,Publish explainability statements and disclose AI use where applicable; ensure documentation supports regulator and customer inquiries.,4
+G.GV.C-01,G.GV.C,GOVERN,COC: Acceptable Use,"Ensure personnel adhere to rules for appropriate use of systems, data, and AI technologies to prevent misuse and ethical breaches.",6
+G.GV.C-02,G.GV.C,GOVERN,COC: Data Ethics,"Establish a culture of responsible data/AI use that upholds fairness, transparency, privacy, and accountability throughout data collection and model development.",6
+G.GV.C-03,G.GV.C,GOVERN,COC: Ethical Principles for AI & Tech,"Operationalize human-centric, ethical AI and technology use committing to fairness, accountability, transparency, explainability, and human oversight.",7
+G.GV.P-01,G.GV.P,GOVERN,Core Policies,"Establish, maintain, and govern a cohesive suite of core policies across security, privacy, AI governance, ethics, and resilience.",8
+G.GV.P-02,G.GV.P,GOVERN,Security Policies,"Define enforceable information-security expectations to protect confidentiality, integrity, and availability.",6
+G.GV.P-03,G.GV.P,GOVERN,Response & Resilience Policies,"Ensure preparedness, continuity, and rapid recovery via IR, BCP, and DR policies.",7
+G.GV.P-04,G.GV.P,GOVERN,AI Policies,"Codify principles for responsible, secure, ethical AI design, deployment, and operation.",6
+G.GV.P-05,G.GV.P,GOVERN,Privacy Policies,"Define rules for lawful, fair, transparent processing of personal/sensitive data, aligned to AI privacy needs.",7
+G.GV.P-06,G.GV.P,GOVERN,Ethics Policies,"Promote integrity, fairness, transparency, and human-centric technology use through enforceable ethical standards.",6
+G.GV.P-07,G.GV.P,GOVERN,HR Policies,"Ensure HR practices support secure, ethical, and responsible conduct throughout the employee lifecycle.",6
+G.GV.P-08,G.GV.P,GOVERN,Supply-Chain Policies,"Ensure suppliers and partners meet organizational security, privacy, and ethical standards throughout the contract lifecycle.",6
+G.GV.P-09,G.GV.P,GOVERN,Data-Governance Policies,"Ensure data quality, integrity, lifecycle management, and responsible use across operations and AI systems.",7
+G.GV.S-01,G.GV.S,GOVERN,Core Standards,"Define and maintain organizational standards that operationalize policy commitments into measurable, auditable controls.",9
+G.GV.S-02,G.GV.S,GOVERN,Security Standards,"Establish enforceable technical/procedural standards protecting systems and data, including AI-specific security requirements.",10
+G.GV.S-03,G.GV.S,GOVERN,Response & Resilience Standards,"Define standardized processes/criteria for incident response, DR, and business continuity including AI-specific failure modes.",7
+G.GV.S-04,G.GV.S,GOVERN,AI Standards,"Translate AI policy into actionable, measurable standards governing data, model development/testing, deployment, monitoring, transparency, and retirement.",9
+G.LR-01,G.LR,GOVERN,Data Privacy Compliance,Comply with applicable data-protection/privacy laws with demonstrable accountability and oversight.,9
+G.LR-02,G.LR,GOVERN,Intellectual Property (IP) Management,"Protect IP assets—including proprietary data, algorithms, code, documentation, and AI models—while respecting third-party rights.",9
+G.LR-03,G.LR,GOVERN,AI Regulatory Compliance,"Ensure AI systems conform to applicable legal obligations for transparency, accountability, oversight, and safety.",8
+G.LR-04,G.LR,GOVERN,Cybersecurity Regulatory Compliance,"Align cybersecurity controls with legal, contractual, and regulatory obligations and maintain continuous compliance.",7
+G.LR-05,G.LR,GOVERN,"Ethical Use, Fairness & Bias Compliance","Ensure technology and AI practices are fair, transparent, and non-discriminatory.",8
+G.OV,,GOVERN,Org Values & Governance,"Establish and embed organizational values and ethical tenets guiding secure, ethical, and equitable design/deployment of AI and digital systems.",7
+G.PR-01,G.PR,GOVERN,Privacy Program,"Establish and maintain an enterprise-wide Privacy Management Program ensuring lawful, ethical, transparent handling of personal/sensitive data.",11
+G.RM-01,G.RM,GOVERN,Risk Management Framework,"Establish a unified ERM framework integrating security, AI, privacy, and operational risks.",10
+G.RM-02,G.RM,GOVERN,Risk Appetite and Tolerance,Define and approve thresholds for acceptable risk across domains.,7
+G.RM-03,G.RM,GOVERN,Risk Management Program: AI,Operationalize an AI-specific risk-management program across lifecycle.,10
+G.RM-04,G.RM,GOVERN,Risk-Management Program: Cybersecurity,"Continuously identify, analyze, and mitigate cybersecurity risks aligned to threat intel, business impact, and obligations.",10
+G.RM-05,G.RM,GOVERN,Risk-Management Program: Third-Party,"Identify and manage risks posed by vendors/partners to protect data, systems, and AI integrity.",9
+G.ST.B,G.ST,GOVERN,System Boundaries,"Establish precise technical/physical boundaries and interfaces so controls can be correctly applied, tested, and audited.",6
+G.ST.O-01,G.ST.O,GOVERN,Mission Statement,"Define and communicate the organization’s purpose and mission so that all security, privacy, resilience, and AI governance activities are clearly aligned to the value the organization delivers and the risks it accepts.",7
+G.ST.O-02,G.ST.O,GOVERN,Goals & Context,"Translate mission into concrete governance goals by evaluating internal/external context, stakeholder expectations, and constraints; ensure objectives are measurable and risk-informed.",6
+G.ST.S-01,G.ST.S,GOVERN,AI Scope,"Identify all AI systems and activities under organizational control, categorize them by risk, and declare lifecycle coverage for governance and assurance.",6
+G.ST.S-02,G.ST.S,GOVERN,Security Scope,Establish which assets and environments are protected by the security program and how protection is proportionate to risk and criticality.,6
+G.ST.S-03,G.ST.S,GOVERN,Regulatory Scope,"Determine applicable legal, contractual, and customer requirements and ensure the management system addresses them.",5

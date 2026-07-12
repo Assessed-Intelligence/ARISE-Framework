@@ -1,0 +1,117 @@
+requirement_id,control_id,priority,requirement
+R.IC.E-01-req-01,R.IC.E-01,1,"Jurisdictional Registry: Maintain registry of reporting thresholds and timelines (e.g., GDPR 72-hour rule, SEC 4-day rule, AI Act, state breach laws)."
+R.IC.E-01-req-02,R.IC.E-01,1,"Deadline Tracking: Track deadlines and maintain submission evidence for audit (e.g., email receipts, portal screenshots)."
+R.IC.E-01-req-03,R.IC.E-01,1,"Coordinate with Legal, DPO, and Compliance to ensure accuracy and legal sufficiency."
+R.IC.E-01-req-04,R.IC.E-01,2,Pre-Approved Reporting Templates: Maintain pre-vetted legal notification templates for common breach scenarios to minimize drafting time during the critical 72-hour window.
+R.IC.E-01-req-05,R.IC.E-01,2,Record Retention: Regulatory reports retained per retention policy.
+R.IC.E-01-req-06,R.IC.E-01,2,"Data Standardization: Use standard internal forms to collect the specific data points (e.g., ""number of affected records"") required for the external forms."
+R.IC.E-02-req-01,R.IC.E-02,1,Legal Approval: Obtain legal counsel approval before releasing information.
+R.IC.E-02-req-02,R.IC.E-02,1,"Contact Maintenance: Maintain pre-established contact points with law enforcement (FBI, Secret Service) and CERTs."
+R.IC.E-02-req-03,R.IC.E-02,2,Evidence Integrity: Preserve digital evidence and maintain strict chain-of-custody documentation.
+R.IC.E-02-req-04,R.IC.E-02,2,"Privilege & Liability Protocol: Establish a protocol for routing law enforcement communications through legal counsel to maintain attorney-client privilege and maximize potential ""safe harbor"" protections under laws like CISA's CIRCIA."
+R.IC.E-02-req-05,R.IC.E-02,2,Notification Process: Law enforcement notification processes defined with SLA; evidence logs signed and verified.
+R.IC.E-02-req-06,R.IC.E-02,2,Scope Verification: Verify scope of engagement and specific data sharing requirements.
+R.IC.E-03-req-01,R.IC.E-03,1,"Sharing Policy: Develop information-sharing policies covering classification, anonymization, and disclosure approval."
+R.IC.E-03-req-02,R.IC.E-03,1,"Data Validation: Share only validated and non-sensitive threat data (IOCs, TTPs) to prevent false alarms or privacy leaks."
+R.IC.E-03-req-03,R.IC.E-03,1,"Technical Sanitization: Implement a mandatory review process (manual or automated) to strip PII, internal hostnames, and proprietary code snippets from threat intelligence artifacts before dissemination."
+R.IC.E-03-req-04,R.IC.E-03,2,"Tagging Standards: Follow standard data sensitivity tagging (e.g., TLP:RED, TLP:AMBER) for all shared intelligence."
+R.IC.E-03-req-05,R.IC.E-03,2,Active Participation: Participation in at least one sector ISAC or trusted community; quarterly sharing activity documented.
+R.IC.E-03-req-06,R.IC.E-03,2,Approval Logging: Maintain an approval log of shared information and authorized recipients.
+R.IC.E-04-req-01,R.IC.E-04,1,"Coordination: Coordinate with Legal, DPO, and Privacy Office to determine notification scope and method."
+R.IC.E-04-req-02,R.IC.E-04,1,"Notice Content: Prepare plain-language notices disclosing what data was affected, when, and remediation offered."
+R.IC.E-04-req-03,R.IC.E-04,1,Templates & Approvals: Document statutory timeframes; maintain notification templates approved by Legal and DPO.
+R.IC.E-04-req-04,R.IC.E-04,1,"Support Infrastructure Readiness: Scale customer support capacity (call centers, chatbots) and provide agents with specific ""Breach FAQ"" scripts before notifications are released to handle the influx of inquiries."
+R.IC.E-04-req-05,R.IC.E-04,2,"Delivery Channels: Define approved verified delivery channels (email, postal, or in-app)."
+R.IC.E-04-req-06,R.IC.E-04,2,Logging & Tracking: Define process and maintain logs of all notifications and responses.
+R.IC.I-01-req-01,R.IC.I-01,2,"Coordinate messaging with HR, Legal, and Security to maintain a unified internal narrative."
+R.IC.I-01-req-02,R.IC.I-01,1,Standardized Templates: Maintain standardized internal communication templates for incident alerts and updates.
+R.IC.I-01-req-03,R.IC.I-01,1,"Trusted Channel Verification: Establish and train staff on a primary channel  and a challenge-response protocol to verify that incident instructions are genuine, mitigating social engineering attacks."
+R.IC.I-01-req-04,R.IC.I-01,2,Knowledge Repository: Store internal FAQs and quick-reference guides in a centralized repository.
+R.IC.I-01-req-05,R.IC.I-01,2,"Message Clarity: Verify clarity, consistency, and accessibility of internal messages."
+R.IC.I-01-req-06,R.IC.I-01,3,Acknowledgment Tracking: Track message acknowledgment receipts to ensure awareness.
+R.IC.I-01-req-07,R.IC.I-01,3,Testing & Validation: Incident communication templates tested during annual tabletop exercises.
+R.IC.I-02-req-01,R.IC.I-02,1,"Briefing Content: Summarize incident scope, regulatory exposure, and reputational impact."
+R.IC.I-02-req-02,R.IC.I-02,1,"Decision Logs: Maintain records of decisions, approvals, and strategic directives issued during incidents."
+R.IC.I-02-req-03,R.IC.I-02,1,Notification SLA: Major incidents briefed to executive management within 24 hours; executive report retained as evidence.
+R.IC.I-02-req-04,R.IC.I-02,1,"Materiality Determination: Establish a formal protocol for the Executive Committee to review technical impact data and issue a formal ""Materiality"" determination to trigger regulatory disclosure workflows."
+R.IC.I-02-req-05,R.IC.I-02,2,Standardized Templates: Develop and maintain standardized executive incident report templates.
+R.IC.I-02-req-06,R.IC.I-02,2,Risk Metrics: Include metrics linked to organizational risk appetite and materiality thresholds.
+R.IC.I-02-req-07,R.IC.I-02,2,"Strategic Alignment: Align briefings with continuity, recovery, and stakeholder reporting obligations."
+R.IC.I-03-req-01,R.IC.I-03,1,"Communication Discipline: Establish protocols for information security—no external disclosures without approval; ""need-to-know"" enforcement."
+R.IC.I-03-req-02,R.IC.I-03,1,"Secure Channels: Use secure, dedicated collaboration platforms (e.g., encrypted signal/wire, separate Slack workspace) for IR coordination, distinct from standard corporate comms."
+R.IC.I-03-req-03,R.IC.I-03,1,Decision Logs: Maintain chronological decision logs and key communications.
+R.IC.I-03-req-04,R.IC.I-03,1,"War Room Protocols: Define the virtual or physical ""War Room"" structure, assigning specific roles (Commander, Scribe, Liaison) to prevent cross-talk and ensure efficient information flow."
+R.IC.I-03-req-05,R.IC.I-03,2,Centralized Dashboard: Update all stakeholders via a centralized incident dashboard or status page.
+R.IC.I-03-req-06,R.IC.I-03,2,Evidence Integrity: Ensure all updates are timestamped and preserved for after-action review.
+R.IC.I-03-req-07,R.IC.I-03,3,Isolation Strategy: Isolated communication channel created per incident; decision log retained with each incident's after-action report.
+R.IC.P-req-01,R.IC.P,1,"Authorized Personnel: Only authorized personnel (e.g., C-Suite, PR Head) issue public statements; explicit prohibition on unauthorized staff speaking to media."
+R.IC.P-req-02,R.IC.P,1,"Legal & Risk Review: All communications undergo Legal, Risk, and Executive review prior to release to ensure accuracy and limit liability."
+R.IC.P-req-03,R.IC.P,1,"Predefined Templates: Use predefined media templates and Q&A documents (holding statements) for various scenarios (e.g., Ransomware, Data Leak, AI Bias Event)."
+R.IC.P-req-04,R.IC.P,1,"Dissemination Channel Hardening: Enforce phishing-resistant Multi-Factor Authentication (e.g., Hardware Keys) on all social media and PR accounts used to issue public updates to prevent account hijacking and disinformation during the crisis."
+R.IC.P-req-05,R.IC.P,2,"AI Transparency: Ensure AI-related disclosures meet jurisdictional expectations (e.g., explicit notice if an AI system was the vector or if AI is used in the response)."
+R.IC.P-req-06,R.IC.P,2,"Archive & Audit: Maintain a permanent archive of all public statements, social media posts, and media interactions."
+R.IC.P-req-07,R.IC.P,3,Strict Governance: All public communications pre-approved by Legal; all versions and media releases archived per retention policy.
+R.IC.R-req-01,R.IC.R,1,Communication Plans: Implement customer communication plans aligned to business continuity and disaster recovery procedures.
+R.IC.R-req-02,R.IC.R,1,Message Alignment: Ensure consistency between technical restoration activities and customer-facing updates.
+R.IC.R-req-03,R.IC.R,1,"Restoration Sign-Off Gate: Implement a mandatory ""Technical Sign-Off"" protocol where Incident Commanders must validate service stability against pre-defined thresholds before authorizing the ""Service Restored"" external communication."
+R.IC.R-req-04,R.IC.R,2,Data Validation: Validate all external statements against real-time operational data.
+R.IC.R-req-05,R.IC.R,2,SLA & Legal Review: All customer BC/DR updates reviewed by Legal/Ops; cadence aligned with Service Level Agreements (SLAs).
+R.IC.R-req-06,R.IC.R,2,Outreach Logging: Track and log customer outreach for auditability.
+R.IM-01-req-01,R.IM-01,1,"Containment Strategies Network isolation, firewall deny rules, credential/token revocation, API key rotation, or system shutdowns."
+R.IM-01-req-02,R.IM-01,1,Decision Authority: Define roles authorized for containment actions; require risk-based justification for critical system takedowns.
+R.IM-01-req-03,R.IM-01,1,Verification: Validate that containment succeeded and document all actions.
+R.IM-01-req-04,R.IM-01,2,"Automation & SOAR: Predefine triggers for automated containment actions (malware isolation, model endpoint disablement)."
+R.IM-01-req-05,R.IM-01,2,"Evidence Preservation: Capture snapshots, logs, and forensic images before containment modifications when feasible."
+R.IM-01-req-06,R.IM-01,2,Coordination: Communicate containment to impacted business units and track asset restoration readiness.
+R.IM-01-req-07,R.IM-01,2,"AI Logic Redirection (Safe Mode): Implement the ability to redirect suspicious or anomalous model traffic to a ""sandbox"" model or a deterministic rules-based engine during an incident to maintain limited service while containing the primary threat."
+R.IM-01-req-08,R.IM-01,3,Advanced Validation: Automated containment procedures are tested quarterly in live or simulated environments.
+R.IM-02-req-01,R.IM-02,1,"Remediation Actions: Patch vulnerabilities, clean malware, rotate credentials, and remove malicious datasets or code."
+R.IM-02-req-02,R.IM-02,1,"Validation Tests: Run post-remediation scans, regression tests, and AI inference checks for residual anomalies."
+R.IM-02-req-03,R.IM-02,1,Change Control: Track eradication through formal change records; approvals for returning assets to production.
+R.IM-02-req-04,R.IM-02,1,"Documentation: Record eradication steps, validation outcomes, and responsible owners."
+R.IM-02-req-05,R.IM-02,2,Root-Cause Analysis Major Incidents: Identify initial access vector and exploit mechanism; map to control gaps.
+R.IM-02-req-06,R.IM-02,2,"Secret & Identity Purging: Execute a comprehensive revocation and re-issuance of all machine identities, API tokens, and service accounts that were active in the compromised environment during the dwell time, regardless of whether they show signs of compromise."
+R.IM-02-req-07,R.IM-02,3,Universal RCA & Validation: Root-cause documented for all incidents; eradication validation performed as a mandatory close-out step.
+R.IM-03-req-01,R.IM-03,1,"Restore Procedures: Maintain tested restore runbooks for systems, models, and datasets; verify signatures before redeployment."
+R.IM-03-req-02,R.IM-03,1,Integrity Validation: Validate restored data against checksums; confirm model reproducibility and TEVV compliance.
+R.IM-03-req-03,R.IM-03,1,Verification: Conduct functional and performance validation before public access restoration.
+R.IM-03-req-04,R.IM-03,2,Failover Procedures: Activate secondary sites or alternate clouds per predefined RTO/RPO.
+R.IM-03-req-05,R.IM-03,2,Drills & Maintenance: Annual DR drills; integrity validation after all restorations.
+R.IM-03-req-06,R.IM-03,2,"Post-Restore Hardening: Implement a mandatory ""patch and harden"" step within the recovery workflow to ensure that known vulnerabilities present in the backup image are remediated before the system is reconnected to the production network."
+R.IM-04-req-01,R.IM-04,1,"Continuity Plans: Define workarounds, manual fallbacks, communication channels, and minimum operating capacities."
+R.IM-04-req-02,R.IM-04,1,"Operational Prioritization: Identify essential business functions, staff assignments, and acceptable degradation levels."
+R.IM-04-req-03,R.IM-04,1,Alternate Procedures: Enable manual service delivery or rerouting to unaffected regions/systems.
+R.IM-04-req-04,R.IM-04,1,"Critical Dependency Failover: Establish technical or procedural fallbacks for critical external dependencies (e.g., secondary LLM providers, cached inference modes) to ensure continuity if a primary AI vendor suffers an outage."
+R.IM-04-req-05,R.IM-04,2,Performance Tracking: Monitor SLA impact and customer communication effectiveness during response.
+R.IM-04-req-06,R.IM-04,3,Testing & Validation: Documented continuity plans for all operations; semi-annual testing of fallbacks.
+R.IR-01-req-01,R.IR-01,1,"Roles & Responsibilities: Assign roles for detection, triage, ethics escalation, privacy/legal review, and technical containment."
+R.IR-01-req-02,R.IR-01,1,"Initial Assessment: Define harm thresholds (ethical, reputational, regulatory). Perform rapid validation using logs, telemetry, and replication tests."
+R.IR-01-req-03,R.IR-01,1,"Containment & Recovery: Disable endpoints, roll back models, or revoke model access tokens. Document and isolate affected artifacts and datasets."
+R.IR-01-req-04,R.IR-01,1,"AI-Specific Playbooks: Maintain playbooks for prompt injection, leakage, harmful content, bias, and poisoning."
+R.IR-01-req-05,R.IR-01,1,"Root Cause & Post-Remediation: Perform model lineage analysis and update training datasets, guardrails, or adversarial detection models. (Corrective & Preventive Action (CAPA))"
+R.IR-01-req-06,R.IR-01,2,"Communications & Notifications: Notify Ethics/Privacy Committees, CAIO, and impacted customers or regulators when required."
+R.IR-01-req-07,R.IR-01,2,"Evidence Preservation: Capture model logs, prompts, outputs, inference data, and relevant metadata for investigation and TEVV validation."
+R.IR-01-req-08,R.IR-01,2,Upstream/Third-Party Reporting: Establish protocols for reporting security and safety failures to third-party model providers or open-source maintainers to facilitate upstream patches.
+R.IR-01-req-09,R.IR-01,2,"Lessons Learned: Integrate findings into model risk management, training datasets, and detection rules."
+R.IR-01-req-10,R.IR-01,3,Advanced Oversight: Ethics and Privacy Committee included for all AI & Privacy incidents.
+R.IR-02-req-01,R.IR-02,1,"Incident Classification & Severity Matrix: Define categories (intrusion, malware, exfiltration, DDoS, insider misuse). Assign SLAs for triage and containment."
+R.IR-02-req-02,R.IR-02,1,Response Coordination: SOC manages technical actions; communication routed to IR leadership and legal counsel for potential notification.
+R.IR-02-req-03,R.IR-02,1,Forensics & Evidence: Collect and preserve volatile data; maintain chain-of-custody for potential legal review.
+R.IR-02-req-04,R.IR-02,2,"Recovery: Eradicate root causes, validate system integrity, patch vulnerabilities, and restore from golden images."
+R.IR-02-req-05,R.IR-02,2,"Reporting & Review: Record incident details, actions, and verification outcomes; link to POA&M updates and root-cause records."
+R.IR-02-req-06,R.IR-02,2,"Out-of-Band Communication: Establish and maintain a secure, secondary communication platform (e.g., encrypted mobile mesh or isolated SaaS) for IR team coordination when primary corporate networks are compromised."
+R.IR-02-req-07,R.IR-02,3,"SOAR Integration: Automate enrichment and containment workflows (host isolation, account disablement, IP blocking)."
+R.IR-02-req-08,R.IR-02,3,Quarterly Drills: SLAs and playbooks are tested quarterly in live or tabletop drills.
+R.IR-03-req-01,R.IR-03,1,"Privacy Incident Identification: Detect anomalies indicating PII/PHI leakage, misclassification, or unauthorized access."
+R.IR-03-req-02,R.IR-03,1,"Notification & Reporting: File regulator notices within statutory deadlines (e.g., 72h); notify affected subjects. DPO oversight is mandatory."
+R.IR-03-req-03,R.IR-03,1,"Containment & Eradication: Disable offending processes, revoke tokens, patch misconfigurations, or isolate affected systems."
+R.IR-03-req-04,R.IR-03,1,"Documentation & Audit Trail: Maintain privacy incident register; record assessment, actions, and communications."
+R.IR-03-req-05,R.IR-03,2,Assessment & Escalation: Assess likelihood/severity of harm; escalate to Data Protection Officer and Legal for notification assessment.
+R.IR-03-req-06,R.IR-03,2,"Post-Breach Improvement: Update controls, training, and contracts to prevent recurrence."
+R.IR-03-req-07,R.IR-03,3,"DSR Breach Prioritization: Establish a fast-track process for processing ""Right to Erasure"" or ""Right to Restriction"" requests specifically for data subjects affected by a confirmed breach to minimize the duration of risk to their personal data."
+R.LL-req-01,R.LL,1,"Critical Incident PIRs: Conduct Post-Incident Reviews (PIRs) for all critical incidents within 5 business days. Include timeline, decisions, and outcomes."
+R.LL-req-02,R.LL,1,"Root Cause Analysis (RCA): Document systemic, procedural, or human contributors; prioritize recurring control gaps (using 5 Whys or Fishbone)."
+R.LL-req-03,R.LL,1,Action Plan Tracking: Assign remediation tasks with owners and deadlines; monitor progress until validated completion.
+R.LL-req-04,R.LL,1,"Post-Mortem Policy: Enforce a ""Blameless"" policy for RCAs that focuses on systemic incentives and process failures rather than individual blame, ensuring staff feel safe to report the true root cause."
+R.LL-req-05,R.LL,2,"Integration to Risk & Training: Feed lessons into the risk register, policy updates, runbooks, and awareness training."
+R.LL-req-06,R.LL,3,Universal Coverage: Post-Incident Reviews (PIRs) conducted for all incidents (minor and major); documented evidence of implemented lessons.

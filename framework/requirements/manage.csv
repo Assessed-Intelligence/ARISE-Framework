@@ -1,0 +1,103 @@
+requirement_id,control_id,priority,requirement
+M.CM-req-01,M.CM,1,Formal RFC Process: Require documented Request for Change (RFC) submissions for all production modifications.
+M.CM-req-02,M.CM,1,"Testing & Validation: Mandate pre-deployment testing, rollback, and reproducibility verification."
+M.CM-req-03,M.CM,1,Segregation of Duties: Enforce SoD to prevent self-approval.
+M.CM-req-04,M.CM,1,"Model Lifecycle Control: Track model versioning, dataset hashes, and lineage metadata for AI systems."
+M.CM-req-05,M.CM,2,"Risk Evaluation: Classify changes (standard, normal, emergency) with defined approval chains."
+M.CM-req-06,M.CM,2,Post-Implementation Review: Conduct retrospective analysis for failed or emergency changes.
+M.CM-req-07,M.CM,3,Automation: Integrate change control into CI/CD pipelines and IaC workflows.
+M.CM-req-08,M.CM,3,Configuration Drift Detection: Implement automated monitoring tools to detect and alert on unauthorized changes (Drift) that occur outside the formal change management process.
+M.DV-01-req-01,M.DV-01,1,Standardized AI Lifecycle Stages: (ideation → deployment → monitoring).
+M.DV-01-req-02,M.DV-01,1,Intake Forms & Risk Evaluation: Mandate intake forms with ethical-risk evaluation.
+M.DV-01-req-03,M.DV-01,1,"Documentation Requirements: Require model cards, data sheets, and fairness/robustness testing reports."
+M.DV-01-req-04,M.DV-01,2,"Maintain traceability across data, code, and model artifacts."
+M.DV-01-req-05,M.DV-01,2,Establish rollback and safe-deployment mechanisms.
+M.DV-01-req-06,M.DV-01,2,Require independent validation prior to go-live.
+M.DV-01-req-07,M.DV-01,2,Integrate continuous monitoring pipelines for drift detection.
+M.DV-01-req-08,M.DV-01,3,"Automated Policy Enforcement: Implement ""Policy-as-Code"" gates within the CI/CD pipeline to automatically block deployments that fail to meet governance criteria (e.g., missing test reports or failed security scans)."
+M.DV-02-req-01,M.DV-02,1,Policy & Standards: Document secure-development policy and coding standards.
+M.DV-02-req-02,M.DV-02,1,Enforce secure secret management.
+M.DV-02-req-03,M.DV-02,1,Enforce code review and change-approval workflows.
+M.DV-02-req-04,M.DV-02,2,"Require threat modeling and security testing (SAST, DAST, IAST)."
+M.DV-02-req-05,M.DV-02,2,Automate dependency scanning and SBOM generation.
+M.DV-02-req-06,M.DV-02,2,Pipeline Integration: Integrate static/dynamic scans into CI/CD pipelines.
+M.DV-02-req-07,M.DV-02,3,IDE-Based Security Analysis: Implement real-time security scanning plugins within the developer's Integrated Development Environment (IDE) to detect and remediate vulnerabilities during the coding phase.
+M.HR-req-01,M.HR,1,Pre-Hire Screening: Conduct background checks proportionate to job risk.
+M.HR-req-02,M.HR,1,"Onboarding: Require confidentiality, acceptable-use, and ethics acknowledgments."
+M.HR-req-03,M.HR,1,Access Management: Implement role-based provisioning tied to HR events.
+M.HR-req-04,M.HR,1,"Offboarding: Immediate access revocation, device return, and exit checklist completion."
+M.HR-req-05,M.HR,1,Whistleblower Protection: Maintain confidential reporting channels.
+M.HR-req-06,M.HR,2,"Training: Provide annual security, privacy, and AI ethics training."
+M.HR-req-07,M.HR,3,"Insider Risk Management: Implement behavioral monitoring for high-risk roles (e.g., administrators, researchers) to detect anomalous activities indicative of insider threats or data exfiltration."
+M.OV-01-req-01,M.OV-01,1,"Charter Definition: Document mission, authority, roles, quorum, and decision rights."
+M.OV-01-req-02,M.OV-01,1,Escalation Authority: Empower the committee to halt deployments pending resolution of ethical risk.
+M.OV-01-req-03,M.OV-01,2,"Membership Composition: Ensure cross-functional participation including legal, HR, engineering, data science, and external advisors."
+M.OV-01-req-04,M.OV-01,2,"Ethical Review Process: Evaluate bias, fairness, cultural impact, explainability, and proportionality."
+M.OV-01-req-05,M.OV-01,2,"Minutes & Records: Maintain evidence of reviews, decisions, and monitoring requirements."
+M.OV-01-req-06,M.OV-01,3,Annual Effectiveness Review: Evaluate committee effectiveness and update charter.
+M.OV-01-req-07,M.OV-01,3,"Public Transparency Reporting: Publish an annual ""AI Ethics Report"" detailing the number of models reviewed, approved, rejected, and the key ethical challenges addressed."
+M.OV-02-req-01,M.OV-02,1,Charter & Authority: Define committee scope for privacy oversight.
+M.OV-02-req-02,M.OV-02,2,Review of PIAs/DPIAs: Approve privacy risk assessments and impact assessments for new systems.
+M.OV-02-req-03,M.OV-02,2,Data Minimization Verification: Validate that designs meet data-minimization principles.
+M.OV-02-req-04,M.OV-02,2,Cross-Border Transfers: Evaluate risks and safeguards for international data flows.
+M.OV-02-req-05,M.OV-02,2,Privacy Violations: Review privacy incidents and root-cause analyses.
+M.OV-02-req-06,M.OV-02,2,Quarterly Reporting: Provide insights to executive leadership.
+M.OV-02-req-07,M.OV-02,3,"Privacy Enhancing Technologies (PETs) Adoption: Mandate and oversee the adoption of advanced PETs (e.g., Differential Privacy, Synthetic Data) to mathematically minimize risk in data utilization."
+M.OV-03-req-01,M.OV-03,1,"Charter & Mandate: Define responsibilities for security posture, program reviews, and approval authority."
+M.OV-03-req-02,M.OV-03,2,"Review of KRIs/KPIs: Evaluate risk, vulnerability trends, patch metrics, and incident data."
+M.OV-03-req-03,M.OV-03,2,Escalation Governance: Define severity criteria and response timelines.
+M.OV-03-req-04,M.OV-03,2,"Resource Planning: Approve investments in tools, talent, penetration testing, and monitoring."
+M.OV-03-req-05,M.OV-03,2,Integration with AI Risk: Ensure cybersecurity threat modeling and drift-related monitoring includes AI components.
+M.OV-03-req-06,M.OV-03,3,Annual Program Review: Evaluate effectiveness and document improvements.
+M.OV-03-req-07,M.OV-03,3,"Cyber-Physical & Safety Risk Integration: Expand oversight to include Operational Technology (OT) and Cyber-Physical Systems (CPS), ensuring digital security decisions do not compromise physical safety (e.g., manufacturing robots, autonomous vehicles)."
+M.PM-req-01,M.PM,1,"KPI Framework — Define standardized KPIs and KRIs aligned with strategic goals and risk appetite (e.g., MTTD, patch compliance, AI model drift rate, bias index, data-loss incidents, control-audit pass rates)."
+M.PM-req-02,M.PM,2,Ownership & Accountability — Assign KPI owners; document calculation logic and data sources.
+M.PM-req-03,M.PM,2,Frequency & Reporting — Update dashboards monthly for operational metrics and quarterly for strategic summaries to the Board.
+M.PM-req-04,M.PM,2,Thresholds & Alerts — Define tolerance bands; configure automatic alerts when deviations exceed risk thresholds.
+M.PM-req-05,M.PM,3,"Data Collection & Validation — Automate KPI data feeds from SIEM, GRC, and MLOps tools; validate source data integrity quarterly."
+M.PM-req-06,M.PM,3,Visualization & Analytics — Provide interactive dashboards for executive and functional views with trend analytics.
+M.PM-req-07,M.PM,3,Continuous Improvement — Review metric relevance annually; integrate new risk domains as technology evolves.
+M.PM-req-08,M.PM,3,"Leading vs. Lagging Balance: Mandate the inclusion of Leading Indicators (predictive metrics, e.g., ""Training Completion %"") alongside Lagging Indicators (outcome metrics, e.g., ""Incident Count"") to enable proactive management."
+M.PR-req-01,M.PR,1,ROPA & Data Maps — Maintain comprehensive processing inventories (Records of Processing Activities).
+M.PR-req-02,M.PR,2,"Consent & DSAR Handling — Automate consent logs, subject requests, and deletion confirmations."
+M.PR-req-03,M.PR,2,Retention & Disposal — Enforce policies ensuring timely deletion of personal data.
+M.PR-req-04,M.PR,2,Integration with AI Governance — Link data usage to AI transparency and fairness obligations.
+M.PR-req-05,M.PR,2,Privacy Training — Provide targeted modules to developers and data scientists.
+M.PR-req-06,M.PR,2,Audit Readiness — Conduct annual internal privacy audits and maintain proof of compliance.
+M.PR-req-07,M.PR,3,"Privacy Engineering — Integrate anonymization, pseudonymization, and federated-learning techniques within data pipelines."
+M.PR-req-08,M.PR,3,"Automated Data Lineage: Implement technical scanning tools to generate dynamic data lineage graphs, proving the provenance and flow of sensitive data across complex AI pipelines."
+M.RM-01-req-01,M.RM-01,1,"Vendor Classification: Categorize vendors by criticality, data access, and AI system impact."
+M.RM-01-req-02,M.RM-01,1,"Due Diligence: Perform pre-contract risk assessments covering security, privacy, AI governance, and regulatory posture."
+M.RM-01-req-03,M.RM-01,1,"Contractual Controls: Require clauses for data protection, confidentiality, breach notification, model-usage limits, and audit rights."
+M.RM-01-req-04,M.RM-01,2,"Continuous Monitoring: Use automated third-party risk platforms, external-surface scanning, and adverse-media checks."
+M.RM-01-req-05,M.RM-01,2,"AI-Specific Controls — Validate vendor AI systems for fairness, explainability, safety, and compliance with applicable regulations."
+M.RM-01-req-06,M.RM-01,2,Remediation Management — Track vendor findings and verification evidence.
+M.RM-01-req-07,M.RM-01,2,"Offboarding & Exit Controls — Ensure data deletion, return, access revocation, and secure disposition."
+M.RM-01-req-08,M.RM-01,2,Incident Integration — Include third parties in incident-response workflows.
+M.RM-01-req-09,M.RM-01,3,"Supply Chain Transparency (SBOM/AIBOM): Mandate that vendors provide Software/AI Bill of Materials (SBOM/AIBOM) to identify vulnerable components (e.g., Log4j) or datasets embedded within their delivered solutions."
+M.RM-02-req-01,M.RM-02,2,"AI Risk Framework — Define risk categories spanning ethical, technical, security, privacy, and societal impact considerations."
+M.RM-02-req-02,M.RM-02,1,"AI Risk Register — Maintain a centralized register tracking risk tier, likelihood/impact, mitigation plan, and owner."
+M.RM-02-req-03,M.RM-02,1,Human Oversight — Document escalation paths and responsible human controllers for decision checkpoints.
+M.RM-02-req-04,M.RM-02,2,"Lifecycle Risk Assessments — Conduct risk assessments at design, data selection, training, deployment, operation, and retirement."
+M.RM-02-req-05,M.RM-02,2,"TEVV Alignment — Integrate testing, evaluation, verification, and validation into risk calculations."
+M.RM-02-req-06,M.RM-02,2,"Bias & Harm Review — Evaluate potential harms to protected classes, edge-case populations, and contextual misuse."
+M.RM-02-req-07,M.RM-02,2,"Continuous Monitoring — Monitor drift, anomaly behavior, performance regressions, and data-quality changes."
+M.RM-02-req-08,M.RM-02,2,"Auditability — Maintain traceability for datasets, model versions, training decisions, and evaluation outcomes."
+M.RM-02-req-09,M.RM-02,3,"Shadow AI Discovery: Implement network and endpoint scanning to detect unauthorized use of external AI services (e.g., public LLMs) to bring ""Shadow AI"" usage into the managed governance framework."
+M.RM-03-req-01,M.RM-03,1,"Vulnerability Identification: Use automated scanning (SAST/DAST/SCA/IaC), penetration testing, and red-team exercises."
+M.RM-03-req-02,M.RM-03,1,Risk Evaluation: Calculate likelihood/impact using qualitative and quantitative models.
+M.RM-03-req-03,M.RM-03,1,"Treatment Planning: Assign owners, deadlines, and remediation strategies; track residual risk."
+M.RM-03-req-04,M.RM-03,2,Threat Modeling: Perform structured threat modeling for critical systems and AI-related components at least annually.
+M.RM-03-req-05,M.RM-03,2,"Security KRIs: Maintain Key Risk Indicators (patch compliance, MTTR, phishing-success rate, drift anomaly frequency)."
+M.RM-03-req-06,M.RM-03,2,"Continuous Monitoring: Use SIEM, XDR, log analytics, and behavioral analytics."
+M.RM-03-req-07,M.RM-03,2,"Integration with AI Risks: Include adversarial attacks, model-exfiltration risk, dataset-integrity risks, and poisoning vectors."
+M.RM-03-req-08,M.RM-03,2,"Reporting: Provide updates to leadership, metrics for trends, and escalation for high-risk issues."
+M.RM-03-req-09,M.RM-03,3,"Automated Remediation (SOAR): Implement Security Orchestration, Automation, and Response (SOAR) playbooks to automatically remediate common low-risk threats (e.g., blocking IPs, isolating hosts) without human intervention."
+M.RP-req-01,M.RP,1,Escalation Procedures: Define immediate escalation thresholds for critical risks or noncompliance events.
+M.RP-req-02,M.RP,1,"Content Requirements: Include risk posture, incidents, performance metrics, TEVV results, and trend analysis."
+M.RP-req-03,M.RP,2,"Reporting Framework: Establish standardized templates for monthly, quarterly, and ad hoc reporting."
+M.RP-req-04,M.RP,2,"Audience Segmentation: Tailor reports for operational teams, management, and the Board."
+M.RP-req-05,M.RP,2,External Reporting: Align customer assurance and regulatory reporting channels with privacy and cyber frameworks.
+M.RP-req-06,M.RP,2,Record Retention: Archive reports for at least 3 years for auditability.
+M.RP-req-07,M.RP,3,Automated Generation: Integrate with dashboards or GRC tools to automate data aggregation.
+M.RP-req-08,M.RP,3,"Executive Attestation (Sign-off): Require formal sign-off from the Accountable Executive (e.g., CISO, CDO) on critical reports, verifying they have reviewed the data and attest to its accuracy (Duty of Candor)."

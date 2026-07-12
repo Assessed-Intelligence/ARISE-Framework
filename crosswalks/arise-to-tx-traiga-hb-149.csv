@@ -1,0 +1,8 @@
+arise_control_id,rationale
+P.PY-03,Direct alignment. This is a categorical safety prohibition on harmful AI design or deployment intent.
+P.PY-03,Direct alignment. The requirement is a core safety and abuse-prevention prohibition.
+G.LR-03,Direct alignment for public-sector compliance governance and statutory prohibited-use screening.
+R.IC.E-04,Strong alignment. Notice/consent and privacy transparency support biometric-use restrictions.
+G.RM-04,"Partial alignment. Risk management supports controlled experimentation but does not itself satisfy sandbox application, regulator communication, or reporting requirements."
+V.TE-01,Strong alignment. Testing validates that AI systems do not trigger prohibited TRAIGA use cases.
+G.LR-03,"Strong alignment. Compliance governance should maintain notice/disclosure, regulator response, and civil penalty readiness."

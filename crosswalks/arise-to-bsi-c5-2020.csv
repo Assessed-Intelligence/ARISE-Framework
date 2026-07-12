@@ -1,0 +1,83 @@
+arise_control_id,BSI C5 Criterion,rationale
+G.GV.S-01,OIS-01,Establishes the internal security organization and management oversight.
+G.GV.S-02,OIS-02,Defines the specialized roles and responsibilities for cloud security.
+G.GV.S-03,OIS-03,Identifies and manages interfaces with external groups and authorities.
+G.GV.S-04,OIS-04,Ensures independent review and segregation of duties within the ISMS.
+G.GV.S-05,OIS-05,Maintains communication with special interest groups and security forums.
+G.GV.P-01,SP-01,Mandates the annual review of information security policies.
+G.GV.P-02,SP-02,Governs the dissemination of security instructions to all relevant parties.
+G.GV.P-03,SP-03,Manages the lifecycle of project-specific security requirements.
+G.GV.A-01,OIS-06,Operationalizes the risk assessment process for cloud services.
+G.GV.A-02,OIS-07,Integrates supply chain risks into the overarching risk management plan.
+G.GV.A-03,RB-01,Specifies the risk treatment plan for identified multi-tenant vulnerabilities.
+G.GV.A-06,BC-01,Mandates disclosure of the primary jurisdiction and data center locations.
+G.GV.A-06,BC-02,Discloses the location of administrative and support services.
+G.GV.A-06,BC-03,Governs transparency regarding government requests for data.
+G.GV.A-06,PI-01,Provides the service description and instructions for data portability.
+P.AC.I-01,IDM-01,Governs the user account management policy.
+P.AC.I-02,IDM-02,Ensures unique identification of all users and services.
+P.AC.I-03,IDM-03,Manages the provisioning and de-provisioning of user access.
+P.AC.I-04,IDM-04,Enforces the use of individualized accounts over shared accounts.
+P.AC.I-05,IDM-05,Implements regular review of access rights.
+P.AC.I-06,IDM-06,Enforces authentication strength (complexity and length).
+P.AC.I-07,IDM-07,Manages secret authentication information (password rotation/policy).
+P.AC.I-08,IDM-08,Governs the secure use of authentication information.
+P.AC.I-09,IDM-09,Mandates Multi-Factor Authentication (MFA) for all console access.
+P.AC.I-10,IDM-10,Controls access to utility programs and sensitive system files.
+P.AC.I-11,IDM-11,Restricts access to system source code.
+P.AC.I-12,IDM-12,Manages privileged access rights (Privileged Access Management).
+P.AC.I-13,IDM-13,Restricts access to technical management interfaces.
+P.AC.I-14,IDM-14,Governs authentication for remote access via public networks.
+P.AC.I-15,IDM-15,Enforces session timeouts and inactive account disablement (90 days).
+P.AC.I-16,PS-01,Secures the data center physical perimeter and entry points.
+P.AC.I-17,PS-02,Implements physical protection against natural disasters.
+P.AC.I-18,PS-03,Protects equipment from physical threats and environmental hazards.
+P.AC.I-19,PS-04,Governs the visitor access policy and entry logs for sites.
+P.AC.I-20,PS-05,Secures power and utility systems from interruptions.
+P.AC.S-01,AM-01,Maintains the technical inventory of all information assets.
+P.AC.S-02,AM-02,Assigns owners to all identified information assets.
+P.AC.S-03,AM-06,Implements classification labeling for all data assets.
+P.DS-01,DEV-01,Governs the secure software development lifecycle policy.
+P.DS-02,DEV-02,Enforces change management for systems and applications.
+P.DS-03,DEV-03,Restricts changes to software packages and libraries.
+P.DS-04,DEV-04,Implements secure coding guidelines (e.g. OWASP).
+P.DS-05,DEV-05,Enforces security testing during the development process.
+P.DS-06,DEV-06,Governs the use of third-party components (SCA).
+P.DS-07,DEV-07,Secures the development environment and CI/CD pipeline.
+P.DS-08,DEV-08,Manages outsourced software development security.
+P.DS-10,PSS-01,Ensures integrity of the cloud service delivery platform.
+P.DS-11,PSS-02,Implements secure configuration and hardening benchmarks.
+P.DS-12,PSS-03,Governs the security of the virtualization/container layer.
+P.DS-15,CRY-01,Governs the policy for the use of cryptographic controls.
+P.DS-16,CRY-02,Enforces encryption of data in transit (TLS 1.2+).
+P.DS-17,CRY-03,Enforces encryption of data at rest (AES-256).
+P.DS-18,CRY-04,Manages the lifecycle of cryptographic keys (generation to destruction).
+M.MO-01,OPS-01,Governs the operational procedures for system health.
+M.MO-02,OPS-02,Implements malware protection on all cloud systems.
+M.MO-03,OPS-03,Manages the update and patch management process.
+M.MO-04,OPS-04,Ensures monitoring of system resources and capacity.
+M.MO-05,OPS-13,Mandates generation and protection of audit logs.
+M.MO-06,OPS-14,Ensures clock synchronization across the cloud environment.
+M.MO-07,OPS-15,Enforces regular review of logs for suspicious activity.
+M.MO-08,OPS-16,Protects logging facilities from unauthorized access.
+M.MO-10,OPS-17,Manages the monitoring of service availability.
+M.RM-01,SUP-01,Governs the security requirements for third-party suppliers.
+M.RM-02,SUP-02,Manages the security of the supplier supply chain.
+M.RM-03,SUP-03,Enforces regular monitoring of supplier service performance.
+M.RM-04,SUP-04,Governs the management of changes to supplier services.
+I.IM-01,SIM-01,Establishes the security incident management policy.
+I.IM-02,SIM-02,Governs the reporting of security events and weaknesses.
+I.IM-03,SIM-03,Manages the response to security incidents.
+I.IM-04,SIM-04,Ensures learning and improvement from past incidents.
+I.IM-05,SIM-05,Governs the collection of forensic evidence.
+I.OD-01,AM-03,Defines the data classification categories (Confidentiality).
+I.SC-01,SUP-01,Governs the vetting of critical third-party software.
+V.TE-01,IS-03,Operationalizes the internal audit of the ISMS.
+V.TE-02,OPS-19,Enforces periodic vulnerability scanning of the cloud stack.
+V.TE-03,OPS-20,Mandates annual external penetration testing.
+R.IM-01,BCM-01,Establishes the business continuity and disaster recovery plan.
+R.IM-02,BCM-02,Enforces regular testing of recovery procedures.
+R.IM-03,OPS-06,Governs the backup and restoration of data.
+R.IM-04,OPS-07,Ensures georedundancy of backup copies.
+R.IC.E-01,INQ-01,Manages responses to government investigation requests.
+D.AE-04,OPS-12,Ensures secure sanitization of storage media.

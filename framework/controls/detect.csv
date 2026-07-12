@@ -1,0 +1,12 @@
+control_id,parent_id,domain,title,objective,requirement_count
+D.AD,,DETECT,Anomaly Detection,"Detect unusual system, data, or AI behavior through statistical, heuristic, and machine learning models to prevent or mitigate emerging threats.",6
+D.CM,,DETECT,Continuous Monitoring,"Establish automated, continuous monitoring of security, privacy, and AI model performance to detect deviations, anomalous behaviors, or policy violations in real time.",8
+D.ID,,DETECT,IOC Detection,Identify and respond to Indicators of Compromise (IOCs) that signal potential intrusion or malicious activity across enterprise and AI systems.,7
+D.IM,,DETECT,Incident Management,"Ensure rapid identification, containment, analysis, and recovery from security and AI-related incidents to reduce impact and recurrence.",6
+D.MT,,DETECT,Monitor Third Parties,"Continuously monitor vendor and partner ecosystems for cybersecurity, privacy, and AI compliance risks.",6
+D.SA-01,D.SA,DETECT,Performing Security Assessments,Assess the effectiveness of controls through independent and systematic security testing across digital and AI environments.,6
+D.SA-02,D.SA,DETECT,Penetration Testing,Simulate adversarial attacks to evaluate system and model resilience.,6
+D.SA-03,D.SA,DETECT,Vulnerability Testing,"Identify and mitigate exploitable weaknesses across systems, applications, and AI components.",7
+D.SA-04,D.SA,DETECT,Tabletop Exercises (BCDR),"Test business continuity, disaster recovery, and incident response readiness through structured simulations.",7
+D.SA-05,D.SA,DETECT,Code Scanning,Ensure application and AI codebases are free from known security defects and insecure configurations.,8
+D.TI,,DETECT,Threat Intelligence,"Integrate actionable threat intelligence into detection and defense programs to anticipate, contextualize, and mitigate evolving threats.",7

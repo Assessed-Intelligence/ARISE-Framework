@@ -1,0 +1,8 @@
+arise_control_id,Texas TRAIGA Reference,rationale
+G.GV.A-01,Rebuttable Presumption (Safe Harbor),TRAIGA offers a legal defense (rebuttable presumption of care) if the organization adopts a recognized framework like NIST AI RMF. This control operationalizes that adoption to shield the firm from liability.
+G.LR-05,Prohibited Intent (Discrimination),The Act prohibits developing AI with the intent to unlawfully discriminate. This control mandates the documentation of intent via ethical charters and design purpose statements to prove the system was designed for a lawful purpose.
+V.TE-02,Adversarial Testing (Red Teaming),To disprove intent to harm organizations must show they tested for it. This control requires adversarial testing (red-teaming) to identify and mitigate manipulative or harmful behaviors before deployment.
+G.GV.A-06,Consumer Disclosure,State agencies and healthcare providers must disclose when a consumer is interacting with an AI system. This control governs the clear and conspicuous notice requirements mandated by the Act.
+I.OD-03,Biometric Consent (CUBI Amendment),TRAIGA amends Texas biometric laws to clarify that online images are not public domain for AI training without consent. This control enforces the strict consent and retention protocols for biometric data inputs.
+I.SC-01,Developer vs. Deployer Indemnity,Liability depends on who intended the misuse. This control requires clear contractual delineation of model purpose between the developer (vendor) and deployer (you) to allocate liability correctly.
+R.IC.E-01,Cure Period Documentation,The AG provides a 60-day cure period for violations. This control establishes the incident response protocol to rapidly identify

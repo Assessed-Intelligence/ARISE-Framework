@@ -1,0 +1,26 @@
+arise_control_id,GDPR Article,rationale
+G.LR-05,Art. 5(1) Principles (Fairness/Accountability),Operationalizes the core principles of fairness and accountability by establishing an Ethics Committee to validate that processing aligns with fundamental rights.
+I.OD-03,Art. 5(1)(c) Data Minimization,Enforces data minimization and storage limitation principles by establishing mandatory retention schedules and destruction protocols.
+G.GV.P-01,Art. 6 Lawfulness of Processing,Requires a Data Management Policy that explicitly documents the lawful basis (e.g. Consent
+G.LR-02,Art. 9 Special Category Data,Enforces stricter controls (e.g. explicit consent
+G.GV.A-06,Art. 13-14 Right to be Informed,Mandates the creation of Data Transparency Documents and Deployer Guides to serve as the functional privacy notices required for transparency.
+I.OD-02,Art. 15 Right of Access (DSAR),Enforces classification and indexing of data assets to enable the rapid retrieval of personal data required for Data Subject Access Requests.
+I.OD-03,Art. 16 Right to Rectification,Operationalizes the correction of inaccurate personal data. This control ensures you have the lifecycle management to modify records not just delete them.
+D.AE-04,Art. 17 Right to Erasure (Right to be Forgotten),Governs the secure deletion and sanitization of data and systems providing the necessary audit evidence of destruction.
+I.OD-02,Art. 18 Right to Restriction,Requires the technical capability to freeze processing of specific records without deleting them (e.g. during a legal dispute).
+G.GV.A-06,Art. 20 Right to Portability,Mandates the ability to export personal data in a structured commonly used machine-readable format (e.g. JSON/CSV export features).
+G.LR-05,Art. 21 Right to Object,Governs the mechanism for individuals to object to processing (specifically direct marketing or legitimate interest) requiring a suppression list.
+P.AC.M-02,Art. 22 Auto-Decision Making,Operationalizes Human-in-the-Loop protocols to ensure human intervention is available and competent for significant automated decisions.
+P.AC.M-03,Art. 22 Logic of Processing,Mandates the use of interpretability methods (e.g. SHAP
+P.DS-01,Art. 25 Privacy by Design,Integrates privacy checks (minimization
+M.RM-01,Art. 26 Joint Controllers,Requires a specific legal arrangement when two parties determine purposes together. This control enforces the allocation of responsibilities in the contract.
+M.RM-01,Art. 28 Processor Management,Enforces due diligence and the execution of Data Processing Agreements (DPAs) with strict audit rights over third-party vendors.
+P.AC.S-01,Art. 30 Records of Processing (RoPA),Requires technical inventory and metadata tagging of datasets (Source
+R.IC.E-01,Art. 31 Cooperation with Authority,Establishes the formal protocol for responding to and cooperating with Supervisory Authority inquiries or investigations.
+P.AC.I-01,Art. 32 Security of Processing,Covers the foundational technical measures (access control
+R.IC.E-01,Art. 33-34 Breach Notification,Establishes the protocol for the 72-hour regulatory notification window to Supervisory Authorities and communication to data subjects.
+G.LR-02,Art. 35 DPIA,Explicitly mandates the execution of Data Protection Impact Assessments (DPIA) for high-risk processing activities.
+G.ST.O-01,Art. 37 Data Protection Officer,Used to formally designate the DPO (or AI Compliance Lead) and define their independence and reporting lines.
+G.GV.P-01,Art. 38 Position of the DPO,Ensures the DPO is involved in all privacy issues properly and in a timely manner protecting their independence in policy.
+I.OD-03,Art. 39 Tasks of the DPO,Operationalizes the DPO's duty to monitor compliance train staff and advise on DPIAs through structured oversight activities.
+I.SC-01,Art. 44 Intl. Data Transfers,Validates data geolocation and ensures cross-border flows are supported by valid transfer mechanisms (e.g. SCCs).

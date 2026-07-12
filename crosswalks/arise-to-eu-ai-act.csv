@@ -1,0 +1,58 @@
+arise_control_id,EU AI Act,rationale
+D.AD,Annex IV,Control 'Anomaly Detection' primarily addresses monitoring and logging
+D.CM,Annex IV,Control 'Continuous Monitoring' primarily addresses monitoring and logging
+D.IA,"Art. 17, 74",Control 'Internal Audit' primarily addresses governance and leadership
+D.IM,Art. 62,Control 'Incident Management' primarily addresses incident response and management
+D.MT,Art. 28,Control 'Monitor Third Parties' primarily addresses monitoring and logging
+G.AC-01,"Art. 16, 17",Control 'Top Management Commitment' primarily addresses governance and leadership
+G.AC-02,"Art. 16, 17",Control 'Charters & Committees' primarily addresses incident response and management
+G.AC-03,"Art. 16, 17",Control 'Executive Leadership & Board Oversight' primarily addresses incident response and management
+G.GV.A-01,Art. 9–15,Control 'Accountability' primarily addresses general security and AI governance. EU AI Act provisions Art. 9–15 addressing obligations for high-risk AI systems
+G.GV.A-02,"Art. 10, 14",Control 'Fairness' primarily addresses incident response and management. EU AI Act provisions Art. 10
+G.GV.A-04,Art. 10–15,Control 'Cultural Considerations' primarily addresses code
+G.GV.A-06,Art. 9–15,Control 'Transparency' primarily addresses general security and AI governance. EU AI Act provisions Art. 9–15 addressing obligations for high-risk AI systems
+G.GV.C-01,Art. 17,Control 'COC: Acceptable Use' primarily addresses monitoring and logging
+G.GV.C-02,Recitals 27–39,Control 'COC: Data Ethics' primarily addresses governance and leadership
+G.GV.C-03,Art. 5–10,Control 'COC: Ethical Principles for AI & Tech' primarily addresses monitoring and logging
+G.GV.P-01,Art. 9,Control 'Core Policies' primarily addresses monitoring and logging
+G.GV.P-02,Annex IV §2(f),Control 'Security Policies' primarily addresses monitoring and logging
+G.GV.P-03,Art. 15,Control 'Response & Resilience Policies' primarily addresses incident response and management
+G.GV.P-04,Art. 9–15,Control 'AI Policies' primarily addresses monitoring and logging
+G.GV.P-05,"Art. 10, 52",Control 'Privacy Policies' primarily addresses incident response and management
+G.GV.P-06,Recitals 27–39,Control 'Ethics Policies' primarily addresses monitoring and logging
+G.GV.P-07,Art. 17(2),Control 'HR Policies' primarily addresses governance and leadership. EU AI Act provisions Art. 17(2) addressing obligations for high-risk AI systems
+G.GV.P-08,Art. 28–31,Control 'Supply-Chain Policies' primarily addresses monitoring and logging
+G.GV.P-09,Art. 10,Control 'Data-Governance Policies' primarily addresses monitoring and logging
+G.GV.S-01,Art. 17; Annex IV,Control 'Core Standards' primarily addresses third-party and vendor risk
+G.GV.S-02,Art. 15,Control 'Security Standards' primarily addresses monitoring and logging
+G.GV.S-03,Art. 15,Control 'Response & Resilience Standards' primarily addresses incident response and management
+G.GV.S-04,Art. 9–15,Control 'AI Standards' primarily addresses monitoring and logging
+G.LR-01,Art. 10,Control 'Data Privacy Compliance' primarily addresses monitoring and logging
+G.LR-02,Art. 10,Control 'Intellectual Property (IP) Management' primarily addresses monitoring and logging
+G.LR-03,Art. 9–15,Control 'AI Regulatory Compliance' primarily addresses monitoring and logging
+G.LR-04,Art. 15,Control 'Cybersecurity Regulatory Compliance' primarily addresses monitoring and logging
+G.LR-05,"Art. 10, 14",Control 'Ethical Use
+G.PR-01,"Art. 10, 52",Control 'Privacy Program' primarily addresses monitoring and logging
+G.RM-01,Art. 9,Control 'Risk Management Framework' primarily addresses monitoring and logging
+G.RM-02,Art. 9(2),Control 'Risk Appetite and Tolerance' primarily addresses governance and leadership. EU AI Act provisions Art. 9(2) addressing obligations for high-risk AI systems
+G.RM-03,Art. 9–15,Control 'Risk Management Program: AI' primarily addresses monitoring and logging
+G.RM-04,Art. 15,Control 'Risk-Management Program: Cybersecurity' primarily addresses monitoring and logging
+G.RM-05,Art. 28–31,Control 'Risk-Management Program: Third-Party' primarily addresses monitoring and logging
+G.ST.B,Technical file,Control 'System Boundaries' primarily addresses third-party and vendor risk
+G.ST.O-01,"Art. 9, 16, 17",Control 'Mission Statement' primarily addresses monitoring and logging
+G.ST.O-02,"Art. 9, 16, 17",Control 'Goals & Context' primarily addresses monitoring and logging
+G.ST.S-01,"Art. 9, 16, 17",Control 'AI Scope' primarily addresses monitoring and logging
+G.ST.S-02,"Art. 9, 16, 17",Control 'Security Scope' primarily addresses general security and AI governance. EU AI Act provisions Art. 9
+G.ST.S-03,"Art. 9, 16, 17",Control 'Regulatory Scope' primarily addresses monitoring and logging. EU AI Act provisions Art. 9
+M.OV-01,Art. 9–15,Control 'Ethics Oversight Committee' primarily addresses monitoring and logging
+M.OV-02,Art. 10,Control 'Privacy Oversight Committee' primarily addresses incident response and management
+M.OV-03,Art. 15,Control 'Security Oversight Committee' primarily addresses monitoring and logging
+M.RM-01,Art. 28–31,Control 'Third-Party Risk Management' primarily addresses monitoring and logging
+M.RM-02,Art. 9–15,Control 'AI Risk Management' primarily addresses monitoring and logging
+M.RM-03,Art. 15,Control 'Cybersecurity Risk Management' primarily addresses monitoring and logging
+R.IC.E-01,"Art. 62, Art. 33",Control 'Regulatory Reporting' primarily addresses incident response and management
+R.IC.E-03,Recital 93,Control 'Information-Sharing Communities' primarily addresses monitoring and logging. EU AI Act provisions Recital 93 addressing obligations for high-risk AI systems
+R.IC.I-02,"Art. 17, Art. 62",Control 'Top Management' primarily addresses incident response and management
+R.IC.I-03,Art. 62,Control 'Incident Response Team' primarily addresses monitoring and logging
+R.IC.P,"Art. 52, Art. 62",Control 'Public Updates / Disclosures' primarily addresses governance and leadership. EU AI Act provisions Art. 52
+V.TE-01,Art. 17,Control 'Testing' primarily addresses governance and leadership

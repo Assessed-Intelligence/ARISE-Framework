@@ -1,0 +1,17 @@
+arise_control_id,Singapore Criterion,rationale
+G.AC-01,Internal Governance Structures,Assigns executive accountability and budget for AI which fulfills the Singapore requirement for a clear governance mandate and traceable human leadership.
+G.AC-02,Internal Governance Structures,Establishes cross-functional oversight bodies to ensure diverse perspectives like Legal and Risk are involved in AI decisioning as recommended.
+G.GV.A-01,Internal Governance Structures,Defines the Kill Switch and intervention authority to bridge the gap between general management and the operational ability to stop an unsafe system.
+G.GV.A-05,Determining AI Decision-Making Model,Mandates documentation of the Record of Decision when balancing performance versus ethics providing the audit trail for model selection.
+G.GV.A-06,Stakeholder Interaction,Requires the use of Model Cards and AI Fact Sheets to provide specific technical disclosures to stakeholders beyond general transparency.
+I.AM-01,Operations Management,Creates an authoritative registry of all AI assets to prevent Shadow AI and ensure every system is mapped to a specific risk tier and owner.
+I.IM-01,Determining AI Decision-Making Model,Evaluates rights and safety risks pre-deployment to determine the appropriate human-in-the-loop oversight level required by the framework.
+P.AC.S-01,Operations Management,Requires data provenance and sensitivity labeling to satisfy Singapore requirements for data quality and ensure training data is legally sourced.
+P.AC.M-01,Operations Management,Implements quantitative fairness metrics like Disparate Impact Ratio to transform the Fairness principle into a measurable technical unit test.
+P.AC.M-03,Determining AI Decision-Making Model,Mandates audience-appropriate interpretability techniques like SHAP to ensure model logic is explainable to individuals impacted by decisions.
+M.DV-01,Operations Management,Embeds TEVV into the development lifecycle to ensure that the Singapore principles are engineering constraints rather than afterthoughts.
+M.CM-01,Operations Management,Ensures updates to models or data undergo a risk review to prevent drift from introducing new ethical or security vulnerabilities after launch.
+D.AD-req-01,Operations Management,Establishes normal activity profiles for models to allow for the detection of subtle ethical or performance shifts indicating degradation.
+D.CM-01,Operations Management,Provides real-time oversight of model performance to satisfy the Singapore requirement for ongoing algorithm management and operational integrity.
+R.IC.E-01,Stakeholder Interaction,Maintains a registry of jurisdictional reporting thresholds to ensure any AI failures are communicated to regulators within legal timeframes.
+V.CI-01,Stakeholder Interaction,Provides feedback loops for impacted communities to identify and mitigate unintended consequences not caught during initial testing.

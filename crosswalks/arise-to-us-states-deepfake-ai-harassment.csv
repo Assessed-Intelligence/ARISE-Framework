@@ -1,0 +1,6 @@
+arise_control_id,rationale
+P.PY-03,Direct directional alignment. Safety/security controls should prohibit harmful generation and distribution of abusive synthetic media.
+R.IC.E-04,Strong directional alignment. Consent and notice controls support privacy-protection aspects of synthetic media laws.
+D.IM,Strong alignment. Incident management is the right operational control for responding to reports of AI-enabled abuse.
+P.AC.M-02,"Strong alignment. This maps to misuse, prompt abuse, impersonation, evasion, and harmful content-generation vectors."
+V.CI-03,Partial alignment. Verification supports detection and provenance checks but state deepfake statutes often focus on conduct and consent rather than technical watermarking.

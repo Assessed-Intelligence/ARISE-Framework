@@ -1,0 +1,84 @@
+arise_control_id,NIST SP 800-53,rationale
+D.AD,SI-4,Control 'Anomaly Detection' primarily addresses monitoring and logging
+D.CM,CA-7,Control 'Continuous Monitoring' primarily addresses monitoring and logging
+D.IA,CA-2; CA-7,Control 'Internal Audit' primarily addresses governance and leadership
+D.ID,SI-4,Control 'IOC Detection' primarily addresses monitoring and logging
+D.IM,IR-4,Control 'Incident Management' primarily addresses incident response and management
+D.MT,SR-3; SR-5,Control 'Monitor Third Parties' primarily addresses monitoring and logging
+D.SA,CA-2,Control 'Security Assessments' primarily addresses risk assessment and management
+D.SA-01,CA-2,Control 'Performing Security Assessments' primarily addresses risk assessment and management
+D.SA-02,CA-8,Control 'Penetration Testing' primarily addresses business continuity and resilience. NIST SP 800-53 controls CA-8 covering security assessment and authorization
+D.SA-03,RA-5,Control 'Vulnerability Testing' primarily addresses code
+D.SA-04,IR-2,Control 'Tabletop Exercises (BCDR)' primarily addresses incident response and management
+D.SA-05,SA-11; SI-2,Control 'Code Scanning' primarily addresses code
+D.TI,PM-16,Control 'Threat Intelligence' primarily addresses monitoring and logging
+G.AC-01,PM-1,Control 'Top Management Commitment' primarily addresses governance and leadership
+G.AC-02,PM-1,Control 'Charters & Committees' primarily addresses incident response and management
+G.AC-03,PM-1,Control 'Executive Leadership & Board Oversight' primarily addresses incident response and management
+G.GV.A-01,RA-3,Control 'Accountability' primarily addresses general security and AI governance. NIST SP 800-53 controls RA-3 covering risk assessment articulate requirements that are correlated with this control’s objectives and activities.
+G.GV.C-01,PL-4,Control 'COC: Acceptable Use' primarily addresses monitoring and logging
+G.GV.C-02,PL-4; PM-18,Control 'COC: Data Ethics' primarily addresses governance and leadership
+G.GV.C-03,PL-4; SA-8,Control 'COC: Ethical Principles for AI & Tech' primarily addresses monitoring and logging
+G.GV.P-01,PM-1,Control 'Core Policies' primarily addresses monitoring and logging
+G.GV.P-02,PL-1; PM-1,Control 'Security Policies' primarily addresses monitoring and logging
+G.GV.P-03,IR-1; CP-1,Control 'Response & Resilience Policies' primarily addresses incident response and management
+G.GV.P-04,PM-1; SA-8,Control 'AI Policies' primarily addresses monitoring and logging
+G.GV.P-05,PT-1; PM-19,Control 'Privacy Policies' primarily addresses incident response and management
+G.GV.P-07,PS-1,Control 'HR Policies' primarily addresses governance and leadership. NIST SP 800-53 controls PS-1 covering personnel security
+G.GV.P-08,SR-1; PM-30,Control 'Supply-Chain Policies' primarily addresses monitoring and logging
+G.GV.P-09,PM-1; MP-1,Control 'Data-Governance Policies' primarily addresses monitoring and logging
+G.GV.S-02,PL-1; CM-6,Control 'Security Standards' primarily addresses monitoring and logging
+G.GV.S-03,IR-1; CP-1,Control 'Response & Resilience Standards' primarily addresses incident response and management
+G.GV.S-04,PM-1; SA-8,Control 'AI Standards' primarily addresses monitoring and logging
+G.LR-01,PM-19,Control 'Data Privacy Compliance' primarily addresses monitoring and logging
+G.LR-02,SA-4; PL-8,Control 'Intellectual Property (IP) Management' primarily addresses monitoring and logging
+G.LR-04,PM-5,Control 'Cybersecurity Regulatory Compliance' primarily addresses monitoring and logging
+G.PR-01,PM-19; PT-1,Control 'Privacy Program' primarily addresses monitoring and logging
+G.RM-01,RA-3; PM-9,Control 'Risk Management Framework' primarily addresses monitoring and logging
+G.RM-02,RA-3,Control 'Risk Appetite and Tolerance' primarily addresses governance and leadership. NIST SP 800-53 controls RA-3 covering risk assessment articulate requirements that are correlated with this control’s objectives and activities.
+G.RM-03,RA-3; SA-8,Control 'Risk Management Program: AI' primarily addresses monitoring and logging
+G.RM-04,RA-3; PM-9,Control 'Risk-Management Program: Cybersecurity' primarily addresses monitoring and logging
+G.RM-05,SR-2; SR-3,Control 'Risk-Management Program: Third-Party' primarily addresses monitoring and logging
+G.ST.B,PL-2; PM-5,Control 'System Boundaries' primarily addresses third-party and vendor risk
+G.ST.S-01,PL-2,Control 'AI Scope' primarily addresses monitoring and logging
+G.ST.S-02,PL-2; PM-5,Control 'Security Scope' primarily addresses general security and AI governance. NIST SP 800-53 controls PL-2; PM-5 covering planning
+I.AM-02,CM-8; PM-5,Control 'System Asset Management' primarily addresses monitoring and logging
+I.DG-01,PM-5; CM-8,Control 'Data Mapping' primarily addresses monitoring and logging
+I.RM-01,RA-3,Control 'Risk Identification' primarily addresses monitoring and logging
+I.RM-02,PM-12,Control 'Insider Threat' primarily addresses monitoring and logging
+I.SC-01,SR-2,Control 'Supply Chain Risk' primarily addresses monitoring and logging
+I.TH-01,CA-7; RA-3,Control 'Security Thresholds' primarily addresses monitoring and logging. NIST SP 800-53 controls CA-7; RA-3 covering security assessment and authorization
+M.CM,CM-3,Control 'Change Management' primarily addresses code
+M.DV-02,SA-15,Control 'Software Development Lifecycle (SDLC)' primarily addresses code
+M.HR,PS-3; PS-4; PS-5,Control 'Human Resources' primarily addresses monitoring and logging
+M.OV-02,PM-1; PM-21,Control 'Privacy Oversight Committee' primarily addresses incident response and management
+M.OV-03,PM-1,Control 'Security Oversight Committee' primarily addresses monitoring and logging
+M.PM,PM-6; CA-7,Control 'Performance Metrics' primarily addresses monitoring and logging
+M.PR,PM-19; PT-1,Control 'Privacy Program' primarily addresses monitoring and logging
+M.RM-01,SR-2; SR-3,Control 'Third-Party Risk Management' primarily addresses monitoring and logging
+M.RM-03,RA-3; PM-9,Control 'Cybersecurity Risk Management' primarily addresses monitoring and logging
+M.RP,PM-15; PM-31,Control 'Reporting' primarily addresses incident response and management
+P.AT-01,AT-2; AT-3,Control 'AI Training' primarily addresses governance and leadership
+P.DS-01,MP-3; MP-4,Control 'Classification & Handling' primarily addresses access control and identity. NIST SP 800-53 controls MP-3; MP-4 covering media protection
+P.DS-02,SC-13,Control 'Cryptographic Management' primarily addresses general security and AI governance. NIST SP 800-53 controls SC-13 covering system and communications protection
+P.ES,CM-7; SI-3,Control 'Endpoint Security' primarily addresses monitoring and logging
+P.IM,IA-2; IA-4,Control 'Identity Management' primarily addresses monitoring and logging
+P.NS,SC-7; AC-4,Control 'Network Security' primarily addresses monitoring and logging
+P.PC,PT-1,Control 'Privacy Controls' primarily addresses monitoring and logging
+P.PS,SC-3,Control 'Platform Security' primarily addresses monitoring and logging
+P.PY-01,PE-2; PE-3,Control 'Access Controls' primarily addresses monitoring and logging
+P.PY-02,PE-10; PE-11,Control 'Environment Controls' primarily addresses business continuity and resilience. NIST SP 800-53 controls PE-10; PE-11 covering physical and environmental protection
+P.PY-03,PE-13; PE-14,Control 'Safety & Security' supports physical safety and secure evacuation of personnel and sensitive media. NIST SP 800-53 controls PE-13; PE-14 covering physical and environmental protection
+P.RC,CP-2; CP-7; CP-8,Control 'Resilience Controls' primarily addresses monitoring and logging
+P.SD,SA-8; SA-11,Control 'Secure Development' primarily addresses code
+R.IC.E-01,IR-6,Control 'Regulatory Reporting' primarily addresses incident response and management
+R.IC.E-02,IR-6,Control 'Law Enforcement Partners' primarily addresses monitoring and logging. NIST SP 800-53 controls IR-6 covering incident response
+R.IC.E-03,PM-15; PM-16,Control 'Information-Sharing Communities' primarily addresses monitoring and logging. NIST SP 800-53 controls PM-15; PM-16 covering program management
+R.IC.E-04,SE-2; IR-6,Control 'Privacy Notification Requirements' primarily addresses incident response and management
+R.IC.I-01,IR-6; AT-2,Control 'Personnel' primarily addresses monitoring and logging
+R.IC.I-02,IR-6; PM-1,Control 'Top Management' primarily addresses incident response and management
+R.IC.I-03,IR-7; IR-2,Control 'Incident Response Team' primarily addresses monitoring and logging
+R.IC.P,IR-6; PM-1,Control 'Public Updates / Disclosures' primarily addresses governance and leadership. NIST SP 800-53 controls IR-6; PM-1 covering incident response
+R.IC.R,IR-4; CP-10,Control 'Recovery Activity & Restoration' primarily addresses monitoring and logging
+R.IR-02,IR-4; IR-5; IR-6,Control 'Incident Response: Cybersecurity' primarily addresses monitoring and logging
+V.TE-03,CA-2; CA-7,Control 'Verification' primarily addresses monitoring and logging

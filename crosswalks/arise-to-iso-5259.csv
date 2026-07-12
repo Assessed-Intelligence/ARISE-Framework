@@ -1,0 +1,4 @@
+arise_control_id,ISO IEC 5259 Control ID(s),ISO IEC 5259 Control Item(s),rationale
+P.DS-01,ISO/IEC 5259-1; 5259-2; 5259-3; 5259-4; 5259-5,"Data quality terminology, measures, governance, process framework, ML dataset quality, and data quality governance.",ARISE dataset governance directly maps to the full ISO/IEC 5259 data-quality series.
+V.TE-01,ISO/IEC 5259-2; 5259-3; 5259-4,"Measurement and validation of ML dataset quality, data quality dimensions, and drift.",ARISE testing maps to measuring and validating dataset quality before and after deployment.
+G.RM-04,ISO/IEC 5259-3; 5259-5,"Data quality risk identification, governance, treatment, and process improvement.",ARISE risk management supports management of risks created by poor data quality.

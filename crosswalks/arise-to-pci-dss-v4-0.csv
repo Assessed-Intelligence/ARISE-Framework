@@ -1,0 +1,28 @@
+arise_control_id,PCI DSS v4.0 Requirement,rationale
+G.GV.P-01,Req 12.1 Policy Maintenance,Governs the lifecycle and annual review of the information security policy required by PCI.
+G.GV.P-01,Req 12.3.2 Targeted Risk Analysis (TRA),Mandates execution of TRAs for any controls validated using the Customized Approach.
+G.GV.S-01,Req 12.1 Roles & Responsibilities,Defines the security organization and assigns executive accountability for CDE protection.
+G.GV.S-01,Req 12.10.1 IRP Coverage,Ensures the Incident Response Plan includes 24/7/365 coverage and escalation paths.
+P.NS,Req 1 Network Security,Operationalizes network ACLs and firewalls as authorization boundaries (deny-all default).
+P.AC.I-01,Req 7 Need-to-Know,Enforces strict restriction of access to cardholder data based on business need-to-know.
+P.AC.I-01,Req 8.4.2 MFA for All Access,Mandates Multi-Factor Authentication (MFA) for ALL access to the CDE (remote and internal).
+P.AC.I-01,Req 8.2.4 User ID Lifecycle,Enforces immediate revocation of terminated users and disablement of inactive accounts (90 days).
+P.AC.I-01,Req 8.3.6 Password Complexity,Enforces minimum length (12+ chars) and complexity if MFA is not present.
+P.AC.I-01,Req 9 Physical Access,Controls and logs physical entry to sensitive areas (data centers/server rooms) housing CDE.
+P.DS-01,Req 2 Secure Configuration,Mandates system hardening (benchmarks) and removal of vendor default credentials.
+P.DS-01,Req 6 Secure Software,Enforces secure coding standards (OWASP) and vulnerability management in the SDLC.
+P.DS-01,Req 6.4.3 Script Management,Governs the authorization and integrity of scripts loaded in payment pages to prevent skimming.
+P.DS-01,Req 6.3.2 Custom Software Inventory,Maintains inventory of proprietary code to ensure inclusion in vulnerability scans.
+P.DS-02,Req 3 Account Data Protection,Governs encryption of PAN at rest and strict key management procedures.
+P.DS-02,Req 4 Transmission Security,Requires strong cryptography (TLS 1.2+) for data transmission over public networks.
+M.MO-01,Req 5 Malware Protection,Operationalizes anti-malware deployment and ensures mechanisms cannot be disabled by users.
+M.MO-01,Req 11.5.1 File Integrity Monitoring (FIM),Deploys FIM tools to detect unauthorized changes to critical system files and configs.
+I.IM-03,Req 10 Logging & Monitoring,Mandates generation protection and daily review of audit logs for forensic trails.
+I.IM-03,Req 12.10 Incident Response,Establishes the Incident Response Plan (IRP) for immediate reaction to CDE breaches.
+V.TE-02,Req 11 Security Testing,Operationalizes vulnerability scans penetration testing and IDS/IPS maintenance schedules.
+V.TE-02,Req 11.6.1 Change Detection,Requires mechanism to detect tampering with payment page headers/content (7-day frequency).
+I.OD-02,Req 12.5 Scope Definition,Requires inventory and classification of data assets enabling accurate PCI Scoping.
+I.OD-02,Req 3.5.1 PAN Masking,Enforces display masking (e.g. first 6 last 4) of PAN on screens for unauthorized personnel.
+M.RM-01,Req 12.8 Service Providers,Governs due diligence and AOC collection for Third-Party Service Providers (TPSPs).
+D.AE-04,Req 9.10 Media Destruction,Operationalizes secure destruction of media containing cardholder data prior to disposal.
+G.GV.A-06,Req 12.6 Security Awareness,Governs the formal security awareness education program for all personnel.

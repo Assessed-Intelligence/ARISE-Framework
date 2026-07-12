@@ -1,0 +1,81 @@
+requirement_id,control_id,priority,requirement
+I.AM-01-req-01,I.AM-01,1,"Inventory Governance: Define ownership (AI Product Owner, Model Owner, Data Steward). Establish registration criteria for what constitutes an AI system and subcomponents."
+I.AM-01-req-02,I.AM-01,1,Registration Before Use: Require registration and approval of every AI system before training or production use; enforce via CI/CD and deployment gates.
+I.AM-01-req-03,I.AM-01,2,"Minimum Metadata: Capture system name/ID, purpose/intended use, prohibited use, risk tier, business criticality, owners, data categories/rights/license, training/inference data sources, model family, versions, hyperparameters, lineage, fine-tune history, evaluation metrics, deployment targets, endpoints, dependencies (libraries/models/APIs), and support/SLA."
+I.AM-01-req-04,I.AM-01,2,"Lifecycle Traceability: Link code repos, data catalogs, MLOps registries, feature stores, and experiment trackers; track model version transitions, deprecation, and retirement."
+I.AM-01-req-05,I.AM-01,2,"Risk & Compliance Fields: Include risk tier rationale, TEVV evidence pointers, DPIA/AI impact status, human-oversight points, and documentation links (model/system cards)."
+I.AM-01-req-06,I.AM-01,2,Review Cadence: Quarterly review of each record’s accuracy; immediate updates for material changes.
+I.AM-01-req-07,I.AM-01,2,Availability & Backup: Ensure registry high availability; back up records and associated artifacts.
+I.AM-01-req-08,I.AM-01,3,"Discovery & Reconciliation: Auto-discover unregistered assets via code/registry scans, cloud tags, API gateway logs; reconcile with CMDB and data catalogs at least monthly."
+I.AM-01-req-09,I.AM-01,3,Change Control Hooks: Block promotion to production unless inventory entry is current and approved; prevent deployment with missing/stale metadata.
+I.AM-01-req-10,I.AM-01,3,"Regulatory Registry Interoperability: Automate the mapping and export of inventory data to schema formats required by external regulatory databases (e.g., EU AI Act high-risk database) to streamline compliance reporting."
+I.AM-02-req-01,I.AM-02,1,"Authoritative Inventory: Central CMDB integrated with cloud accounts, container/orchestration, and SaaS discovery; requires asset tags/labels in IaC. (100% internet-exposed and critical systems inventoried with )"
+I.AM-02-req-02,I.AM-02,1,Ownership & Classification: Assign a technical and business owner; apply data classification and security categorization; record SBOMs/MBOMs where applicable.
+I.AM-02-req-03,I.AM-02,2,"Interconnection Register: Document upstream/downstream dependencies, trust boundaries, and data flows."
+I.AM-02-req-04,I.AM-02,2,"Security Posture Linkage: Link assets to vulnerability scanners, EDR/XDR, compliance baselines, and patch telemetry for reconciliation."
+I.AM-02-req-05,I.AM-02,2,Criticality & BIA Link: Map assets to BIA tiers and risk tiers; use to drive recovery priorities and control rigor.
+I.AM-02-req-06,I.AM-02,2,Lifecycle Updates: Create/update/retire assets through change tickets; ensure disposal records.
+I.AM-02-req-07,I.AM-02,3,Automated Reconciliation: Weekly/Automated reconciliation of cloud and container assets to identify and remove stale records.
+I.AM-02-req-08,I.AM-02,3,Weekly/Automated reconciliation of cloud and container assets.
+I.AM-02-req-09,I.AM-02,3,"External Attack Surface Management (EASM): Implement continuous outside-in scanning to identify internet-facing assets (domains, certificates, open ports) that are not present in the internal inventory (Shadow IT discovery)."
+I.AM-03-req-01,I.AM-03,1,"Enrollment & Posture: Enforce MDM/MAM; require encryption, lock, OS support level, patch posture, and approved security apps. (100% BYOD enrolled before access.)"
+I.AM-03-req-02,I.AM-03,2,Containerization: Separate corporate and personal data; enable remote wipe of corporate partition only.
+I.AM-03-req-03,I.AM-03,2,Access Conditions: Conditional access based on posture; block rooted/jailbroken devices and outdated OS.
+I.AM-03-req-04,I.AM-03,2,App Controls: Allow-list corporate apps; block sideloaded high-risk apps; restrict local storage of model artifacts.
+I.AM-03-req-05,I.AM-03,2,Network Controls: Force VPN/ZTNA; restrict copy/paste/screenshots for sensitive contexts where feasible.
+I.AM-03-req-06,I.AM-03,2,Logging & Revocation: Log access; revoke immediately upon termination or non-compliance.
+I.AM-03-req-07,I.AM-03,3,"Privacy-Preserving Mobile Threat Defense (MTD): Deploy advanced threat detection agents that identify network attacks (e.g., Man-in-the-Middle) and malicious applications on the device without inspecting personal content (e.g., photos, messages)."
+I.DG-01-req-01,I.DG-01,1,"Data Inventories: Catalog datasets with owners, categories, sensitivity, purpose, lawful basis. (100% critical data flows documented and current.)"
+I.DG-01-req-02,I.DG-01,1,"Provenance & Licensing: Record origin, rights, and licensing of datasets."
+I.DG-01-req-03,I.DG-01,2,"Flow Diagrams: Maintain current diagrams showing sources, transforms, destinations, and cross-border transfers."
+I.DG-01-req-04,I.DG-01,2,"AI-Specific Fields: Track dataset curation, labeling guidance, filtering/redaction, and test-split documentation."
+I.DG-01-req-05,I.DG-01,2,Reviews: Update maps during change and annually.
+I.DG-01-req-06,I.DG-01,3,"Control Hooks: Tie classification to DLP, encryption, access, and retention controls."
+I.DG-01-req-07,I.DG-01,3,Automated Discovery & Dynamic Mapping: Deploy active scanning tools to automatically identify undefined data repositories (shadow data) and dynamically update data flow maps based on observed network traffic and API calls.
+I.IM-01-req-01,I.IM-01,1,"Impact Assessment: Evaluate rights, discrimination, safety, economic, environmental, trust impacts."
+I.IM-01-req-02,I.IM-01,1,Mitigation Planning: Define safeguards and residual-risk disclosures.
+I.IM-01-req-03,I.IM-01,2,Pre-deployment Approval: Impact assessment completed and approved pre-deployment.
+I.IM-01-req-04,I.IM-01,2,Stakeholder Engagement: Collect feedback from affected groups and governance bodies.
+I.IM-01-req-05,I.IM-01,2,"Operationalization: Link mitigations to TEVV, thresholds, incident response."
+I.IM-01-req-06,I.IM-01,2,Reassessment: Review after major model/data changes or incidents.
+I.IM-01-req-07,I.IM-01,3,"Adverse Impact Red-Teaming: Conduct specialized adversarial testing focused on ""Societal Harm Scenarios,"" where testers attempt to force the AI to exhibit discriminatory behavior, generate dangerous misinformation, or infringe upon user rights to validate the effectiveness of the proposed mitigations."
+I.RM-01-req-01,I.RM-01,1,Classification: Standardize likelihood/impact scales and KRIs.
+I.RM-01-req-02,I.RM-01,1,"Register & Treatment: Log risks with treatment plans, owners, due dates, residual ratings."
+I.RM-01-req-03,I.RM-01,2,"Systematic Intake: Collect risks from threat modeling, red-team, vuln scans, BIAs, DPIAs, supplier reviews, TEVV."
+I.RM-01-req-04,I.RM-01,2,Review Cadence: Quarterly risk-review with escalation thresholds.
+I.RM-01-req-05,I.RM-01,3,"Automated Risk Sensing: Implement API integrations that automatically create or update risk register entries based on telemetry from technical systems (e.g., failing controls, cloud drift, or threat intelligence alerts)."
+I.RM-02-req-01,I.RM-02,2,"Establish insider threat program with HR, Security, Legal oversight."
+I.RM-02-req-02,I.RM-02,1,Risk Register: Maintain list of privileged roles and sensitive access roles.
+I.RM-02-req-03,I.RM-02,2,Insider-threat register maintained and reviewed.
+I.RM-02-req-04,I.RM-02,2,"Indicators & Monitoring: Correlate HR, behavioral, and technical signals."
+I.RM-02-req-05,I.RM-02,2,"Integration: Link to access governance, incident response, HR processes."
+I.RM-02-req-06,I.RM-02,3,Reviews & Escalation: Annual risk reviews are correlated and clearly defined escalation criteria established.
+I.RM-02-req-07,I.RM-02,3,"User and Entity Behavior Analytics (UEBA): Implement Machine Learning-driven behavioral baselining to establish ""normal"" activity patterns for users and entities, enabling the detection of subtle anomalies (e.g., low-and-slow data exfiltration) that evade static rule sets."
+I.SC-01-req-01,I.SC-01,1,Supplier Inventory & Tiering: Classify suppliers by criticality and data access. (100% critical suppliers assessed pre-onboarding; annual reassessments.)
+I.SC-01-req-02,I.SC-01,1,"Contractual Controls: Include data protection, IP, sub-processor approval, and audit rights."
+I.SC-01-req-03,I.SC-01,2,"Assurance Inputs: Require SBOM/MBOM, provenance, vulnerability disclosures."
+I.SC-01-req-04,I.SC-01,2,"Monitoring: Track advisories, breach news, model changes, CVEs."
+I.SC-01-req-05,I.SC-01,2,"Exit Plans: Ensure data return/delete, key rotation, access revocation."
+I.SC-01-req-06,I.SC-01,3,"Concentration Risk Analysis: Identify and quantify aggregation risks where multiple critical business processes rely on a single vendor or geographic region, ensuring no single external failure causes systemic outage."
+I.SC-01-req-07,I.SC-01,3,Fourth-Party Visibility: Document sub-suppliers and fallback options.
+I.TH-01-req-01,I.TH-01,1,Severity Scheme: Define event severity and escalation.
+I.TH-01-req-02,I.TH-01,2,Documented thresholds for all major alert categories.
+I.TH-01-req-03,I.TH-01,2,"Operational Targets: Define MTTD (Mean Time to Detect), MTTR (Mean Time to Respond), patching SLAs, remediation windows."
+I.TH-01-req-04,I.TH-01,2,Decision Criteria: Define block/allow rules for exploit activity and anomalies.
+I.TH-01-req-05,I.TH-01,3,Automation: Codify thresholds into SIEM/SOAR playbooks.
+I.TH-01-req-06,I.TH-01,3,Adaptive Thresholding: Implement dynamic thresholding logic that utilizes historical behavioral baselines to automatically adjust trigger levels based on time-of-day or cyclical network patterns.
+I.TH-02-req-01,I.TH-02,1,Threshold Definition: Thresholds defined and enforced for every production model.
+I.TH-02-req-02,I.TH-02,1,Monitoring: Track metrics continuously and alert on breaches.
+I.TH-02-req-03,I.TH-02,2,"Quantitative Gates: Define accuracy, robustness, fairness, calibration, and explainability coverage metrics."
+I.TH-02-req-04,I.TH-02,2,Decision Rules: Define rollback/HITL (Human-in-the-Loop) triggers.
+I.TH-02-req-05,I.TH-02,2,Review: Update thresholds after retrains or shifts.
+I.TH-02-req-06,I.TH-02,3,"Automated Circuit Breakers: Implement automated kill-switches that instantly halt inference traffic or revert to a fallback system if critical safety thresholds (e.g., hallucination rate, toxic content) are exceeded."
+I.TM-01-req-01,I.TM-01,1,Threat Library: Maintain catalog including AI-specific vectors.
+I.TM-01-req-02,I.TM-01,1,Intelligence Ingestion: Subscribe to ISAC/ISAO feeds and integrate with SIEM/SOAR.
+I.TM-01-req-03,I.TM-01,2,Framework Mapping: Map TTPs to ATT&CK/ATLAS and detection catalogs.
+I.TM-01-req-04,I.TM-01,2,Risk Integration: Integrate threat insights into risk register.
+I.TM-01-req-05,I.TM-01,2,Scenario Exercises: Conduct red-team exercises and update detections.
+I.TM-01-req-06,I.TM-01,2,Bug Bounty Program: Establish a managed vulnerability disclosure program or bug bounty to incentivize external researchers to identify and report weaknesses.
+I.TM-01-req-07,I.TM-01,3,"Measurement: Track coverage, MTTD (Mean Time to Detect), and MTTR (Mean Time to Respond)."
+I.TM-01-req-08,I.TM-01,3,Quarterly Reviews: Quarterly reviews; intel feeds integrated.
+I.TM-01-req-09,I.TM-01,3,Automated Threat Hunting: Implement hypothesis-driven hunting workflows that proactively search historical log data for indicators of compromise (IoCs) related to advanced persistent threats (APTs) that evaded real-time alerts.

@@ -1,0 +1,6 @@
+arise_control_id,OMB M-25-21 Control ID(s),OMB M-25-21 Control Item(s),rationale
+G.LR-03,"OMB M-25-21 sections 2, 3, 4, 5","Federal agency AI governance, public trust, safeguards, responsible AI obligations, and replacement of prior OMB AI guidance.",ARISE regulatory compliance maps to federal AI obligation tracking and implementation governance.
+I.AM-01,OMB M-25-21 AI inventory and use-case reporting provisions,Agency AI use-case and system inventory requirements.,ARISE inventory maps directly to AI inventory and public/internal reporting expectations.
+G.RM-04,OMB M-25-21 risk-management and safeguard provisions for safety-impacting and rights-impacting AI,Risk-based safeguards for federal AI uses.,"ARISE risk management maps to identifying, treating, and accepting risks from federal AI use cases."
+R.IC.E-04,"OMB M-25-21 transparency, privacy, civil rights, and civil liberties provisions",Public-facing and user-facing transparency and privacy safeguards.,"ARISE notification controls support public trust, privacy, civil rights, and stakeholder communication requirements."
+S.VR-02,"OMB M-25-21 AI acquisition, procurement, and vendor accountability provisions","AI vendor, procurement, contract, and provider documentation expectations.",ARISE vendor risk maps to procurement governance and supplier accountability for federal AI.

@@ -1,0 +1,7 @@
+arise_control_id,rationale
+R.IC.E-04,Direct alignment. The requirement is fundamentally a consumer-facing transparency and notice obligation for ADMT use before or during interaction.
+P.AC.M-03,Strong alignment. Explainability supports the required plain-language description of the ADMT role in an adverse outcome.
+P.AC.M-03,Strong alignment. Human review depends on understandable decision factors and reviewer access to relevant decision information.
+M.DV-01,Direct alignment. Lifecycle documentation is the core ARISE control for maintaining developer records supporting responsible deployment.
+I.AM-01,"Direct alignment. Organizations cannot meet notice, explanation, or human-review duties without an inventory of covered ADMT systems and use cases."
+G.LR-03,"Direct alignment. Regulatory compliance control should track Colorado obligations, owners, evidence, and effective dates."

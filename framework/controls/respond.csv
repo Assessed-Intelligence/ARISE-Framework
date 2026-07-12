@@ -1,0 +1,18 @@
+control_id,parent_id,domain,title,objective,requirement_count
+R.IC.E-01,R.IC.E,RESPOND,Regulatory Reporting,Meet all regulatory breach-reporting requirements in time and content.,6
+R.IC.E-02,R.IC.E,RESPOND,Law Enforcement Partners,Engage relevant authorities promptly when criminal or nation-state activity is suspected.,6
+R.IC.E-03,R.IC.E,RESPOND,Information-Sharing Communities,Share sanitized threat intelligence with industry peers and ISACs to strengthen collective defense.,6
+R.IC.E-04,R.IC.E,RESPOND,Privacy Notification Requirements,Notify affected individuals per legal and contractual obligations following a verified data breach.,6
+R.IC.I-01,R.IC.I,RESPOND,Personnel,Inform affected teams during incidents; distribute internal guidance and FAQs to prevent misinformation and streamline remediation.,7
+R.IC.I-02,R.IC.I,RESPOND,Top Management,"Provide executive briefings summarizing incident status, impact, response options, and decisions.",7
+R.IC.I-03,R.IC.I,RESPOND,Incident Response Team,Maintain synchronized internal communication during active incidents with a single source of truth.,7
+R.IC.P,R.IC,RESPOND,Public Updates / Disclosures,Manage public and media communications through approved statements that balance transparency and risk.,7
+R.IC.R,R.IC,RESPOND,Recovery Activity & Restoration,Provide partners and customers timely updates about service restoration and remediation status.,6
+R.IM-01,R.IM,RESPOND,Containment,"Limit the spread and impact of an incident by isolating affected assets, blocking malicious activity, and preserving evidence for investigation.",8
+R.IM-02,R.IM,RESPOND,Eradication,"Completely remove malicious artifacts, vulnerabilities, or misconfigurations that caused the incident.",7
+R.IM-03,R.IM,RESPOND,Disaster Recovery,"Recover systems and data from a clean, trusted state post-incident using verified, immutable backups.",6
+R.IM-04,R.IM,RESPOND,Business Continuity,"Maintain critical operations during incident response and recovery, ensuring customer commitments and mission continuity.",6
+R.IR-01,R.IR,RESPOND,Incident Response: AI,"Ensure timely and coordinated response to AI-related incidents such as harmful or biased outputs, data leakage, model poisoning, or unauthorized model behavior to protect users, data integrity, and compliance obligations.",10
+R.IR-02,R.IR,RESPOND,Incident Response: Cybersecurity,"Coordinate technical response to cybersecurity incidents across infrastructure, endpoints, networks, applications, and third-party systems to limit impact and restore operations.",8
+R.IR-03,R.IR,RESPOND,Incident Response: Privacy,"Manage and mitigate personal data breaches or unauthorized processing activities, ensuring compliance with privacy laws and customer trust.",7
+R.LL,,RESPOND,Incident Lessons Learned,"Ensure every incident or near miss results in measurable learning, control enhancement, and organizational improvement.",6

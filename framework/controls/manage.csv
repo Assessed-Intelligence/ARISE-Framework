@@ -1,0 +1,14 @@
+control_id,parent_id,domain,title,objective,requirement_count
+M.CM,,MANAGE,Change Management,"Ensure all changes to systems, datasets, AI models, and configurations are risk-assessed, approved, and auditable.",8
+M.DV-01,M.DV,MANAGE,AI System Lifecycle,"Institutionalize an AI SDLC embedding ethics, governance, and TEVV (Testing, Evaluation, Verification, Validation) from design to decommissioning.",8
+M.DV-02,M.DV,MANAGE,Software Development Lifecycle (SDLC),"Embed secure coding, privacy, and responsible-AI practices in all software development.",7
+M.HR,,MANAGE,Human Resources,"Ensure personnel practices uphold confidentiality, integrity, and responsible-technology culture.",7
+M.OV-01,M.OV,MANAGE,Ethics Oversight Committee,"Provide structured oversight of ethics, fairness, transparency, and human-centric decision-making for AI and technology systems.",7
+M.OV-02,M.OV,MANAGE,Privacy Oversight Committee,"Provide oversight, governance, and decision authority on data-protection, privacy-by-design, and sensitive-data handling concerns.",7
+M.OV-03,M.OV,MANAGE,Security Oversight Committee,"Ensure structured governance, prioritization, and strategic oversight of all cybersecurity, threat, and resilience programs.",7
+M.PM,,MANAGE,Performance Metrics,"Establish a quantitative and qualitative measurement framework that enables leadership to monitor, evaluate, and improve organizational performance across security, privacy, AI governance, and risk domains.",8
+M.PR,,MANAGE,Privacy Program,Operationalize day-to-day privacy management integrated with cybersecurity and AI governance.,8
+M.RM-01,M.RM,MANAGE,Third-Party Risk Management,"Identify, analyze, and manage risks originating from vendors, partners, and external service providers to protect organizational data, systems, and AI integrity.",9
+M.RM-02,M.RM,MANAGE,AI Risk Management,"Establish and apply structured processes to identify, evaluate, mitigate, and track risks associated with AI systems throughout their lifecycle.",9
+M.RM-03,M.RM,MANAGE,Cybersecurity Risk Management,"Continuously evaluate threats, vulnerabilities, and exposure across systems, networks, applications, and AI workloads to maintain acceptable cybersecurity posture.",9
+M.RP,,MANAGE,Reporting,"Provide structured, timely, and risk-informed reporting to executives, the Board, regulators, and stakeholders.",8

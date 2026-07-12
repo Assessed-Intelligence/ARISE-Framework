@@ -1,0 +1,66 @@
+arise_control_id,NIST AI RMF Mapping,rationale
+D.AD,"MAP 3.2, MEA 3.3",Detects unusual AI behavior and performance shifts; maps systems to risks and measures performance.
+D.CM,"MAP 4.1, MEA 2.1","Real-time monitoring of AI model performance, drift, and bias; tracks identified risks over time."
+D.ID,"MAP 2.1, MEA 2.2","Identifies AI-native indicators of compromise (e.g., adversarial prompts); maps system context to risks."
+D.IM,MEA 2.3,Ensures rapid identification and recovery from AI-related incidents to reduce impact and recurrence.
+D.SA-01,MEA 3.2,Independent testing of digital and AI environments to validate control effectiveness.
+D.TI,"GOVERN 2.3, MAP 4.2",Integrates AI-specific threat intelligence to anticipate evolving adversarial AI tactics.
+G.AC-01,GOV 1,Visible leadership commitment and resource allocation for AI governance and oversight.
+G.AC-02,GOV 1–3,Formal independent oversight bodies for AI governance and ethical decision-making.
+G.AC-03,GOV 3,Strategic direction and board-level independent oversight of the AI management system.
+G.GV.A-01,GOV 2,Ensures traceable human ownership and authority to act on AI risk findings.
+G.GV.A-02,"GOV 2, MEA 1–4",Adopts quantitative fairness metrics and mitigates disparities in AI system outcomes.
+G.GV.A-03,GOV 2,Promotes inclusive data practices and diverse stakeholder engagement for AI systems.
+G.GV.A-04,GOV 2,Respects cultural norms and jurisdictional sensitivities in AI outputs and labeling.
+G.GV.A-05,GOV 2,"Documents and justifies trade-offs between AI accuracy, privacy, and fairness."
+G.GV.A-06,GOV 2,Publishes explainability statements and discloses AI use to users and regulators.
+G.GV.C-01,GOV 1.3,Defines permissible and prohibited behaviors for personnel using AI technologies.
+G.GV.C-02,GOV 2,Establishes a culture of responsible data and AI use throughout the development lifecycle.
+G.GV.C-03,GOV 2,Operationalizes human-centric AI principles like fairness and explainability.
+G.GV.P-01,GOV 1–2,"Hierarchical policy architecture covering security, privacy, and AI governance."
+G.GV.P-02,MAP 3.1,"Enforceable security expectations to protect AI confidentiality, integrity, and availability."
+G.GV.P-03,MEA 4,Preparedness and rapid recovery policies for AI-specific failure modes.
+G.GV.P-04,GOV 1–4,Principle-based rules for responsible and secure AI design and deployment.
+G.GV.P-05,MAP 3.1,Rules for fair processing of personal data aligned to AI system needs.
+G.GV.P-06,GOV 2,Promotes human-centric technology use through enforceable ethical standards.
+G.GV.P-07,GOV 2.2,Ensures personnel practices support secure and ethical AI-related conduct.
+G.GV.P-08,MAP 4.1,Standards for suppliers and partners providing AI software or datasets.
+G.GV.P-09,MAP 2.1,"Ensures data quality, integrity, and lawful provenance for AI training."
+G.GV.S-01,GOV 1.2,Operationalizes policy commitments into measurable and auditable technical standards.
+G.GV.S-02,MAP 3.2,Technical standards for system hardening and AI-specific infrastructure security.
+G.GV.S-03,MEA 4,Standardized processes for AI failure recovery and business continuity.
+G.GV.S-04,MEA 1–4,"Detailed standards for data, model testing, and deployment monitoring."
+G.LR-01,GOV 3.3,Compliance with data protection laws through demonstrable oversight.
+G.LR-02,GOV 2.3,"Protection of proprietary algorithms, models, and training datasets."
+G.LR-03,MEA 1–4,Conformance to legal obligations for AI transparency and safety.
+G.LR-04,MAP 3,Alignment of cybersecurity controls with contractual and legal obligations.
+G.LR-05,GOV 2,Ensures AI practices are non-discriminatory and ethically reviewed.
+G.OV,"GOV 1, GOV 2",Embeds ethical tenets into the design and deployment of digital systems.
+G.PR-01,MAP 3.1,Lawful and ethical handling of sensitive data across AI operations.
+G.RM-01,"MAP 1, GOV 3","Unified framework integrating AI, security, and operational risks."
+G.RM-02,GOV 3.2,Approved thresholds for acceptable AI and technical risks.
+G.RM-03,"MAP 2, MEA 1–4",AI-specific risk management across the entire system lifecycle.
+G.RM-04,MAP 3,Analyzes cybersecurity risks aligned to threat intelligence and AI impact.
+G.RM-05,MAP 4,Identifies and manages risks from third-party AI software and data.
+G.ST.B,MAP 1.1,Precise technical boundaries to ensure controls are correctly audited.
+G.ST.O-01,GOV 1.1,Aligns security and AI governance with the organization’s purpose.
+G.ST.O-02,GOV 2.3,Risk-informed governance goals based on internal and external context.
+G.ST.S-01,MAP 1.1,Identification and risk categorization of all AI systems under control.
+G.ST.S-02,MAP 2,Proportionate protection of assets based on criticality and risk.
+G.ST.S-03,GOV 2,Addresses applicable legal and customer requirements for AI.
+I.AM-01,MAP 1.1,Living inventory of all AI components and system metadata.
+I.IM-01,"MAP 2.6/2.7, GOV 2.3",Evaluates potential AI impacts on individuals and society.
+I.RM-01,MAP 2,"Systematically identifies AI, privacy, and safety risks."
+I.RM-02,"MAP 3, GOV 2.2",Mitigates risks from insiders who may compromise AI data or models.
+I.SC-01,MAP 4,"Manages risks from software, model, and dataset suppliers."
+I.TH-02,MEA 2–4,"Defines measurable thresholds for drift, fairness, and safety."
+I.TM-01,"MAP 3, GOV 2.2",Tracks threats to AI assets to inform defensive investment.
+M.DV-01,MAP; MEA lifecycle,Embeds TEVV and governance from design to decommissioning.
+M.RP,MEA 2.3,"Structured, risk-informed reporting for AI governance committees."
+V.AD-01,"GOV 2, MEA 3.3",Independent assurance of AI risk controls and lifecycle evidence.
+V.CI-01,GOV 2.2,Safe channels for reporting AI ethical or safety concerns.
+V.CI-02,MEA 3.3,Independent assessment of AI governance and TEVV evidence.
+V.TE-01,MEA 2,Executes security and reliability tests for AI components.
+V.TE-02,MEA 3,Evaluates model performance and harms across operating contexts.
+V.TE-03,"MEA 2.3, GOV 2",Verifies that systems meet design and policy requirements.
+V.TE-04,MEA 4,Confirms the system achieves intended use without unacceptable risk.

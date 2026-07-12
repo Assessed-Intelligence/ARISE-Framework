@@ -1,0 +1,12 @@
+control_id,parent_id,domain,title,objective,requirement_count
+I.AM-01,I.AM,IDENTIFY,AI System Inventory,"Maintain a living, authoritative inventory of all AI systems and related components to enable risk-based governance, security, privacy, and lifecycle control.",10
+I.AM-02,I.AM,IDENTIFY,System Asset Management,"Maintain a complete, accurate inventory of information systems, applications, interfaces, and data stores—classified and owned—so security, resilience, and compliance controls can be prioritized and enforced.",9
+I.AM-03,I.AM,IDENTIFY,BYOD Asset Management,Control risk from personally owned devices accessing organizational systems/data.,7
+I.DG-01,I.DG,IDENTIFY,Data Mapping,"Document end-to-end data flows for collection, processing, storage, sharing, retention, and deletion—including AI training and inference—so controls can be applied precisely.",7
+I.IM-01,I.IM,IDENTIFY,AI Impacts,"Identify potential impacts of AI on individuals, groups, organizations, society, and integrate mitigations.",7
+I.RM-01,I.RM,IDENTIFY,Risk Identification,"Identify risks spanning cyber, privacy, safety, ethics, and AI trust to enable consistent analysis and prioritization.",5
+I.RM-02,I.RM,IDENTIFY,Insider Threat,"Proactively identify, monitor, and mitigate risks posed by insiders—employees, contractors, or third parties—who may intentionally or unintentionally compromise organizational assets, data, or AI systems.",7
+I.SC-01,I.SC,IDENTIFY,Supply Chain Risk,"Identify and manage risks from suppliers of software, models, datasets, and cloud services.",7
+I.TH-01,I.TH,IDENTIFY,Security Thresholds,"Define alarm thresholds and decision criteria for security events to ensure timely, consistent response.",6
+I.TH-02,I.TH,IDENTIFY,AI Operational Thresholds,"Define measurable thresholds for AI performance, fairness, drift, safety, and explainability, with rollback and HITL criteria.",6
+I.TM-01,I.TM,IDENTIFY,Threat Management,"Continuously identify, assess, and track threats to information systems and AI assets to inform defenses and investment.",9

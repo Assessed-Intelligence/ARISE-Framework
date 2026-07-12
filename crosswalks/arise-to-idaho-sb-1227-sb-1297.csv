@@ -1,0 +1,11 @@
+arise_control_id,rationale,Regualtion
+G.LR-03,Direct alignment. Regulatory compliance control should manage state framework requirements and local policy implementation.,Idaho SB 1293
+R.IC.E-04,Strong alignment. Privacy notice and data handling controls support student-data safeguards.,Idaho SB 1293
+G.GV.C-01,Direct alignment. Acceptable-use controls are the best fit for permitted/prohibited school AI uses.,Idaho SB 1293
+P.PY-03,Strong alignment. Safety/security controls cover secure use and misuse prevention.,Idaho SB 1293
+G.AT-01,Strong alignment. Training controls support literacy and educator preparedness.,Idaho SB 1293
+S.VR-02,Direct alignment. Vendor risk management is the appropriate ARISE control for school procurement and vendor data/privacy assurances.,Idaho SB 1293
+P.PY-03,Direct alignment. The law is principally about safe chatbot operation and prevention of harmful interactions.,Idaho SB 1297
+R.IC.E-04,Strong alignment. User notice controls support transparency obligations for AI interactions.,Idaho SB 1297
+P.AC.M-02,Partial alignment. AI-specific attack-vector controls support misuse prevention but do not fully cover child-safety legal duties.,Idaho SB 1297
+V.TE-01,Strong alignment. Testing validates chatbot disclosures and safety constraints.,Idaho SB 1297

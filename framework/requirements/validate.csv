@@ -1,0 +1,65 @@
+requirement_id,control_id,priority,requirement
+V.AD-01-req-01,V.AD-01,2,Formal external audit for high-risk portfolios or upon major regulatory changes.
+V.AD-01-req-02,V.AD-01,2,"Audit Readiness: Curate policy sets, inventories, TEVV artifacts, evaluation/verification/validation packages, and incident logs; appoint liaison and evidence owners."
+V.AD-01-req-03,V.AD-01,2,Issue Management: Track external findings to remediation; verify and document fixes; communicate status to governance.
+V.AD-01-req-04,V.AD-01,2,Engagement Management: Define scope with auditors; provide access to environments and read-only logs where appropriate; protect sensitive data through redaction or sandboxes.
+V.AD-01-req-05,V.AD-01,2,"Report & Follow-Up: Review draft findings for accuracy, finalize reports, implement CAPA, and report to leadership."
+V.AD-01-req-06,V.AD-01,3,Customer/Regulatory Alignment: Package outcomes for customers/regulators where appropriate.
+V.AD-02-req-01,V.AD-02,2,"Preparation & Scoping: Define system boundaries, control sets, sample selections, and evidence collection plan; remediate readiness gaps."
+V.AD-02-req-02,V.AD-02,2,"Fieldwork Support: Provide evidence, demonstrate control operation, and facilitate interviews/walkthroughs; track open items."
+V.AD-02-req-03,V.AD-02,2,"Report & Follow-Up: Review draft findings for accuracy, finalize reports, implement CAPA, and report to leadership."
+V.AD-02-req-04,V.AD-02,3,Continuous Alignment: Align internal testing cadence to external audit cycles to reduce surprises.
+V.CI-01-req-01,V.CI-01,1,Reporter Protection: Protect whistleblowers from retaliation; restrict access to reporter identity.
+V.CI-01-req-02,V.CI-01,2,"Triage & SLAs: Categorize reports (security, privacy, ethics, product safety); set response/acknowledgement SLAs; track every submission to closure."
+V.CI-01-req-03,V.CI-01,2,Multi-Channel Intake: Offer at least one anonymous option and one authenticated route; support multiple languages as needed.
+V.CI-01-req-04,V.CI-01,2,"Nonconformity Handling: Operate a CAPA process for items from audits, management reviews, process failures, supplier issues, and security/AI incidents."
+V.CI-01-req-05,V.CI-01,3,Integration: Feed valid security issues into IR; valid product issues into SDLC pipelines.
+V.CI-01-req-06,V.CI-01,3,Feedback Loop: Provide status updates; aggregate patterns for trend analysis; escalate systemic issues to risk committees.
+V.CI-02-req-01,V.CI-02,2,Risk-Based Plan: Annual AI audit plan focusing on high-impact systems and recent changes; align scope to risk register.
+V.CI-02-req-02,V.CI-02,2,"Test Procedures: Evidence sampling of TEVV artifacts, fairness/robustness metrics, privacy constraints, explainability proofs, and inventory completeness."
+V.CI-02-req-03,V.CI-02,2,Independence & Reporting: Report to Audit Committee; issue ratings and remediation plans; track to closure.
+V.CI-02-req-04,V.CI-02,2,Follow-Up: Verify effectiveness of fixes and update the plan based on lessons learned and incidents.
+V.CI-02-req-05,V.CI-02,2,Annual audits of all high-risk AI systems; spot checks for others.
+V.CI-02-req-06,V.CI-02,3,"Third-Party Models: Review contracts, attestations, SBOM/MBOM, and runtime guardrails for external AI components."
+V.CI-03-req-01,V.CI-03,2,Audit Plan: Maintain an inventory of auditable entities; prioritize by risk and change frequency.
+V.CI-03-req-02,V.CI-03,2,"Control Testing: Walkthroughs, design tests, re-performance, and sampling; verify evidence quality and retention."
+V.CI-03-req-03,V.CI-03,2,"Findings & Closure: Rate severity, assign owners, set due dates, and verify closure; escalate overdue items."
+V.CI-03-req-04,V.CI-03,2,Coordination with External Audits: Map evidence to external needs to reduce duplicate effort.
+V.CI-03-req-05,V.CI-03,3,"Report & Follow-Up: Review draft findings for accuracy, finalize reports, implement CAPA, and report to leadership."
+V.CI-03-req-06,V.CI-03,3,"Continuous Assurance: Data-driven sampling and automated tests for high-frequency controls (e.g., MFA coverage)."
+V.IA-req-01,V.IA,1,Charter & Independence: Audit function authorized by management and free from conflicts.
+V.IA-req-02,V.IA,2,Planning & Risk Basis: Prioritize audits by risk severity.
+V.IA-req-03,V.IA,2,Annual audit plan approved by executive governance; all findings tracked to resolution. (Annual plan approved by leadership; quarterly status to audit committee.)
+V.IA-req-04,V.IA,2,"Execution & Reporting: Document findings, assign corrective actions, verify closure."
+V.IA-req-05,V.IA,3,Continuous Improvement: Feed results into governance reviews and management system updates.
+V.TE-01-req-01,V.TE-01,1,Independence & Competency: Separate builder and tester responsibilities for high-risk releases; ensure test engineers have AI safety/security skills where applicable.
+V.TE-01-req-02,V.TE-01,1,"Test Strategy & Coverage: Define a risk-based test strategy covering unit, integration, system, and end-to-end tests; include negative tests, fuzzing, chaos/failure injection for critical services, and reproducibility tests for AI workflows."
+V.TE-01-req-03,V.TE-01,1,"Test Oracles & Golden Baselines: Maintain golden datasets, expected outputs, and tolerance bands for numerical drift; version test artifacts."
+V.TE-01-req-04,V.TE-01,1,"Change Governance: Require test evidence for change approvals; capture traceability between requirements, risks, tests, and outcomes; version-controlled and traceable via a documented QMS procedure."
+V.TE-01-req-05,V.TE-01,2,"Defect Lifecycle: Severity classification, SLA remediation windows, root-cause capture, and regression tests before merge/release."
+V.TE-01-req-06,V.TE-01,2,"Security Test Suite: Integrate SAST/DAST/IAST, dependency scans, container/image scans, and secrets detection; add AI adversarial tests (jailbreak, prompt injection, model extraction probes) and dataset quality tests (label noise, leakage, license conformance)."
+V.TE-01-req-07,V.TE-01,2,"Data & Model Testing: Validate dataset integrity, lineage references, and constraints; test model performance gates, guardrail efficacy, and rollback triggers; verify inference correctness across versions (A/B or shadow)."
+V.TE-01-req-08,V.TE-01,3,"Automation & Environments: Automate tests with ephemeral, production-like environments; seed with representative and edge data; block promotion on critical failures."
+V.TE-02-req-01,V.TE-02,1,"Evaluation Design: Define goals, metrics (effectiveness, calibration, latency, robustness, fairness, privacy, transparency), datasets, and sampling frames; include domain and demographic slices."
+V.TE-02-req-02,V.TE-02,1,Independence & Review: Peer review by evaluation specialists; escalation to governance committees for borderline cases.
+V.TE-02-req-03,V.TE-02,1,Documented evaluation and approval before deployment for medium/high-risk AI.
+V.TE-02-req-04,V.TE-02,2,Benchmarking: Use internal/industry benchmarks and scenario suites; include stress/shift and corruption tests; record assumptions and applicability limits.
+V.TE-02-req-05,V.TE-02,2,"Red-Team Evaluations: Conduct structured red teaming targeting misuse/abuse, bias amplification, safety violations, and model extraction; feed signatures to detections and guardrails."
+V.TE-02-req-06,V.TE-02,2,Risk Scoring & Decisioning: Convert evaluation results into risk scores; compare to thresholds; require compensating controls or design changes when thresholds are missed.
+V.TE-02-req-07,V.TE-02,2,"Periodic Re-Evaluation: Trigger on data/model changes, new regions/populations, or drift alerts; maintain versioned evaluation reports."
+V.TE-02-req-08,V.TE-02,3,Operational Context: Evaluate in production-like traffic and tooling; measure user experience and safety outcomes; ensure monitoring hooks exist for post-deployment parity.
+V.TE-03-req-01,V.TE-03,1,"Requirements Traceability: Maintain bidirectional traceability across requirements - designs  - tests  - results; include policy and governance requirements (e.g., logging, retention, guardrails)."
+V.TE-03-req-02,V.TE-03,1,"Verification Plan: Define verification methods (test, analysis, inspection, demonstration) and acceptance criteria per requirement; include sampling criteria."
+V.TE-03-req-03,V.TE-03,1,Independence: Assign verifiers independent from implementers for high-risk items; require segregation for approvals.
+V.TE-03-req-04,V.TE-03,1,Traceability matrix produced for all major releases; independent verification for Tier-1 changes.
+V.TE-03-req-05,V.TE-03,2,"Controls Verification: Verify that key controls (e.g., mTLS, signing, guardrail enforcement, ZTNA) are proven in the runtime environment."
+V.TE-03-req-06,V.TE-03,2,"Defect Handling: Create verification findings, owners, and due dates; require retest/closure evidence."
+V.TE-03-req-07,V.TE-03,3,"Evidence Quality: Validate authenticity, completeness, and timing of evidence; require re-verification on significant change."
+V.TE-03-req-08,V.TE-03,3,Record Retention: Retain verification packages aligned to policy and audit needs.
+V.TE-04-req-01,V.TE-04,1,Risk Gates & Go/No-Go: Define validation gates linked to risk appetite; require executive/governance approval when thresholds are marginal.
+V.TE-04-req-02,V.TE-04,1,"Documentation: Produce validation protocols, acceptance records, and rationale for decisions."
+V.TE-04-req-03,V.TE-04,1,Validation in production-like conditions for Tier-1 and high-risk AI prior to GA.
+V.TE-04-req-04,V.TE-04,2,"Operational Trials: Run staged rollouts or pilots under production-like load; validate performance, safety, explainability, and human factors."
+V.TE-04-req-05,V.TE-04,2,User Studies & Feedback: Conduct usability and impact assessments with representative users; collect appeal/override data paths.
+V.TE-04-req-06,V.TE-04,2,"Fallback & Contingencies: Validate rollback paths, safe modes, and human-in-the-loop procedures; conduct failover drills as part of validation."
+V.TE-04-req-07,V.TE-04,3,Post-Deployment Watch: Define heightened monitoring windows with rollback criteria; record deviations.
