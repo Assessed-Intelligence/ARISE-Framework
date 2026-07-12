@@ -13,6 +13,7 @@ date-released: "2026-07-11"
 url: "https://ariseframework.com"
 repository-code: "https://github.com/assessed-intelligence/arise-framework"
 license-url: "https://assessedintelligence.com/license/"
+DOI: 10.5281/zenodo.21316165
 keywords:
   - AI governance
   - cybersecurity
