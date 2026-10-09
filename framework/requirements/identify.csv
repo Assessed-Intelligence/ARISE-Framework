@@ -32,6 +32,9 @@ I.DG-01-req-04,I.DG-01,2,"AI-Specific Fields: Track dataset curation, labeling g
 I.DG-01-req-05,I.DG-01,2,Reviews: Update maps during change and annually.
 I.DG-01-req-06,I.DG-01,3,"Control Hooks: Tie classification to DLP, encryption, access, and retention controls."
 I.DG-01-req-07,I.DG-01,3,Automated Discovery & Dynamic Mapping: Deploy active scanning tools to automatically identify undefined data repositories (shadow data) and dynamically update data flow maps based on observed network traffic and API calls.
+I.DG-01-req-08,I.DG-01,1,"Training Data Bill of Materials: Maintain a per-model manifest of training, fine-tuning, and evaluation datasets with source, license, and consent basis."
+I.DG-01-req-09,I.DG-01,2,TDBOM Maintenance: Version the manifest with dataset hashes and filtering applied; update it on every retrain and provide it for regulator or customer requests.
+I.DG-01-req-10,I.DG-01,3,Automated TDBOM: Generate the manifest automatically from pipeline lineage and sign it with the model release.
 I.IM-01-req-01,I.IM-01,1,"Impact Assessment: Evaluate rights, discrimination, safety, economic, environmental, trust impacts."
 I.IM-01-req-02,I.IM-01,1,Mitigation Planning: Define safeguards and residual-risk disclosures.
 I.IM-01-req-03,I.IM-01,2,Pre-deployment Approval: Impact assessment completed and approved pre-deployment.

@@ -2,12 +2,12 @@ control_id,parent_id,domain,title,objective,requirement_count
 P.AC.M-01,P.AC.M,PROTECT,Bias,Detect and reduce unjustified bias across the lifecycle; document residual risks and mitigations.,7
 P.AC.M-02,P.AC.M,PROTECT,Robustness,Ensure models withstand distribution shift and adversarial conditions; enable predictable fail-safe behavior.,6
 P.AC.M-03,P.AC.M,PROTECT,Explainability,Provide audience-appropriate transparency and interpretability; disclose limits to support responsible use and governance.,6
-P.AC.S-01,P.AC.S,PROTECT,Datasets & Tagging,"Protect training/inference data integrity and lawful use through provenance, licensing, sensitivity labeling, and integrity controls.",7
-P.AC.S-02,P.AC.S,PROTECT,AI-Specific Attack Vectors,"Mitigate prompt injection, data poisoning, model exfiltration/theft, jailbreaks, and abuse.",8
+P.AC.S-01,P.AC.S,PROTECT,Datasets & Tagging,"Protect training/inference data integrity and lawful use through provenance, licensing, sensitivity labeling, and integrity controls.",10
+P.AC.S-02,P.AC.S,PROTECT,AI-Specific Attack Vectors,"Mitigate prompt injection, data poisoning, model exfiltration/theft, jailbreaks, and abuse.",14
 P.AT-01,P.AT,PROTECT,AI Training,"Educate all stakeholders on ethical, secure, and responsible AI development and use aligned with organizational policies and regulatory requirements.",7
 P.AT-02,P.AT,PROTECT,Cybersecurity Training,"Establish foundational and advanced security awareness to mitigate phishing, social-engineering, malware, and insider threats.",5
 P.AT-03,P.AT,PROTECT,Governance Training,"Develop cross-functional literacy among leadership, risk owners, and committees in AI ethics, cybersecurity governance, and compliance management.",6
-P.DS-01,P.DS,PROTECT,Classification & Handling,"Safeguard organizational and AI-related data through classification, labeling, and handling protocols aligned with sensitivity and regulatory requirements.",8
+P.DS-01,P.DS,PROTECT,Classification & Handling,"Safeguard organizational and AI-related data through classification, labeling, and handling protocols aligned with sensitivity and regulatory requirements.",11
 P.DS-02,P.DS,PROTECT,Cryptographic Management,"Ensure confidentiality, integrity, and authenticity of data and AI models through modern, approved cryptographic controls.",6
 P.ES,,PROTECT,Endpoint Security,"Harden and continuously monitor endpoints (user devices, servers, containers, edge nodes) to prevent malware, credential theft, and data loss, including protection of local model caches and embeddings.",9
 P.IM,,PROTECT,Identity Management,"Ensure that only authorized, authenticated, and accountable entities—human or machine—can access systems, datasets, and AI resources, enforcing least-privilege and separation of duties.",10

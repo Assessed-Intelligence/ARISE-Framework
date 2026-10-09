@@ -40,6 +40,9 @@ G.GV.A-06-req-01,G.GV.A-06,1,User disclosures when AI is used.
 G.GV.A-06-req-02,G.GV.A-06,2,Explainability statements for significant systems.
 G.GV.A-06-req-03,G.GV.A-06,2,Documentation to satisfy regulator/customer requests.
 G.GV.A-06-req-04,G.GV.A-06,3,"Content Provenance & Watermarking: Implement technical standards (e.g., C2PA) to cryptographically watermark AI-generated content, allowing downstream users to verify its origin and authenticity."
+G.GV.A-06-req-05,G.GV.A-06,1,"AI Claim Substantiation: Maintain a substantiation file for each external claim about AI capability, accuracy, autonomy, safety, or revenue contribution, including responsible-AI and ESG commitments."
+G.GV.A-06-req-06,G.GV.A-06,2,"Claim Review Gate: Legal and technical owners approve AI claims in marketing, sales, investor, and regulatory materials against current TEVV evidence before release; re-validate on model change."
+G.GV.A-06-req-07,G.GV.A-06,3,Continuous Claim Validation: Link published AI claims to live performance metrics; alert owners and withdraw or correct claims when metrics fall below the substantiated level.
 G.GV.C-01-req-01,G.GV.C-01,1,"Acceptable-Use Definition: Define permissible/prohibited behaviors for systems, networks, apps, and AI tools."
 G.GV.C-01-req-02,G.GV.C-01,1,"User Responsibilities: Data confidentiality, password hygiene, incident reporting."
 G.GV.C-01-req-03,G.GV.C-01,1,Monitoring & Enforcement: Notify users of lawful monitoring.
@@ -144,6 +147,9 @@ G.GV.S-03-req-4,G.GV.S-03,2,Evidence Preservation: Forensic collection and chain
 G.GV.S-03-req-5,G.GV.S-03,2,Testing & Exercises: Semi-annual simulations; annual full BCDR tests.
 G.GV.S-03-req-6,G.GV.S-03,2,Continuous Improvement: Post-incident reports and remediation tracking.
 G.GV.S-03-req-7,G.GV.S-03,2,AI-System Failover: Fallback procedures and human-in-the-loop overrides.
+G.GV.S-03-req-8,G.GV.S-03,1,"Litigation Hold & Legal-Claims Response: Extend legal-hold procedures to training data, model weights, prompts and outputs, and decision logs."
+G.GV.S-03-req-9,G.GV.S-03,2,"Legal-Claims Playbook: Maintain a response plan with pre-identified counsel for data-provenance, IP, and algorithmic-decision claims; reconstruct individual AI decisions on demand."
+G.GV.S-03-req-10,G.GV.S-03,3,"Automated Hold Enforcement: Apply holds automatically across data, model, and log stores; suspend deletion and retraining workflows for held artifacts."
 G.GV.S-04-req-01,G.GV.S-04,1,"Documentation Standards: Standardized model cards (metadata, purpose, I/O, provenance, metrics, risk classification)."
 G.GV.S-04-req-02,G.GV.S-04,1,Transparency & Disclosure: Label AI-generated content; user disclosures as applicable.
 G.GV.S-04-req-03,G.GV.S-04,2,AI Lifecycle Controls: Dataset governance; model design/training/evaluation/deployment/monitoring/decommissioning.
@@ -153,6 +159,12 @@ G.GV.S-04-req-06,G.GV.S-04,2,"Security/Privacy Integration: Secure storage, encr
 G.GV.S-04-req-07,G.GV.S-04,2,Monitoring: Thresholds for drift/anomalies and feedback capture.
 G.GV.S-04-req-08,G.GV.S-04,2,Retirement: Criteria/procedures for decommissioning.
 G.GV.S-04-req-09,G.GV.S-04,2,"Standardized Evaluation Harnesses: Define ""Golden Datasets"" and automated evaluation harnesses to benchmark all models against a consistent, reproducible standard of performance and safety."
+G.GV.S-04-req-10,G.GV.S-04,1,"Synthetic & Augmented Data: Define permitted uses of synthetic and augmented data; record the generator model, its training-data provenance and license, and generation parameters."
+G.GV.S-04-req-11,G.GV.S-04,2,"Synthetic Data Validation: Test synthetic data for fidelity, memorization or re-identification of source records, and recursive-training degradation before use; track real-to-synthetic ratio per training run."
+G.GV.S-04-req-12,G.GV.S-04,3,Synthetic Lineage Enforcement: Tag synthetic records end-to-end through training manifests and enforce ratio and validation thresholds as automated pipeline gates.
+G.GV.S-04-req-13,G.GV.S-04,1,"AI Advisory & Assurance Deliverables: Where the organization provides AI assessments, certifications, or advisory services, define methodology, standard of care, independence, and reliance limitations."
+G.GV.S-04-req-14,G.GV.S-04,2,"Deliverable Register: Maintain a register of AI advisory deliverables and client reliance, retained for the applicable claims period; apply quality review before issue."
+G.GV.S-04-req-15,G.GV.S-04,3,Correlated Exposure Analysis: Assess correlated exposure across clients relying on common methodologies or tools; report it against risk appetite and risk-transfer coverage.
 G.LR-01-req-01,G.LR-01,1,"Legal Register by jurisdiction with mapped obligations (notice, consent, transfers, retention, breach)."
 G.LR-01-req-02,G.LR-01,1,"Cross-Border Transfers: Safeguards (SCCs, BCRs, adequacy) and TIAs."
 G.LR-01-req-03,G.LR-01,2,Gap Assessment & Compliance Plan: Annual assessments and remediation.
@@ -171,6 +183,12 @@ G.LR-02-req-06,G.LR-02,2,Monitoring & Enforcement: Periodic audits for unauthori
 G.LR-02-req-07,G.LR-02,2,Incident Handling: Report suspected infringement; preserve evidence.
 G.LR-02-req-08,G.LR-02,2,Training: Annual IP-protection awareness.
 G.LR-02-req-09,G.LR-02,3,"Automated Secret Scanning & Watermarking: Implement pre-commit hooks to block secret/IP leaks and digital watermarking (e.g., model weight fingerprinting) to trace stolen assets."
+G.LR-02-req-10,G.LR-02,1,"AI IP Rights Management: Data and model licenses expressly grant or exclude AI training, fine-tuning, and derivative-model rights; identify rights distinct from copyright in each operating jurisdiction (moral rights, sui generis database rights, text-and-data-mining opt-outs, trade-secret reasonable-measures tests); record scope, territory, term, and inherited base-model restrictions in the IP Inventory."
+G.LR-02-req-11,G.LR-02,2,"Rights Assurance: Monitor license expiry and source delisting and quarantine or purge affected data; honor machine-readable text-and-data-mining opt-outs at collection; obtain privileged counsel analysis of training-data use (e.g., fair use, TDM exceptions) and patent freedom-to-operate for material AI products, refreshed on material change."
+G.LR-02-req-12,G.LR-02,3,"Rights-Aware Pipelines: Enforce training-rights and opt-out metadata as automated gates at crawl, ingestion, and training; monitor litigation and regulatory developments and trigger re-analysis and risk-register updates automatically."
+G.LR-02-req-13,G.LR-02,1,"AI Output IP Protection: Define a process to identify outputs that reproduce copyrighted works, trademarks, trade dress, or memorized training content; for services that host or transmit AI output or user content, publish a notice-and-takedown process for copyright, defamation, and likeness complaints with a designated agent (e.g., DMCA s.512, EU DSA)."
+G.LR-02-req-14,G.LR-02,2,"Output IP Operations: Test outputs for infringement and memorization before release and periodically in production; meet takedown response timelines, handle counter-notices, enforce a repeat-infringer policy, and route detections and notices to legal review."
+G.LR-02-req-15,G.LR-02,3,Continuous Output IP Screening: Screen production outputs automatically against reference corpora and mark registries; feed takedown patterns and repeat sources into guardrails and training-data exclusions.
 G.LR-03-req-01,G.LR-03,1,Regulatory Register: Inventory AI-related regulations/standards.
 G.LR-03-req-02,G.LR-03,1,Human Oversight Mechanisms: Identify/document oversight for high-risk AI.
 G.LR-03-req-03,G.LR-03,1,Transparency & User Disclosure: Notify when users interact with AI.
@@ -229,6 +247,9 @@ G.RM-02-req-04,G.RM-02,1,Communication: Organization-wide training on risk appet
 G.RM-02-req-05,G.RM-02,1,Review Cadence: Annual or on major changes.
 G.RM-02-req-06,G.RM-02,1,"Dynamic Risk Appetite (Automated Guardrails): Implement technical controls that automatically enforce appetite limits (e.g., circuit breakers that stop trading if loss exceeds $X, or block AI deployment if bias exceeds Y%)."
 G.RM-02-req-07,G.RM-02,3,"Integration: Embed tolerance in testing, vuln prioritization, AI evaluation metrics."
+G.RM-02-req-08,G.RM-02,1,"Risk Transfer Review: Inventory insurance and indemnity coverage relevant to AI risk (e.g., Cyber, Tech E&O, D&O, IP, EPL, Media, Products, MPL) and identify AI exclusions."
+G.RM-02-req-09,G.RM-02,2,"Coverage Gap Analysis: At least annually, map AI risk scenarios and exposure base (AI-attributable revenue, model count, data volume, customer concentration) to coverage; record accept, transfer, or mitigate decisions against appetite."
+G.RM-02-req-10,G.RM-02,3,Quantified Risk Transfer: Quantify AI loss scenarios and compare modeled exposure to limits and retentions to inform placement and appetite.
 G.RM-03-req-01,G.RM-03,1,"AI Risk Framework: Ethical, technical, data, security, regulatory, societal."
 G.RM-03-req-02,G.RM-03,1,"AI Risk Register with tier, mitigations, owner, validation outcomes."
 G.RM-03-req-03,G.RM-03,2,"Lifecycle Risk Assessments at design, data, training, deployment, operation, retirement."
@@ -264,6 +285,9 @@ G.ST.B-req-3,G.ST.B,2,Interface Control: Identify data flows/protocols between z
 G.ST.B-req-4,G.ST.B,2,Third-Party Edges: Document vendor/customer connections; align contractual/technical controls.
 G.ST.B-req-5,G.ST.B,2,Change Control: Update boundary artifacts during change approvals; verify via audits/pen tests.
 G.ST.B-req-6,G.ST.B,2,"Evidence: Maintain architecture diagrams, flow maps, inventories, approvals."
+G.ST.B-req-7,G.ST.B,1,"Tenant Isolation for Customization: Isolate customer-specific fine-tuning data, adapters, and model variants per tenant."
+G.ST.B-req-8,G.ST.B,2,Isolation Testing: Test for cross-tenant leakage before release and after material changes.
+G.ST.B-req-9,G.ST.B,3,Continuous Isolation Assurance: Monitor cross-tenant access and output leakage continuously with canary data.
 G.ST.O-01-req-1,G.ST.O-01,1,"Mission Definition: Maintain a written mission statement that explains who is served, services/outcomes provided, and principles that guide trustworthy technology and data stewardship."
 G.ST.O-01-req-2,G.ST.O-01,1,"Governance Alignment: Link the mission to governance objectives (security, privacy, resilience, responsible AI) with accountable owners and measurable outcomes."
 G.ST.O-01-req-3,G.ST.O-01,1,"Scope Statement: Issue a signed, version-controlled scope statement clarifying covered legal entities, functions, facilities, networks, cloud accounts, and AI systems; note justified exclusions (ISMS Statement)."
@@ -294,3 +318,9 @@ G.ST.S-03-req-2,G.ST.S-03,2,"Control Mapping: Map obligations to policies, stand
 G.ST.S-03-req-3,G.ST.S-03,2,"Evidence Strategy: Define required records, retention, and reporting triggers."
 G.ST.S-03-req-4,G.ST.S-03,2,Change Monitoring: Track regulatory changes and update obligations/controls.
 G.ST.S-03-req-5,G.ST.S-03,3,Assurance: Periodically test controls against obligations.
+G.ST.S-03-req-6,G.ST.S-03,1,"Export Control & Dual-Use: Identify whether models, weights, training datasets, or enabling technology fall under export regimes (e.g., EAR/ECCN, ITAR/USML, EU Dual-Use Regulation) and record classifications in the Obligation Register."
+G.ST.S-03-req-7,G.ST.S-03,2,"Export Control Screening: Screen recipients, customers, hosting regions, and foreign-national access before release or transfer of controlled AI items; re-classify on material model or data changes."
+G.ST.S-03-req-8,G.ST.S-03,3,"Automated Export Enforcement: Enforce export classifications as technical gates in release, model-registry, and cloud-region provisioning workflows; log and alert on blocked transfers."
+G.ST.S-03-req-9,G.ST.S-03,1,"Outbound AI Terms: Maintain standard customer and client terms for AI products and services covering intended and prohibited use, performance representations, accuracy disclaimers, output ownership and liability, limitation of liability, indemnities, model-change notice, and end-of-life obligations."
+G.ST.S-03-req-10,G.ST.S-03,2,Contract Deviation Control: Legal approves deviations from standard AI terms; register non-standard commitments in the Obligation Register and track fulfilment.
+G.ST.S-03-req-11,G.ST.S-03,3,"Contract Exposure Analytics: Quantify aggregate AI-related contractual exposure (indemnities, caps, SLAs, warranties) across the customer base and report it against risk appetite."

@@ -48,6 +48,9 @@ V.TE-02-req-05,V.TE-02,2,"Red-Team Evaluations: Conduct structured red teaming t
 V.TE-02-req-06,V.TE-02,2,Risk Scoring & Decisioning: Convert evaluation results into risk scores; compare to thresholds; require compensating controls or design changes when thresholds are missed.
 V.TE-02-req-07,V.TE-02,2,"Periodic Re-Evaluation: Trigger on data/model changes, new regions/populations, or drift alerts; maintain versioned evaluation reports."
 V.TE-02-req-08,V.TE-02,3,Operational Context: Evaluate in production-like traffic and tooling; measure user experience and safety outcomes; ensure monitoring hooks exist for post-deployment parity.
+V.TE-02-req-09,V.TE-02,1,Evaluation Contamination Control: Keep evaluation datasets separate from training data and document how separation is maintained.
+V.TE-02-req-10,V.TE-02,2,Contamination Testing: Test for train/evaluation overlap before each evaluation; refresh held-out sets on a defined cadence and after major data acquisitions.
+V.TE-02-req-11,V.TE-02,3,"Automated Overlap Detection: Detect overlap automatically (e.g., hashing, near-duplicate search) in pipelines and block contaminated evaluation runs."
 V.TE-03-req-01,V.TE-03,1,"Requirements Traceability: Maintain bidirectional traceability across requirements - designs  - tests  - results; include policy and governance requirements (e.g., logging, retention, guardrails)."
 V.TE-03-req-02,V.TE-03,1,"Verification Plan: Define verification methods (test, analysis, inspection, demonstration) and acceptance criteria per requirement; include sampling criteria."
 V.TE-03-req-03,V.TE-03,1,Independence: Assign verifiers independent from implementers for high-risk items; require segregation for approvals.

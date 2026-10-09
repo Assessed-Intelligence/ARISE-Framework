@@ -25,7 +25,7 @@ The framework is organized into seven domains:
 
 ## What This Repository Contains
 
-- `framework/` — the public control library: 128 controls across seven domains with all 889 prioritized requirements published in full, plus the 38-node taxonomy that organizes them
+- `framework/` — the public control library: 128 controls across seven domains with all 953 prioritized requirements published in full, plus the 38-node taxonomy that organizes them
 - `crosswalks/` — mappings between ARISE controls and 40 external frameworks, regulations, and audit criteria, including the EU AI Act, ISO/IEC 42001, ISO/IEC 27001, NIST AI RMF, NIST SP 800-53, GDPR, HIPAA, PCI DSS v4.0, the Colorado AI Act, Texas TRAIGA, and the CEN/CENELEC prEN 18xxx series
 - `docs/` — supporting documentation and methodology notes
 
@@ -49,7 +49,7 @@ Academic and research users should cite the framework using the metadata in [CIT
 
 ## Versioning
 
-The control library and crosswalks are versioned. Adopters should record the version identifier in use; material changes are documented in the release notes for each tagged version.
+The control library and crosswalks are versioned. Adopters should record the version identifier in use; material changes are documented in [CHANGELOG.md](CHANGELOG.md) and the release notes for each tagged version.
 
 ## Questions and Feedback
 

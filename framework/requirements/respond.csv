@@ -115,3 +115,6 @@ R.LL-req-03,R.LL,1,Action Plan Tracking: Assign remediation tasks with owners an
 R.LL-req-04,R.LL,1,"Post-Mortem Policy: Enforce a ""Blameless"" policy for RCAs that focuses on systemic incentives and process failures rather than individual blame, ensuring staff feel safe to report the true root cause."
 R.LL-req-05,R.LL,2,"Integration to Risk & Training: Feed lessons into the risk register, policy updates, runbooks, and awareness training."
 R.LL-req-06,R.LL,3,Universal Coverage: Post-Incident Reviews (PIRs) conducted for all incidents (minor and major); documented evidence of implemented lessons.
+R.LL-req-07,R.LL,1,"AI Claims & Loss Register: Record AI-related claims, demand letters, regulatory inquiries, and litigation with exposure line, status, and incurred cost."
+R.LL-req-08,R.LL,2,"Claims Analysis: Perform RCA on AI claims and near-misses; feed results into the risk register, controls, and risk-appetite review."
+R.LL-req-09,R.LL,3,Loss Trend Analytics: Trend AI claims and losses by line and root cause; use them to calibrate likelihood and impact scales and risk-transfer decisions.

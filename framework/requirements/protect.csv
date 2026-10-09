@@ -25,6 +25,9 @@ P.AC.S-01-req-04,P.AC.S-01,2,Integrity Controls: Hashes/checksums; signed datase
 P.AC.S-01-req-05,P.AC.S-01,2,"User-Generated Data Governance: Moderate/cleanse UGC; define retention, consent, and redaction policies."
 P.AC.S-01-req-06,P.AC.S-01,2,"Quality & Bias Metadata: Attach statistical summaries and quality reports to dataset metadata, documenting known skew, missingness, and demographic balance to inform model development and bias mitigation."
 P.AC.S-01-req-07,P.AC.S-01,3,All production datasets carry provenance and sensitivity tags.
+P.AC.S-01-req-08,P.AC.S-01,1,"Regulated-Modality Tags: Tag datasets and artifacts subject to modality- or domain-specific regimes (e.g., controlled technical data, geospatial imagery, biometric, medical imaging, voice)."
+P.AC.S-01-req-09,P.AC.S-01,2,"Modality-Based Handling: Enforce tag-based access, residency, and hosting-region restrictions for regulated-modality data across training and inference environments."
+P.AC.S-01-req-10,P.AC.S-01,3,Full Modality Coverage: All production datasets carry regulated-modality tags; automated scanning detects untagged regulated content before ingestion.
 P.AC.S-02-req-01,P.AC.S-02,1,"Input/Output Guardrails: Content filtering, policy/guard prompts, output sanitization; prevent chain-of-thought leakage."
 P.AC.S-02-req-02,P.AC.S-02,1,Rate-Limit & Abuse Prevention: Per-tenant throttles; high-risk pattern detection; honeypot prompts/canaries.
 P.AC.S-02-req-03,P.AC.S-02,1,"Adversarial Testing: Red-team for jailbreaks, prompt-injection chains, data poisoning; capture signatures into detections."
@@ -33,6 +36,12 @@ P.AC.S-02-req-05,P.AC.S-02,1,Telemetry: Log prompts/responses (privacy-aware); d
 P.AC.S-02-req-06,P.AC.S-02,2,Sandbox & Isolation: Execute tools and retrieval in restricted sandboxes; restrict outbound calls; validate tool schemas.
 P.AC.S-02-req-07,P.AC.S-02,2,"Semantic Sequence Analysis: Implement stateful monitoring across multi-turn conversations to detect ""Prompt Smuggling"" or incremental jailbreak attempts that appear benign in isolation but collectively violate safety policies."
 P.AC.S-02-req-08,P.AC.S-02,2,Continuous Validation: Guardrails and rate-limits on all public model endpoints; adversarial tests before production.
+P.AC.S-02-req-09,P.AC.S-02,1,"Agent Retrieval Governance: Document and allow-list the external sources, APIs, and tools each agent may retrieve from at inference time."
+P.AC.S-02-req-10,P.AC.S-02,2,"Retrieval Vetting & Logging: Apply provenance, license, and sensitivity checks before retrieved content enters agent context or memory; log each retrieval with source, timestamp, and agent identity."
+P.AC.S-02-req-11,P.AC.S-02,3,Runtime Retrieval Enforcement: Enforce allow-lists and content checks at a policy gateway for all agents; alert on off-list retrieval and retrieved content that fails checks.
+P.AC.S-02-req-12,P.AC.S-02,1,"Real-Person Output Harms: Prohibit generating an identifiable real person's likeness, voice, or name without documented consent; require human editorial review before publishing high-risk generated statements about real persons or cited sources; assess applicable right-of-publicity, deepfake, and defamation law (e.g., ELVIS Act, EU AI Act Art. 50)."
+P.AC.S-02-req-13,P.AC.S-02,2,"Consent, Labeling & Factuality Checks: Maintain a consent and opt-out register for likeness and voice; label permitted synthetic media per G.GV.A-06-req-04; verify citations and apply factuality checks, tracking hallucination and fabricated-citation rates against thresholds."
+P.AC.S-02-req-14,P.AC.S-02,3,Automated Real-Person Safeguards: Detect real-person likeness and voice in outputs and enforce consent checks at generation time; ground and verify claims about real persons automatically and hold failing outputs from publication.
 P.AT-01-req-01,P.AT-01,1,Accountability: Managers ensure team completion; HR tracks compliance.
 P.AT-01-req-02,P.AT-01,1,"Role-Based Delivery: Tailored content for executives (governance), developers (secure AI SDLC), and auditors (assurance)."
 P.AT-01-req-03,P.AT-01,2,"Curriculum Design: Modular training covering bias, fairness, explainability, data governance, TEVV, and legal obligations."
@@ -59,6 +68,9 @@ P.DS-01-req-05,P.DS-01,2,Storage & Retention: Encrypt and store per classificati
 P.DS-01-req-06,P.DS-01,2,Access Controls: Tie read/write privileges to classification level.
 P.DS-01-req-07,P.DS-01,2,"Automated Classification Verification: Implement automated scanning tools to periodically validate that data stored in repositories matches its assigned classification label (e.g., identifying unencrypted PII in a ""Public"" bucket)."
 P.DS-01-req-08,P.DS-01,3,Full Inventory Compliance: All datasets labeled; retention schedule enforced across all production and development environments.
+P.DS-01-req-09,P.DS-01,1,"Agent Memory & Derived Data: Classify agent memory, conversation state, vector stores, embeddings, and inference caches at the sensitivity of their most sensitive source."
+P.DS-01-req-10,P.DS-01,2,"Derived Data Lifecycle: Apply retention, deletion-request, and breach-notification treatment to derived data equal to the source data; derived stores fall within legal holds issued under G.GV.S-03."
+P.DS-01-req-11,P.DS-01,3,Automated Derived-Data Propagation: Propagate source classification and deletion status automatically to all derived stores; verify purge completion.
 P.DS-02-req-01,P.DS-02,1,"Encryption Coverage: Enforce encryption for data-at-rest, in-transit, and for model files."
 P.DS-02-req-02,P.DS-02,1,Key Management: Centralized KMS/HSM for key lifecycle; rotate keys annually or on compromise. (key inventory accurate and current.)
 P.DS-02-req-03,P.DS-02,2,Algorithm Standards: Use FIPS-validated or equivalent ciphers; maintain crypto-agility plan.

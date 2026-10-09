@@ -1,25 +1,25 @@
 # ARISE Control Library
 
-The ARISE Framework™ control library: 128 controls across seven domains, with 889 prioritized requirements published in full. The library is organized as a taxonomy; 38 parent nodes group related controls (see `../taxonomy.csv`), and every control belongs to one of the seven domains.
+The ARISE Framework™ control library: 128 controls across seven domains, with 953 prioritized requirements published in full. The library is organized as a taxonomy; 38 parent nodes group related controls (see `../taxonomy.csv`), and every control belongs to one of the seven domains.
 
 ## Structure
 
 - `controls/{domain}.csv` — the 128 controls, one file per domain
-- `requirements/{domain}.csv` — all 889 requirements, keyed to their control, with priority tiers
+- `requirements/{domain}.csv` — all 953 requirements, keyed to their control, with priority tiers
 - `../taxonomy.csv` — the 38 parent nodes that organize the control hierarchy
 
 ## Domain Summary
 
 | Domain | Controls | Requirements |
 |--------|----------|--------------|
-| GOVERN | 43 | 295 |
-| MANAGE | 13 | 102 |
-| IDENTIFY | 11 | 80 |
-| PROTECT | 23 | 158 |
+| GOVERN | 43 | 325 |
+| MANAGE | 13 | 115 |
+| IDENTIFY | 11 | 83 |
+| PROTECT | 23 | 170 |
 | DETECT | 11 | 74 |
-| RESPOND | 17 | 116 |
-| VALIDATE | 10 | 64 |
-| **Total** | **128** | **889** |
+| RESPOND | 17 | 119 |
+| VALIDATE | 10 | 67 |
+| **Total** | **128** | **953** |
 
 ## Controls Schema
 

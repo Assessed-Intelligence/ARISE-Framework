@@ -6,6 +6,6 @@ V.CI-02,V.CI,VALIDATE,Internal Audit: AI Audit,"Independently assess AI governan
 V.CI-03,V.CI,VALIDATE,Internal Audit: Security Audit,"Independently assess ISMS control design and operating effectiveness across technology, process, and organizational domains.",6
 V.IA,,VALIDATE,Internal Audit,"Provide independent assurance on the adequacy and effectiveness of security, privacy, and AI governance controls.",5
 V.TE-01,V.TE,VALIDATE,Testing,"Plan and execute comprehensive functional, security, reliability, and safety tests for systems and AI components to discover defects early and reduce production risk.",8
-V.TE-02,V.TE,VALIDATE,Evaluation,"Evaluate model/system performance, safety, and harms across contexts to ensure effectiveness and acceptable risk in realistic operating conditions.",8
+V.TE-02,V.TE,VALIDATE,Evaluation,"Evaluate model/system performance, safety, and harms across contexts to ensure effectiveness and acceptable risk in realistic operating conditions.",11
 V.TE-03,V.TE,VALIDATE,Verification,"Verify that implemented systems meet stated requirements, policies, and constraints, and that controls operate as designed.",8
 V.TE-04,V.TE,VALIDATE,Validation,"Confirm the system, as built and operated, achieves its intended use for target users and contexts without introducing unacceptable risk.",7

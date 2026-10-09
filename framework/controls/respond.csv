@@ -15,4 +15,4 @@ R.IM-04,R.IM,RESPOND,Business Continuity,"Maintain critical operations during in
 R.IR-01,R.IR,RESPOND,Incident Response: AI,"Ensure timely and coordinated response to AI-related incidents such as harmful or biased outputs, data leakage, model poisoning, or unauthorized model behavior to protect users, data integrity, and compliance obligations.",10
 R.IR-02,R.IR,RESPOND,Incident Response: Cybersecurity,"Coordinate technical response to cybersecurity incidents across infrastructure, endpoints, networks, applications, and third-party systems to limit impact and restore operations.",8
 R.IR-03,R.IR,RESPOND,Incident Response: Privacy,"Manage and mitigate personal data breaches or unauthorized processing activities, ensuring compliance with privacy laws and customer trust.",7
-R.LL,,RESPOND,Incident Lessons Learned,"Ensure every incident or near miss results in measurable learning, control enhancement, and organizational improvement.",6
+R.LL,,RESPOND,Incident Lessons Learned,"Ensure every incident or near miss results in measurable learning, control enhancement, and organizational improvement.",9
