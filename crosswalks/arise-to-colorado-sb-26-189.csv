@@ -1,5 +1,5 @@
 arise_control_id,rationale
-R.IC.E-04,Direct alignment. The requirement is fundamentally a consumer-facing transparency and notice obligation for ADMT use before or during interaction.
+G.GV.A-06,"Direct alignment. Transparency governs consumer-facing disclosure of AI use before or during interaction, which is the ADMT notice duty; breach notification (R.IC.E-04) is not what the statute requires."
 P.AC.M-03,Strong alignment. Explainability supports the required plain-language description of the ADMT role in an adverse outcome.
 P.AC.M-03,Strong alignment. Human review depends on understandable decision factors and reviewer access to relevant decision information.
 M.DV-01,Direct alignment. Lifecycle documentation is the core ARISE control for maintaining developer records supporting responsible deployment.

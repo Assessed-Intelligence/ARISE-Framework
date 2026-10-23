@@ -1,84 +1,92 @@
 arise_control_id,NIST SP 800-53,rationale
-D.AD,SI-4,Control 'Anomaly Detection' primarily addresses monitoring and logging
-D.CM,CA-7,Control 'Continuous Monitoring' primarily addresses monitoring and logging
-D.IA,CA-2; CA-7,Control 'Internal Audit' primarily addresses governance and leadership
-D.ID,SI-4,Control 'IOC Detection' primarily addresses monitoring and logging
-D.IM,IR-4,Control 'Incident Management' primarily addresses incident response and management
-D.MT,SR-3; SR-5,Control 'Monitor Third Parties' primarily addresses monitoring and logging
-D.SA,CA-2,Control 'Security Assessments' primarily addresses risk assessment and management
-D.SA-01,CA-2,Control 'Performing Security Assessments' primarily addresses risk assessment and management
-D.SA-02,CA-8,Control 'Penetration Testing' primarily addresses business continuity and resilience. NIST SP 800-53 controls CA-8 covering security assessment and authorization
-D.SA-03,RA-5,Control 'Vulnerability Testing' primarily addresses code
-D.SA-04,IR-2,Control 'Tabletop Exercises (BCDR)' primarily addresses incident response and management
-D.SA-05,SA-11; SI-2,Control 'Code Scanning' primarily addresses code
-D.TI,PM-16,Control 'Threat Intelligence' primarily addresses monitoring and logging
-G.AC-01,PM-1,Control 'Top Management Commitment' primarily addresses governance and leadership
-G.AC-02,PM-1,Control 'Charters & Committees' primarily addresses incident response and management
-G.AC-03,PM-1,Control 'Executive Leadership & Board Oversight' primarily addresses incident response and management
-G.GV.A-01,RA-3,Control 'Accountability' primarily addresses general security and AI governance. NIST SP 800-53 controls RA-3 covering risk assessment articulate requirements that are correlated with this control’s objectives and activities.
-G.GV.C-01,PL-4,Control 'COC: Acceptable Use' primarily addresses monitoring and logging
-G.GV.C-02,PL-4; PM-18,Control 'COC: Data Ethics' primarily addresses governance and leadership
-G.GV.C-03,PL-4; SA-8,Control 'COC: Ethical Principles for AI & Tech' primarily addresses monitoring and logging
-G.GV.P-01,PM-1,Control 'Core Policies' primarily addresses monitoring and logging
-G.GV.P-02,PL-1; PM-1,Control 'Security Policies' primarily addresses monitoring and logging
-G.GV.P-03,IR-1; CP-1,Control 'Response & Resilience Policies' primarily addresses incident response and management
-G.GV.P-04,PM-1; SA-8,Control 'AI Policies' primarily addresses monitoring and logging
-G.GV.P-05,PT-1; PM-19,Control 'Privacy Policies' primarily addresses incident response and management
-G.GV.P-07,PS-1,Control 'HR Policies' primarily addresses governance and leadership. NIST SP 800-53 controls PS-1 covering personnel security
-G.GV.P-08,SR-1; PM-30,Control 'Supply-Chain Policies' primarily addresses monitoring and logging
-G.GV.P-09,PM-1; MP-1,Control 'Data-Governance Policies' primarily addresses monitoring and logging
-G.GV.S-02,PL-1; CM-6,Control 'Security Standards' primarily addresses monitoring and logging
-G.GV.S-03,IR-1; CP-1,Control 'Response & Resilience Standards' primarily addresses incident response and management
-G.GV.S-04,PM-1; SA-8,Control 'AI Standards' primarily addresses monitoring and logging
-G.LR-01,PM-19,Control 'Data Privacy Compliance' primarily addresses monitoring and logging
-G.LR-02,SA-4; PL-8,Control 'Intellectual Property (IP) Management' primarily addresses monitoring and logging
-G.LR-04,PM-5,Control 'Cybersecurity Regulatory Compliance' primarily addresses monitoring and logging
-G.PR-01,PM-19; PT-1,Control 'Privacy Program' primarily addresses monitoring and logging
-G.RM-01,RA-3; PM-9,Control 'Risk Management Framework' primarily addresses monitoring and logging
-G.RM-02,RA-3,Control 'Risk Appetite and Tolerance' primarily addresses governance and leadership. NIST SP 800-53 controls RA-3 covering risk assessment articulate requirements that are correlated with this control’s objectives and activities.
-G.RM-03,RA-3; SA-8,Control 'Risk Management Program: AI' primarily addresses monitoring and logging
-G.RM-04,RA-3; PM-9,Control 'Risk-Management Program: Cybersecurity' primarily addresses monitoring and logging
-G.RM-05,SR-2; SR-3,Control 'Risk-Management Program: Third-Party' primarily addresses monitoring and logging
-G.ST.B,PL-2; PM-5,Control 'System Boundaries' primarily addresses third-party and vendor risk
-G.ST.S-01,PL-2,Control 'AI Scope' primarily addresses monitoring and logging
-G.ST.S-02,PL-2; PM-5,Control 'Security Scope' primarily addresses general security and AI governance. NIST SP 800-53 controls PL-2; PM-5 covering planning
-I.AM-02,CM-8; PM-5,Control 'System Asset Management' primarily addresses monitoring and logging
-I.DG-01,PM-5; CM-8,Control 'Data Mapping' primarily addresses monitoring and logging
-I.RM-01,RA-3,Control 'Risk Identification' primarily addresses monitoring and logging
-I.RM-02,PM-12,Control 'Insider Threat' primarily addresses monitoring and logging
-I.SC-01,SR-2,Control 'Supply Chain Risk' primarily addresses monitoring and logging
-I.TH-01,CA-7; RA-3,Control 'Security Thresholds' primarily addresses monitoring and logging. NIST SP 800-53 controls CA-7; RA-3 covering security assessment and authorization
-M.CM,CM-3,Control 'Change Management' primarily addresses code
-M.DV-02,SA-15,Control 'Software Development Lifecycle (SDLC)' primarily addresses code
-M.HR,PS-3; PS-4; PS-5,Control 'Human Resources' primarily addresses monitoring and logging
-M.OV-02,PM-1; PM-21,Control 'Privacy Oversight Committee' primarily addresses incident response and management
-M.OV-03,PM-1,Control 'Security Oversight Committee' primarily addresses monitoring and logging
-M.PM,PM-6; CA-7,Control 'Performance Metrics' primarily addresses monitoring and logging
-M.PR,PM-19; PT-1,Control 'Privacy Program' primarily addresses monitoring and logging
-M.RM-01,SR-2; SR-3,Control 'Third-Party Risk Management' primarily addresses monitoring and logging
-M.RM-03,RA-3; PM-9,Control 'Cybersecurity Risk Management' primarily addresses monitoring and logging
-M.RP,PM-15; PM-31,Control 'Reporting' primarily addresses incident response and management
-P.AT-01,AT-2; AT-3,Control 'AI Training' primarily addresses governance and leadership
-P.DS-01,MP-3; MP-4,Control 'Classification & Handling' primarily addresses access control and identity. NIST SP 800-53 controls MP-3; MP-4 covering media protection
-P.DS-02,SC-13,Control 'Cryptographic Management' primarily addresses general security and AI governance. NIST SP 800-53 controls SC-13 covering system and communications protection
-P.ES,CM-7; SI-3,Control 'Endpoint Security' primarily addresses monitoring and logging
-P.IM,IA-2; IA-4,Control 'Identity Management' primarily addresses monitoring and logging
-P.NS,SC-7; AC-4,Control 'Network Security' primarily addresses monitoring and logging
-P.PC,PT-1,Control 'Privacy Controls' primarily addresses monitoring and logging
-P.PS,SC-3,Control 'Platform Security' primarily addresses monitoring and logging
-P.PY-01,PE-2; PE-3,Control 'Access Controls' primarily addresses monitoring and logging
-P.PY-02,PE-10; PE-11,Control 'Environment Controls' primarily addresses business continuity and resilience. NIST SP 800-53 controls PE-10; PE-11 covering physical and environmental protection
-P.PY-03,PE-13; PE-14,Control 'Safety & Security' supports physical safety and secure evacuation of personnel and sensitive media. NIST SP 800-53 controls PE-13; PE-14 covering physical and environmental protection
-P.RC,CP-2; CP-7; CP-8,Control 'Resilience Controls' primarily addresses monitoring and logging
-P.SD,SA-8; SA-11,Control 'Secure Development' primarily addresses code
-R.IC.E-01,IR-6,Control 'Regulatory Reporting' primarily addresses incident response and management
-R.IC.E-02,IR-6,Control 'Law Enforcement Partners' primarily addresses monitoring and logging. NIST SP 800-53 controls IR-6 covering incident response
-R.IC.E-03,PM-15; PM-16,Control 'Information-Sharing Communities' primarily addresses monitoring and logging. NIST SP 800-53 controls PM-15; PM-16 covering program management
-R.IC.E-04,SE-2; IR-6,Control 'Privacy Notification Requirements' primarily addresses incident response and management
-R.IC.I-01,IR-6; AT-2,Control 'Personnel' primarily addresses monitoring and logging
-R.IC.I-02,IR-6; PM-1,Control 'Top Management' primarily addresses incident response and management
-R.IC.I-03,IR-7; IR-2,Control 'Incident Response Team' primarily addresses monitoring and logging
-R.IC.P,IR-6; PM-1,Control 'Public Updates / Disclosures' primarily addresses governance and leadership. NIST SP 800-53 controls IR-6; PM-1 covering incident response
-R.IC.R,IR-4; CP-10,Control 'Recovery Activity & Restoration' primarily addresses monitoring and logging
-R.IR-02,IR-4; IR-5; IR-6,Control 'Incident Response: Cybersecurity' primarily addresses monitoring and logging
-V.TE-03,CA-2; CA-7,Control 'Verification' primarily addresses monitoring and logging
+D.AD,SI-4,"SI-4 requires monitoring systems to detect attacks, unauthorized use, and anomalous behavior; Anomaly Detection implements this through behavioral baselines for systems and models and alerting tied to incident playbooks."
+D.CM,CA-7; AU-6; AU-12,"CA-7 requires an ongoing monitoring strategy with defined metrics, frequencies and reporting, AU-12 audit record generation and AU-6 audit record review, analysis and reporting; Continuous Monitoring provides that program across digital and AI systems, including model performance and drift."
+D.ID,SI-4,SI-4 requires monitoring for indicators of compromise and attack; IOC Detection implements this for conventional and AI-native indicators such as adversarial prompts and model abuse.
+D.IM,IR-4,"IR-4 requires an incident handling capability covering preparation, detection and analysis, containment, eradication, and recovery; Incident Management provides that capability for security and AI incidents."
+D.MT,SR-3; SR-5,SR-3 requires supply chain controls and processes and SR-5 requires acquisition strategies and tools to manage supply chain risk; Monitor Third Parties supplies the ongoing oversight of supplier performance and security posture these controls depend on.
+D.SA-01,CA-2,"CA-2 requires assessing control effectiveness through a defined assessment plan and producing an assessment report; Performing Security Assessments conducts independent, systematic security testing across digital and AI environments."
+D.SA-02,CA-8,CA-8 requires penetration testing of systems and components; Penetration Testing simulates adversarial attacks against systems and models to evaluate resilience.
+D.SA-03,RA-5,"RA-5 requires vulnerability monitoring and scanning with remediation of findings within defined response times; Vulnerability Testing identifies and drives mitigation of exploitable weaknesses across systems, applications, and AI components."
+D.SA-04,IR-3; CP-4,"IR-3 requires testing incident response capability and CP-4 requires testing the contingency plan, both explicitly including tabletop exercises; Tabletop Exercises (BCDR) runs scheduled exercises across cyber, disaster recovery, and AI failure scenarios and updates playbooks from the results."
+D.SA-05,SA-11; SI-2,"SA-11 requires developer security testing including static and dynamic analysis, and SI-2 requires identifying and correcting flaws; Code Scanning keeps application and AI codebases free of known defects and insecure configurations."
+D.TI,PM-16,"PM-16 requires a threat awareness program that shares threat information; Threat Intelligence collects and applies threat intelligence, including AI-specific adversarial tactics, to defensive decisions."
+M.CM,CM-3,"CM-3 requires configuration change control with documented review, approval, and testing; Change Management provides that process for system and AI changes."
+M.DV-02,SA-15,"SA-15 requires a documented development process, standards, and tools that address security and privacy; the Software Development Lifecycle provides that process."
+M.HR,PS-3; PS-4; PS-5,"PS-3 requires personnel screening, PS-4 personnel termination, and PS-5 personnel transfer; Human Resources manages hiring, role changes, and departures under those requirements."
+M.OV-02,PM-1; PM-19,PM-19 requires a senior privacy official with authority over the privacy program and PM-1 places that program within organization-wide governance; the Privacy Oversight Committee provides governance and decision authority on privacy and sensitive-data handling.
+M.OV-03,PM-1,PM-1 requires the security program plan to define coordination and oversight among organizational entities; the Security Oversight Committee provides that governance body.
+M.PM,PM-6; CA-7,PM-6 requires measures of performance for the security program and CA-7 metrics for ongoing monitoring; Performance Metrics defines and reports those measures.
+M.PR,PM-19; PT-1,PM-19 requires a privacy program leadership role and PT-1 PII processing policy and procedures; M.PR runs day-to-day privacy operations under them.
+M.RM-01,SR-2; SR-3; SA-4,"SR-2 and SR-3 require a supply chain risk management plan and controls, and SA-4 requires security and privacy requirements in acquisition contracts; Third-Party Risk Management assesses vendors and writes security requirements into their agreements."
+M.RM-03,RA-3; PM-9,"RA-3 requires ongoing risk assessment and PM-9 an organization-wide risk strategy; Cybersecurity Risk Management continuously evaluates threats, vulnerabilities, and exposure within that strategy."
+M.RP,PM-15; PM-31,"PM-15 requires contacts with security groups and associations and PM-31 a continuous monitoring strategy with reporting to officials; Reporting delivers structured, risk-informed reporting to governance bodies. Partial alignment, as PM-15 addresses external rather than internal reporting."
+V.AD-02,CA-2(1),CA-2(1) requires independent assessors or assessment teams; External Audit: Security Audit obtains that independent validation of the security program through certification or attestation.
+V.CI-01,IR-6; IR-7,"IR-6 requires personnel to report suspected incidents within a defined period and IR-7 an incident response support resource for users; Reporting Channels provide the accessible, responsive routes to report risks, incidents and concerns."
+V.CI-03,CA-2; CA-7,CA-2 requires control assessments by qualified assessors and CA-7 ongoing assessment; Internal Audit: Security Audit independently assesses control design and operating effectiveness.
+V.IA,CA-2; CA-7,"CA-2 requires planned, independent control assessments with documented results, and CA-7 requires ongoing assessment within a monitoring program; Internal Audit provides a chartered, independent, risk-based audit plan with tracked findings and corrective actions."
+V.TE-01,SA-11; CA-2,"SA-11 requires developer testing and evaluation of controls and CA-2 assessment of implemented controls; Testing plans and executes functional, security, reliability and safety tests before production."
+V.TE-03,CA-2; CA-7,"CA-2 requires assessing whether controls are implemented correctly and producing the desired outcome, and CA-7 ongoing assessment; Verification confirms systems meet design and policy requirements."
+I.AM-02,CM-8; PM-5,"CM-8 requires an accurate, current system component inventory and PM-5 an organization-wide system inventory; System Asset Management maintains an authoritative CMDB with owners, classification, and interconnections."
+I.AM-03,AC-19; AC-20,AC-19 requires usage restrictions and configuration for mobile devices and AC-20 controls use of external systems including personally owned devices; BYOD Asset Management controls risk from personally owned devices accessing organizational systems.
+I.DG-01,PM-5; CM-8,"PM-5 requires a system inventory and CM-8 a component inventory, which data flow mapping depends on; Data Mapping documents where data resides and how it moves. PM-5(1), the inventory of PII, is the closer fit for personal data."
+I.RM-01,RA-3,"RA-3 requires identifying threats, vulnerabilities, likelihood, and impact; Risk Identification identifies risks across cyber, privacy, safety, ethics, and AI for consistent analysis."
+I.RM-02,PM-12,"PM-12 requires an insider threat program with a cross-discipline incident handling team; Insider Threat establishes that program with HR, Security, and Legal oversight and behavioral monitoring."
+I.SC-01,SR-2,"SR-2 requires a supply chain risk management plan; Supply Chain Risk identifies and manages risk from software, model, and dataset suppliers under that plan."
+I.TH-01,CA-7; RA-3,CA-7 requires monitoring against defined metrics and thresholds and RA-3 risk determinations against tolerance; Security Thresholds defines the measurable limits that trigger action.
+I.TM-01,RA-3; PM-16; SI-5,"RA-3 requires threat identification in risk assessments, PM-16 a threat awareness program and SI-5 handling of security alerts and advisories; Threat Management continuously identifies, assesses and tracks threats to systems and AI assets."
+R.IC.E-01,IR-6,IR-6 requires reporting incidents to designated authorities within defined time frames; Regulatory Reporting meets those notification obligations to regulators.
+R.IC.E-02,IR-6,IR-6 requires reporting incident information to designated authorities; Law Enforcement Partners maintains the relationships and procedures for reporting to law enforcement.
+R.IC.E-03,PM-15; PM-16,PM-15 requires contacts with security groups and associations and PM-16 a threat awareness program; Information-Sharing Communities participates in ISACs and similar forums to exchange threat information.
+R.IC.E-04,IR-8(1); IR-6,"IR-8(1) requires the incident response plan to include breach procedures, including notification of affected individuals, and IR-6 requires reporting to authorities; Privacy Notification Requirements notifies affected individuals and authorities after a verified breach."
+R.IC.I-01,IR-6; AT-2,IR-6 requires personnel to report suspected incidents and AT-2 awareness training that covers how to report; Personnel ensures staff know and use the internal reporting path.
+R.IC.I-02,IR-6; PM-1,IR-6 requires incident reporting to designated officials and PM-1 senior management involvement in the security program; Top Management keeps executives informed and engaged during incidents.
+R.IC.I-03,IR-4; IR-5,"IR-4 requires coordinating incident handling activities across the organization and IR-5 tracking and documenting incidents; the Incident Response Team maintains secure coordination channels, war-room roles, and chronological decision logs."
+R.IC.P,IR-6; PM-1,"IR-6 requires incident reporting and PM-1 senior-level approval within the security program; Public Updates / Disclosures governs approved external statements about incidents. Partial alignment, as SP 800-53 does not address public disclosure directly."
+R.IC.R,IR-4; CP-10,IR-4 includes recovery in incident handling and CP-10 requires system recovery and reconstitution to a known state; Recovery Activity & Restoration restores services after an incident.
+R.IM-01,IR-4,"IR-4 requires incident handling that includes containment; Containment isolates affected assets, blocks malicious activity and preserves evidence."
+R.IM-02,IR-4; SI-2,"IR-4 requires eradication within incident handling and SI-2 correction of flaws; Eradication removes malicious artifacts, vulnerabilities and misconfigurations that caused the incident."
+R.IM-03,CP-10; IR-4,"CP-10 requires recovery and reconstitution and IR-4 recovery within incident handling; Disaster Recovery (RESPOND) restores systems and data from a clean, trusted state post-incident."
+R.IM-04,CP-2; CP-11,CP-2 requires maintaining essential mission and business functions despite disruption and CP-11 alternate communications protocols; Business Continuity (RESPOND) keeps critical operations running during response and recovery.
+R.IR-02,IR-4; IR-5; IR-6,"IR-4 requires incident handling, IR-5 incident monitoring, and IR-6 incident reporting; Incident Response: Cybersecurity provides the end-to-end response capability for cyber incidents."
+R.IR-03,IR-8(1); IR-6,"IR-8(1) requires the incident response plan to address breaches involving PII, including notification and assessment, and IR-6 reporting to designated authorities; Incident Response: Privacy manages personal data breaches to those obligations."
+R.LL,IR-4; IR-8,"IR-4 requires incorporating lessons learned from incident handling into procedures, training and testing, and IR-8 updating the incident response plan from lessons learned; Incident Lessons Learned turns every incident into measurable control improvement."
+G.AC-01,PM-1,PM-1 requires an organization-wide information security program plan approved by a senior official; Top Management Commitment supplies the leadership endorsement and resourcing that plan requires.
+G.AC-02,PM-1,"PM-1 requires the program plan to define roles, responsibilities, and coordination among organizational entities; Charters & Committees establishes the chartered oversight bodies that carry out that coordination."
+G.AC-03,PM-1,PM-1 requires senior-level approval and periodic review of the security program plan; Executive Leadership & Board Oversight provides that senior accountability and strategic direction.
+G.GV.C-01,PL-4,"PL-4 requires rules of behavior that users acknowledge before receiving access; COC: Acceptable Use defines permitted and prohibited use of systems, data, and AI tools for personnel."
+G.GV.P-01,PM-1,"PM-1 requires an organization-wide program plan supported by policy; Core Policies provides the hierarchical policy architecture spanning security, privacy, and AI."
+G.GV.P-02,PL-1; PM-1,PL-1 requires planning policy and procedures and PM-1 requires the security program plan; Security Policies sets enforceable security expectations that these documents formalize.
+G.GV.P-03,IR-1; CP-1,"IR-1 and CP-1 require incident response and contingency planning policies and procedures; Response & Resilience Policies provides them, including AI-specific failure modes."
+G.GV.P-05,PT-1; PM-19,"PT-1 requires PII processing and transparency policy and procedures and PM-19 requires a privacy program leadership role; Privacy Policies establishes the rules for fair, lawful processing of personal data."
+G.GV.P-07,PS-1,PS-1 requires personnel security policy and procedures; HR Policies defines the personnel practices that support secure and ethical conduct.
+G.GV.P-08,SR-1; PM-30,"SR-1 requires supply chain risk management policy and procedures and PM-30 requires an organization-wide supply chain risk management strategy; Supply-Chain Policies sets the standards suppliers of software, models, and datasets must meet."
+G.GV.P-09,PM-1; MP-1,"PM-1 anchors data-governance policy in the security program and MP-1 requires media protection policy and procedures; Data-Governance Policies sets rules for data quality, integrity, and handling. Partial alignment, as SP 800-53 does not address data quality."
+G.GV.S-02,PL-1; CM-6,PL-1 requires planning procedures and CM-6 requires documented configuration settings; Security Standards defines the technical hardening baselines that CM-6 settings implement.
+G.GV.S-03,IR-1; CP-1,IR-1 and CP-1 require incident response and contingency procedures; Response & Resilience Standards provides the standardized recovery and continuity procedures that implement those policies.
+G.LR-01,PM-19,PM-19 requires a senior privacy official to lead a privacy program that ensures compliance with privacy law; Data Privacy Compliance provides that compliance oversight and accountability.
+G.LR-02,CM-10,"CM-10 requires using software and documentation in accordance with contracts and copyright law and controlling peer-to-peer file sharing; IP Management tracks open-source and third-party licenses and protects proprietary code, models, and data. SP 800-53 covers only the software-licensing part of IP management."
+G.PR-01,PM-18; PM-19; PT-1,"PM-18 requires an organization-wide privacy program plan, PM-19 a privacy program leadership role, and PT-1 PII processing policy; the Privacy Program establishes and maintains the enterprise privacy management program these controls describe."
+G.RM-01,RA-3; PM-9,"RA-3 requires risk assessments and PM-9 requires an organization-wide risk management strategy; the Risk Management Framework integrates security, AI, privacy, and operational risk under one enterprise approach."
+G.RM-02,RA-3,"RA-3 requires risk determinations to be made against organizational risk tolerance; Risk Appetite and Tolerance sets the approved thresholds those determinations rely on. PM-9, which requires risk tolerance in the risk management strategy, would also fit."
+G.RM-04,RA-3; PM-9,"RA-3 requires cybersecurity risk assessments and PM-9 an organization-wide risk management strategy; the Cybersecurity Risk-Management Program continuously identifies, analyzes, and treats cyber risk within that strategy."
+G.RM-05,SR-2; SR-3,SR-2 requires a supply chain risk management plan and SR-3 supply chain controls and processes; the Third-Party Risk-Management Program establishes the governance for vendor and supplier risk.
+G.ST.B,PL-2; PM-5,"PL-2 requires system security plans that describe authorization boundaries, interconnections, and the operating environment, and PM-5 a system inventory; System Boundaries maintains the boundary diagrams, trust zones, and interface inventories these plans document."
+G.ST.O-02,PM-11,PM-11 requires defining mission and business processes with consideration of security and privacy; Goals & Context translates mission into risk-informed governance goals from internal and external context.
+G.ST.S-02,PL-2; PM-5,PL-2 requires documented system scope and categorization and PM-5 an organizational system inventory; Security Scope determines which assets are in scope and the protection each warrants.
+P.AT-02,AT-2; AT-3,AT-2 requires security and privacy literacy training and awareness for all users and AT-3 role-based training; Cybersecurity Training delivers the foundational and advanced security awareness those controls require.
+P.AT-03,AT-3,"AT-3 requires role-based training for personnel with assigned security and privacy roles; Governance Training develops that literacy for leadership, risk owners and committees."
+P.DS-01,MP-3; MP-4,MP-3 requires media marking and MP-4 media storage; Classification & Handling applies classification labels and handling rules to information and media.
+P.DS-02,SC-13,"SC-13 requires cryptography that meets applicable law and standards; Cryptographic Management governs algorithm selection, key management, and encryption use."
+P.ES,CM-7; SI-3,CM-7 requires least functionality and SI-3 malicious code protection; Endpoint Security hardens endpoints and deploys anti-malware and EDR.
+P.IM,IA-2; IA-4,"IA-2 requires unique identification and authentication of organizational users and IA-4 identifier management; Identity Management governs identity issuance, authentication, and lifecycle for users and service accounts."
+P.NS,SC-7; AC-4,SC-7 requires boundary protection and AC-4 information flow enforcement; Network Security segments networks and controls traffic between zones.
+P.PC,PT-1,PT-1 requires PII processing and transparency policy and procedures; Privacy Controls implements privacy safeguards in systems that process personal data.
+P.PS,SC-3,SC-3 requires isolating security functions from non-security functions; Platform Security hardens and isolates the platforms that host systems and AI workloads.
+P.PY-01,PE-2; PE-3,"PE-2 requires physical access authorizations and PE-3 physical access control at entry points; Access Controls enforces badging, visitor vetting, and secure-area entry."
+P.PY-02,PE-11; PE-13; PE-14; PE-15,"PE-11 requires emergency power, PE-13 fire protection, PE-14 environmental controls, and PE-15 water damage protection; Environment Controls provides UPS and generators, fire suppression, HVAC with alerting, and water leak detection (P.PY-02-req-01, req-02)."
+P.PY-03,PE-10; PE-12,PE-10 requires emergency shutoff capability and PE-12 emergency lighting for exits and evacuation routes; Safety & Security provides coordinated emergency power-off for compute clusters (P.PY-03-req-04) and evacuation procedures (P.PY-03-req-01).
+P.RC,CP-2; CP-7; CP-9,"CP-2 requires a contingency plan, CP-7 an alternate processing site, and CP-9 system backup; Resilience Controls engineers recovery objectives, multi-region failover, and immutable backups with restore testing."
+P.RP-01,CP-2; CP-2(8),"CP-2 requires a contingency plan with recovery objectives and roles and CP-2(8) identification of critical assets; Business Continuity maintains BIA-driven continuity strategies, workarounds and communications."
+P.RP-02,CP-9; CP-10,"CP-9 requires system backups with integrity protection and CP-10 recovery and reconstitution to a known state; Disaster Recovery restores systems, data and AI pipelines to target RTO/RPO from immutable, tested backups."
+P.SC,SR-4; SR-11; SA-9,"SR-4 requires provenance for systems and components, SR-11 component authenticity and SA-9 security requirements for external system services; Supply Chain ensures provenance, integrity and security of third-party components including AI models and APIs."
+P.SD,SA-8; SA-11,SA-8 requires security and privacy engineering principles and SA-11 developer testing; Secure Development applies both throughout design and build.

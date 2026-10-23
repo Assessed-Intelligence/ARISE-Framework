@@ -1,83 +1,128 @@
 arise_control_id,BSI C5 Criterion,rationale
-G.GV.S-01,OIS-01,Establishes the internal security organization and management oversight.
-G.GV.S-02,OIS-02,Defines the specialized roles and responsibilities for cloud security.
-G.GV.S-03,OIS-03,Identifies and manages interfaces with external groups and authorities.
-G.GV.S-04,OIS-04,Ensures independent review and segregation of duties within the ISMS.
-G.GV.S-05,OIS-05,Maintains communication with special interest groups and security forums.
-G.GV.P-01,SP-01,Mandates the annual review of information security policies.
-G.GV.P-02,SP-02,Governs the dissemination of security instructions to all relevant parties.
-G.GV.P-03,SP-03,Manages the lifecycle of project-specific security requirements.
-G.GV.A-01,OIS-06,Operationalizes the risk assessment process for cloud services.
-G.GV.A-02,OIS-07,Integrates supply chain risks into the overarching risk management plan.
-G.GV.A-03,RB-01,Specifies the risk treatment plan for identified multi-tenant vulnerabilities.
-G.GV.A-06,BC-01,Mandates disclosure of the primary jurisdiction and data center locations.
-G.GV.A-06,BC-02,Discloses the location of administrative and support services.
-G.GV.A-06,BC-03,Governs transparency regarding government requests for data.
-G.GV.A-06,PI-01,Provides the service description and instructions for data portability.
-P.AC.I-01,IDM-01,Governs the user account management policy.
-P.AC.I-02,IDM-02,Ensures unique identification of all users and services.
-P.AC.I-03,IDM-03,Manages the provisioning and de-provisioning of user access.
-P.AC.I-04,IDM-04,Enforces the use of individualized accounts over shared accounts.
-P.AC.I-05,IDM-05,Implements regular review of access rights.
-P.AC.I-06,IDM-06,Enforces authentication strength (complexity and length).
-P.AC.I-07,IDM-07,Manages secret authentication information (password rotation/policy).
-P.AC.I-08,IDM-08,Governs the secure use of authentication information.
-P.AC.I-09,IDM-09,Mandates Multi-Factor Authentication (MFA) for all console access.
-P.AC.I-10,IDM-10,Controls access to utility programs and sensitive system files.
-P.AC.I-11,IDM-11,Restricts access to system source code.
-P.AC.I-12,IDM-12,Manages privileged access rights (Privileged Access Management).
-P.AC.I-13,IDM-13,Restricts access to technical management interfaces.
-P.AC.I-14,IDM-14,Governs authentication for remote access via public networks.
-P.AC.I-15,IDM-15,Enforces session timeouts and inactive account disablement (90 days).
-P.AC.I-16,PS-01,Secures the data center physical perimeter and entry points.
-P.AC.I-17,PS-02,Implements physical protection against natural disasters.
-P.AC.I-18,PS-03,Protects equipment from physical threats and environmental hazards.
-P.AC.I-19,PS-04,Governs the visitor access policy and entry logs for sites.
-P.AC.I-20,PS-05,Secures power and utility systems from interruptions.
-P.AC.S-01,AM-01,Maintains the technical inventory of all information assets.
-P.AC.S-02,AM-02,Assigns owners to all identified information assets.
-P.AC.S-03,AM-06,Implements classification labeling for all data assets.
-P.DS-01,DEV-01,Governs the secure software development lifecycle policy.
-P.DS-02,DEV-02,Enforces change management for systems and applications.
-P.DS-03,DEV-03,Restricts changes to software packages and libraries.
-P.DS-04,DEV-04,Implements secure coding guidelines (e.g. OWASP).
-P.DS-05,DEV-05,Enforces security testing during the development process.
-P.DS-06,DEV-06,Governs the use of third-party components (SCA).
-P.DS-07,DEV-07,Secures the development environment and CI/CD pipeline.
-P.DS-08,DEV-08,Manages outsourced software development security.
-P.DS-10,PSS-01,Ensures integrity of the cloud service delivery platform.
-P.DS-11,PSS-02,Implements secure configuration and hardening benchmarks.
-P.DS-12,PSS-03,Governs the security of the virtualization/container layer.
-P.DS-15,CRY-01,Governs the policy for the use of cryptographic controls.
-P.DS-16,CRY-02,Enforces encryption of data in transit (TLS 1.2+).
-P.DS-17,CRY-03,Enforces encryption of data at rest (AES-256).
-P.DS-18,CRY-04,Manages the lifecycle of cryptographic keys (generation to destruction).
-M.MO-01,OPS-01,Governs the operational procedures for system health.
-M.MO-02,OPS-02,Implements malware protection on all cloud systems.
-M.MO-03,OPS-03,Manages the update and patch management process.
-M.MO-04,OPS-04,Ensures monitoring of system resources and capacity.
-M.MO-05,OPS-13,Mandates generation and protection of audit logs.
-M.MO-06,OPS-14,Ensures clock synchronization across the cloud environment.
-M.MO-07,OPS-15,Enforces regular review of logs for suspicious activity.
-M.MO-08,OPS-16,Protects logging facilities from unauthorized access.
-M.MO-10,OPS-17,Manages the monitoring of service availability.
-M.RM-01,SUP-01,Governs the security requirements for third-party suppliers.
-M.RM-02,SUP-02,Manages the security of the supplier supply chain.
-M.RM-03,SUP-03,Enforces regular monitoring of supplier service performance.
-M.RM-04,SUP-04,Governs the management of changes to supplier services.
-I.IM-01,SIM-01,Establishes the security incident management policy.
-I.IM-02,SIM-02,Governs the reporting of security events and weaknesses.
-I.IM-03,SIM-03,Manages the response to security incidents.
-I.IM-04,SIM-04,Ensures learning and improvement from past incidents.
-I.IM-05,SIM-05,Governs the collection of forensic evidence.
-I.OD-01,AM-03,Defines the data classification categories (Confidentiality).
-I.SC-01,SUP-01,Governs the vetting of critical third-party software.
-V.TE-01,IS-03,Operationalizes the internal audit of the ISMS.
-V.TE-02,OPS-19,Enforces periodic vulnerability scanning of the cloud stack.
-V.TE-03,OPS-20,Mandates annual external penetration testing.
-R.IM-01,BCM-01,Establishes the business continuity and disaster recovery plan.
-R.IM-02,BCM-02,Enforces regular testing of recovery procedures.
-R.IM-03,OPS-06,Governs the backup and restoration of data.
-R.IM-04,OPS-07,Ensures georedundancy of backup copies.
-R.IC.E-01,INQ-01,Manages responses to government investigation requests.
-D.AE-04,OPS-12,Ensures secure sanitization of storage media.
+G.AC-01,OIS-01 Information Security Management System (ISMS),"OIS-01 requires top management to operate, resource and continually improve an ISMS covering the cloud service. Top Management Commitment provides the visible leadership, resourcing and direction that keep the ISMS running."
+G.AC-02,OIS-01 Information Security Management System (ISMS),OIS-01 requires defined responsibilities and governance bodies within the ISMS. Charters & Committees establishes the chartered oversight bodies that carry out that governance.
+M.OV-03,OIS-01 Information Security Management System (ISMS),OIS-01 requires structured management of information security objectives and risks. The Security Oversight Committee provides the governance body that prioritises and reviews the security programme.
+P.IM,OIS-04 Segregation of Duties,OIS-04 requires conflicting duties and areas of responsibility to be separated. Identity Management enforces least privilege and separation of duties in role design and access assignment.
+R.IC.E-03,OIS-05 Contact with Relevant Government Agencies and Interest Groups,OIS-05 requires maintained contacts with authorities and special-interest groups to stay informed about threats and obligations. Information-Sharing Communities maintains those peer and ISAC relationships and exchanges sanitised threat intelligence.
+R.IC.E-02,OIS-05 Contact with Relevant Government Agencies and Interest Groups,OIS-05 requires established contacts with relevant government agencies. Law Enforcement Partners maintains the procedures and relationships for engaging authorities when criminal activity is suspected.
+G.GV.S-02,"OPS-23 Managing Vulnerabilities, Malfunctions and Errors - System Hardening","OPS-23 requires systems to be hardened against known attack vectors using documented, approved configuration baselines. Security Standards defines those enforceable hardening baselines, which P.PS then applies to the platform."
+G.RM-01,OIS-06 Risk Management Policy,"OIS-06 requires a documented risk management policy that defines how risks are identified, assessed and treated. The Risk Management Framework establishes that unified enterprise risk method."
+G.RM-04,OIS-07 Application of the Risk Management Policy,"OIS-07 requires the risk management policy to be applied to the cloud service, with risks assessed and treated at defined intervals. The Cybersecurity Risk-Management Program continuously identifies, analyses and treats cyber risk under that policy."
+M.RM-03,OIS-07 Application of the Risk Management Policy,"OIS-07 requires regular risk assessments and risk treatment plans with owners and deadlines. Cybersecurity Risk Management runs the ongoing evaluation of threats, vulnerabilities and exposure that produces those assessments."
+G.RM-05,OIS-07 Application of the Risk Management Policy,OIS-07 includes risks arising from subservice organisations and suppliers in the risk assessment. The Third-Party Risk-Management Program identifies and manages the risk that vendors pose to data and systems.
+G.GV.P-01,"SP-01 Documentation, Communication and Provision of Policies and Instructions","SP-01 requires policies and instructions to be documented, communicated and made available to those who must apply them. Core Policies establishes and governs the policy suite and its communication."
+G.GV.P-02,SP-02 Review and Approval of Policies and Instructions,SP-02 requires policies to be reviewed and approved by authorised bodies at least annually and when changes occur. Security Policies defines the enforceable information security expectations and their review cycle.
+G.GV.S-01,SP-03 Exceptions from Existing Policies and Instructions,"SP-03 requires exceptions to policies to be documented, approved and reviewed. Core Standards turns policy into auditable requirements and governs documented, time-limited exceptions."
+M.HR,HR-01 Verification of Qualification and Trustworthiness,HR-01 requires background and qualification checks on internal and external employees before access is granted. Human Resources runs the screening practices that uphold confidentiality and integrity.
+G.GV.P-07,HR-02 Employment Terms and Conditions,HR-02 requires employment contracts to set out information security responsibilities. HR Policies defines the personnel rules that support secure and responsible conduct through the employment lifecycle.
+P.AT-02,HR-03 Security Training and Awareness Programme,"HR-03 requires a security awareness and training programme for all personnel, repeated regularly. Cybersecurity Training delivers foundational and role-based security awareness to counter phishing, social engineering and insider threats."
+G.GV.P-07,HR-04 Disciplinary Measures,HR-04 requires a disciplinary process for violations of security policies. HR Policies sets the consequences for non-compliance within the employee lifecycle.
+M.HR,HR-05 Responsibilities in the Event of Termination or Change of Employment,"HR-05 requires defined responsibilities for termination and role changes, including return of assets and withdrawal of access. Human Resources manages departures and role changes so that those steps are completed."
+M.HR,HR-06 Confidentiality Agreements,HR-06 requires confidentiality or non-disclosure agreements with internal and external employees. Human Resources maintains those agreements as part of onboarding and contract management.
+I.AM-02,AM-01 Asset Inventory,"AM-01 requires an inventory of all assets used to provide the cloud service, with owners and attributes. System Asset Management maintains the authoritative, classified and owned asset inventory."
+G.GV.C-01,AM-02 Acceptable Use and Safe Handling of Assets Policy,AM-02 requires a policy for the acceptable use and safe handling of assets. COC: Acceptable Use sets the rules personnel must follow for appropriate use of systems and data.
+I.AM-02,AM-03 Commissioning of Hardware,AM-03 requires hardware to be approved and recorded before commissioning. System Asset Management records commissioned hardware in the inventory with ownership and classification.
+P.DS-01,AM-04 Decommissioning of Hardware,AM-04 requires data on hardware to be securely erased or the media destroyed before decommissioning. Classification & Handling defines the handling and sanitisation protocols for media based on data sensitivity.
+G.GV.C-01,"AM-05 Commitment to Permissible Use, Safe Handling and Return of Assets",AM-05 requires personnel to commit to permissible use and return of assets. COC: Acceptable Use obtains personnel acknowledgement of the rules for use and return of organisational assets.
+P.DS-01,AM-06 Asset Classification and Labelling,AM-06 requires assets to be classified and labelled according to a classification scheme. Classification & Handling applies the classification labels and matching handling rules.
+P.PY-02,PS-01 Physical Security and Environmental Control Requirements,PS-01 requires documented requirements for physical security and environmental controls at data centre locations. Environment Controls protects assets against environmental hazards and facility failures.
+P.RC,PS-02 Redundancy Model,PS-02 requires a redundancy model so that failures of individual components do not interrupt the service. Resilience Controls engineers systems to absorb and recover from disruptive events.
+P.PY-01,PS-03 Perimeter Protection,PS-03 requires physical perimeter protection for premises hosting the cloud service. Access Controls prevents unauthorised physical access to facilities and secure areas.
+P.PY-01,PS-04 Physical Site Access Control,"PS-04 requires access to premises to be restricted to authorised persons, logged and reviewed. Access Controls enforces badging, visitor handling and access logging for secure areas."
+P.PY-02,PS-05 Protection from Fire and Smoke,"PS-05 requires protection of premises and equipment against fire and smoke, including detection and suppression. Environment Controls protects assets against environmental hazards and facility failures."
+P.PY-02,PS-06 Protection Against Interruptions Caused by Power Failures and Other Such Risks,PS-06 requires protection of premises against power failures and utility interruptions. Environment Controls provides uninterruptible power and generator capacity.
+P.RC,OPS-01 Capacity Management - Planning,OPS-01 requires planning of technical capacity to meet availability commitments. Resilience Controls engineers capacity headroom and graceful degradation into the service.
+D.CM,OPS-02 Capacity Management - Monitoring,OPS-02 requires monitoring of resource usage against planned capacity. Continuous Monitoring provides the automated monitoring that detects deviations from expected resource levels.
+P.RC,OPS-03 Capacity Management - Controlling of Resources,OPS-03 requires resources to be controlled so that capacity shortfalls do not affect availability. Resilience Controls ensures the service continues under load through controlled scaling and prioritisation.
+P.ES,OPS-04 Protection Against Malware - Concept,OPS-04 requires a documented concept for malware protection across systems. Endpoint Security defines and deploys anti-malware and endpoint hardening.
+P.ES,OPS-05 Protection Against Malware - Implementation,"OPS-05 requires malware protection to be implemented, kept current and monitored. Endpoint Security operates and monitors anti-malware and EDR tooling on servers, containers and user devices."
+P.RP-02,OPS-06 Data Backup and Recovery - Concept,OPS-06 requires a documented backup and recovery concept with defined scope and frequency. Disaster Recovery defines backup strategy and restore procedures aligned to RTO and RPO targets.
+P.RP-02,OPS-07 Data Backup and Recovery - Monitoring,OPS-07 requires backup execution to be monitored and failures handled. Disaster Recovery monitors backup jobs and remediates failures so restore points remain valid.
+P.RP-02,OPS-08 Data Backup and Recovery - Regular Testing,OPS-08 requires restore procedures to be tested regularly. Disaster Recovery runs tested restores from immutable backups to prove recovery objectives are met.
+P.RP-02,OPS-09 Data Backup and Recovery - Storage,"OPS-09 requires backups to be stored at a separate location with equivalent protection. Disaster Recovery maintains geographically separated, protected backup copies."
+D.CM,OPS-10 Logging and Monitoring - Concept,OPS-10 requires a documented concept for logging and monitoring of security-relevant events. Continuous Monitoring establishes the automated monitoring programme and its coverage.
+D.CM,OPS-11 Logging and Monitoring - Metadata Management Concept,"OPS-11 requires a concept for handling log metadata, including customer data within logs. Continuous Monitoring defines what is collected and how monitoring data is governed."
+D.CM,"OPS-12 Logging and Monitoring - Access, Storage and Deletion","OPS-12 requires logs to be access-restricted, retained and deleted per policy. Continuous Monitoring protects monitoring data and enforces its retention. Partial alignment: the deletion rules also draw on Classification & Handling."
+D.AD,OPS-13 Logging and Monitoring - Identification of Events,OPS-13 requires logged events to be analysed to identify security incidents and anomalies. Anomaly Detection applies statistical and behavioural analysis to logs to surface unusual activity.
+D.CM,OPS-14 Logging and Monitoring - Storage of the Logging Data,OPS-14 requires logging data to be stored centrally and protected from manipulation. Continuous Monitoring centralises logs in protected storage with integrity controls.
+D.CM,OPS-15 Logging and Monitoring - Accountability,OPS-15 requires logs to attribute actions to individual users and systems. Continuous Monitoring captures attributable events so that activity can be traced to an accountable identity.
+D.CM,OPS-16 Logging and Monitoring - Configuration,OPS-16 requires logging and monitoring configuration to be protected against unauthorised change. Continuous Monitoring governs and protects the monitoring configuration.
+D.CM,OPS-17 Logging and Monitoring - Availability of the Monitoring Software,OPS-17 requires the monitoring tooling itself to be available and its failures detected. Continuous Monitoring monitors the health of its own collection and alerting pipeline.
+M.RM-03,"OPS-18 Managing Vulnerabilities, Malfunctions and Errors - Concept","OPS-18 requires a documented process for identifying, assessing and remediating vulnerabilities within defined timeframes. Cybersecurity Risk Management continuously evaluates vulnerabilities and exposure and drives remediation."
+D.SA-02,"OPS-19 Managing Vulnerabilities, Malfunctions and Errors - Penetration Tests",OPS-19 requires regular penetration tests by qualified testers with findings tracked to closure. Penetration Testing simulates adversarial attacks to evaluate resilience and feeds results into remediation.
+D.SA-03,"OPS-20 Managing Vulnerabilities, Malfunctions and Errors - Measurements, Analyses and Assessments of Procedures",OPS-20 requires regular vulnerability scans and assessment of the effectiveness of the vulnerability process. Vulnerability Testing identifies exploitable weaknesses and measures remediation performance.
+P.PS,"OPS-23 Managing Vulnerabilities, Malfunctions and Errors - System Hardening","OPS-23 requires systems to be hardened against defined baselines with unnecessary functions disabled. Platform Security applies hardened configuration to cloud, container and orchestration platforms."
+P.IM,IDM-01 Policy for User Accounts and Access Rights,IDM-01 requires a policy governing user accounts and access rights based on least privilege and need to know. Identity Management defines and enforces the account and access policy for human and machine identities.
+P.IM,IDM-02 Granting and Change of User Accounts and Access Rights,IDM-02 requires accounts and rights to be granted and changed through an approved process. Identity Management runs the provisioning and change workflow with documented approvals.
+P.IM,IDM-03 Locking and Withdrawal of User Accounts in the Event of Inactivity or Multiple Failed Logins,IDM-03 requires accounts to be locked after inactivity or repeated failed logins. Identity Management enforces lockout and inactive-account disablement.
+P.IM,IDM-04 Withdraw or Adjust Access Rights as the Task Area Changes,IDM-04 requires access rights to be withdrawn or adjusted promptly on termination or role change. Identity Management ties access lifecycle to HR events so rights are removed without delay.
+P.IM,IDM-05 Regular Review of Access Rights,IDM-05 requires periodic review of accounts and access rights by owners. Identity Management performs and documents recurring access reviews.
+P.IM,IDM-06 Privileged Access Rights,"IDM-06 requires privileged rights to be restricted, personalised, approved and monitored. Identity Management applies privileged access management with separate administrative identities and monitoring."
+P.IM,IDM-07 Access to Cloud Customer Data,"IDM-07 requires provider access to customer data to be restricted, justified and logged. Identity Management scopes and logs any administrative access to customer datasets."
+P.IM,IDM-08 Confidentiality of Authentication Information,"IDM-08 requires authentication secrets to be protected in issuance, storage and transmission. Identity Management governs credential handling and secret storage for users and service accounts."
+P.IM,IDM-09 Authentication Mechanisms,"IDM-09 requires strong authentication, including multi-factor authentication for privileged and remote access. Identity Management enforces MFA and authentication strength appropriate to access risk."
+P.DS-02,CRY-01 Policy for the Use of Encryption Procedures and Key Management,"CRY-01 requires a policy for cryptographic procedures and key management. Cryptographic Management governs approved algorithms, protocols and key lifecycle."
+P.DS-02,CRY-02 Encryption of Data for Transmission (Transport Encryption),CRY-02 requires data in transit over public networks to be encrypted with strong protocols. Cryptographic Management enforces approved transport encryption.
+P.DS-02,CRY-03 Encryption of Sensitive Data for Storage,CRY-03 requires sensitive data at rest to be encrypted. Cryptographic Management enforces approved encryption of stored data and models.
+P.DS-02,CRY-04 Secure Key Management,"CRY-04 requires secure generation, storage, rotation and destruction of keys. Cryptographic Management runs the key management lifecycle with access restricted to authorised roles."
+P.NS,COS-01 Technical Safeguards,COS-01 requires technical safeguards such as firewalls and intrusion detection at network boundaries. Network Security enforces zero-trust boundary controls that prevent lateral movement.
+P.NS,COS-03 Monitoring of Connections in the Cloud Service Provider's Network,COS-03 requires network connections to be monitored for unauthorised traffic. Network Security monitors and controls traffic between zones and detects exfiltration paths.
+P.NS,COS-04 Cross-Network Access,COS-04 requires access between networks of different trust levels to be restricted and controlled. Network Security segments networks and governs cross-zone access.
+P.NS,COS-05 Networks for Administration,"COS-05 requires administrative access to use separate, protected networks. Network Security isolates management planes from production and user traffic."
+P.NS,COS-06 Segregation of Data Traffic in Jointly Used Network Environments,COS-06 requires logical separation of customer traffic in shared network environments. Network Security enforces tenant separation on shared infrastructure.
+G.ST.B,COS-07 Documentation of the Network Topology,COS-07 requires the network topology to be documented and kept current. System Boundaries maintains the boundary and interface diagrams that document the topology.
+P.DS-01,COS-08 Policies for Data Transmission,COS-08 requires policies governing transmission of data to external parties. Classification & Handling defines transfer rules according to data sensitivity.
+G.ST.B,PI-01 Documentation and Safety of Input and Output Interfaces,PI-01 requires interfaces used by customers to be documented and secured. System Boundaries maintains the interface inventory and the controls applied at each boundary.
+G.GV.A-06,PI-02 Contractual Agreements for the Provision of Data,"PI-02 requires contractual commitments on data export and portability to customers. Partial alignment: Transparency governs customer-facing disclosures about the service, but the contractual portability terms themselves sit outside the control."
+P.DS-01,PI-03 Secure Deletion of Data,PI-03 requires customer data to be securely deleted on contract end. Classification & Handling defines the deletion and sanitisation protocols by data class.
+M.DV-02,DEV-01 Policies for the Development/Procurement of Information Systems,DEV-01 requires policies and procedures for secure development and procurement of systems. The Software Development Lifecycle embeds secure coding and security requirements across development.
+M.RM-01,DEV-02 Outsourcing of the Development,DEV-02 requires outsourced development to meet the provider's security requirements under contract and supervision. Third-Party Risk Management writes security requirements into vendor agreements and monitors delivery.
+M.CM,DEV-03 Policies for Changes to Information Systems,"DEV-03 requires a documented change process with risk assessment and approval. Change Management ensures changes are risk-assessed, approved and auditable."
+V.TE-01,DEV-06 Testing Changes,"DEV-06 requires changes to be tested, including security tests, before release. Testing plans and executes functional and security tests to find defects before production."
+M.CM,DEV-09 Approvals for Provision in the Production Environment,DEV-09 requires authorised approval before changes reach production. Change Management records approvals and release decisions for every change.
+M.CM,DEV-07 Logging of Changes,"DEV-07 requires changes to information systems to be logged so they are traceable. Change Management keeps every change to systems, datasets, models and configurations risk-assessed, approved and auditable, which depends on that change log."
+P.SD,DEV-08 Version Control,DEV-08 requires version control of source code and configuration. Secure Development integrates version control and provenance into the build pipeline.
+P.SD,DEV-10 Separation of Environments,"DEV-10 requires development, test and production environments to be separated. Secure Development enforces environment separation and controlled promotion through the pipeline."
+D.SA-05,DEV-06 Testing Changes,DEV-06 requires security testing of changes before release. Code Scanning performs static and dependency analysis so code reaching production is free of known defects.
+G.GV.P-08,SSO-01 Policies and Instructions for Controlling and Monitoring Third Parties,SSO-01 requires a policy setting security requirements for subservice organisations and suppliers. Supply-Chain Policies sets the standards suppliers must meet through the contract lifecycle.
+M.RM-01,SSO-01 Policies and Instructions for Controlling and Monitoring Third Parties,"SSO-01 requires risk-based control of third parties, including contractual security requirements. Third-Party Risk Management assesses suppliers and embeds requirements in agreements."
+D.MT,SSO-04 Monitoring of Compliance with Requirements,SSO-04 requires ongoing monitoring of third parties' compliance with contractual security requirements. Monitor Third Parties continuously monitors vendor posture and compliance.
+M.RM-01,SSO-05 Exit Strategy for the Receipt of Services,SSO-05 requires an exit strategy for critical third-party services. Third-Party Risk Management maintains exit and transition plans as part of vendor risk treatment.
+G.GV.P-03,SIM-01 Policy for Security Incident Management,SIM-01 requires a documented security incident management policy with roles and procedures. Response & Resilience Policies establishes the incident response policy.
+R.IR-02,SIM-02 Processing of Security Incidents,SIM-02 requires incidents to be handled through defined steps from detection to closure. Incident Response: Cybersecurity coordinates the technical response across infrastructure and applications.
+D.IM,SIM-03 Documentation and Reporting of Security Incidents,"SIM-03 requires incidents to be documented and reported to affected customers and authorities. Incident Management records incidents and drives classification, escalation and notification."
+V.CI-01,SIM-04 Duty of the Users to Report Security Incidents to a Central Body,SIM-04 requires personnel to report security events to a central body. Reporting Channels provides accessible channels for reporting incidents and concerns.
+R.LL,SIM-05 Evaluation and Learning Process,SIM-05 requires incidents to be evaluated and lessons applied to improve controls. Incident Lessons Learned turns every incident into tracked control improvements.
+P.RP-01,BCM-01 Top Management Responsibility,BCM-01 requires top management to own business continuity management. Business Continuity maintains the continuity programme with executive ownership.
+P.RP-01,BCM-02 Business Impact Analysis Policies and Instructions,BCM-02 requires a business impact analysis to identify critical processes and recovery parameters. Business Continuity derives its strategies from BIA-defined priorities.
+P.RP-02,BCM-03 Planning Business Continuity,BCM-03 requires continuity and recovery plans that meet the recovery parameters. Disaster Recovery restores systems and data to defined RTO and RPO.
+R.IM-04,BCM-03 Planning Business Continuity,BCM-03 requires plans to maintain critical operations during disruption. Business Continuity (RESPOND) keeps critical operations running during incident response and recovery.
+D.SA-04,"BCM-04 Verification, Updating and Testing of the Business Continuity","BCM-04 requires continuity plans to be tested and updated regularly. Tabletop Exercises (BCDR) tests continuity, recovery and response readiness through structured simulations."
+G.LR-04,"COM-01 Identification of Applicable Legal, Regulatory, Self-Imposed or Contractual Requirements","COM-01 requires applicable legal, regulatory and contractual requirements to be identified and kept current. Cybersecurity Regulatory Compliance aligns controls to those obligations and maintains continuous compliance."
+G.ST.S-03,"COM-01 Identification of Applicable Legal, Regulatory, Self-Imposed or Contractual Requirements","COM-01 requires the set of applicable requirements to be determined. Regulatory Scope determines which legal, contractual and customer requirements the management system must address."
+V.IA,COM-02 Policy for Planning and Conducting Audits,"COM-02 requires a policy for planning and conducting audits of the ISMS. Internal Audit provides the chartered, independent audit function and plan."
+V.CI-03,COM-03 Internal Audits of the Information Security Management System,COM-03 requires regular internal audits of control design and effectiveness. Internal Audit: Security Audit independently assesses ISMS control design and operation.
+M.RP,COM-04 Information on Information Security Performance and Management Assessment of the ISMS,"COM-04 requires security performance to be reported to management for assessment. Reporting delivers structured, risk-informed reporting to executives and the Board."
+R.IC.E-02,INQ-01 Legal Assessment of Investigative Inquiries,INQ-01 requires investigative inquiries from authorities to be legally assessed before any disclosure. Law Enforcement Partners defines the procedures and authority for engaging with law enforcement requests.
+R.IC.R,INQ-02 Informing Cloud Customers about Investigation Requests,"INQ-02 requires affected customers to be informed about investigation requests where legally permitted. Partial alignment: Recovery Activity & Restoration governs customer-facing incident communication, which carries this notification, but it is not specific to investigations."
+G.LR-04,INQ-03 Conditions for Access to or Disclosure of Data in Investigation Requests,INQ-03 requires disclosure to authorities only under defined legal conditions. Cybersecurity Regulatory Compliance tracks the legal obligations that condition such disclosures.
+P.PS,PSS-04 Error Handling and Logging Mechanisms,PSS-04 requires the cloud service to handle errors securely and log security-relevant events. Platform Security hardens runtime platforms and their error handling and logging.
+P.PS,PSS-06 Session Management,PSS-06 requires secure session handling in the service. Platform Security applies secure configuration to session management of hosted services.
+P.IM,PSS-08 Roles and Rights Concept,PSS-08 requires a roles and rights concept for cloud customers' users. Identity Management defines role-based access for customer-facing identities.
+P.IM,PSS-05 Authentication Mechanisms,PSS-05 requires strong authentication mechanisms for the service. Identity Management enforces authentication strength and MFA for service users.
+P.PS,PSS-11 Images for Virtual Machines and Containers,"PSS-11 requires VM and container images to be hardened, provenance-checked and kept current. Platform Security secures image provenance and hardened configuration for build and deploy planes."
+G.ST.B,PSS-12 Locations of Data Processing and Storage,PSS-12 requires the cloud service provider to disclose the locations where customer data is processed and stored. System Boundaries records the physical and jurisdictional boundaries of processing so that disclosure is accurate.
+G.GV.A-06,PSS-12 Locations of Data Processing and Storage,PSS-12 requires the cloud service provider to disclose the locations where customer data is processed and stored. Transparency governs publication of that location and jurisdiction information to customers. Partial alignment: the ARISE control is written for AI disclosures.
+G.GV.A-06,INQ-02 Informing Cloud Customers about Investigation Requests,INQ-02 requires cloud customers to be informed about investigation requests concerning their data where legally permitted. Transparency governs that external communication. Partial alignment: the ARISE control is written for AI disclosures.
+G.ST.B,OIS-03 Interfaces and Dependencies,"OIS-03 requires interfaces and dependencies between the cloud service, its components and third parties to be identified and documented. System Boundaries establishes those technical boundaries and interfaces so controls can be applied and audited."
+P.NS,COS-02 Security Requirements for Connections in the Cloud Service Provider's Network,COS-02 requires security requirements for connections within the provider network to be defined and enforced. Network Security designs the zero-trust segmentation and traffic rules that implement them.
+M.RM-01,SSO-02 Risk Assessment of Service Providers and Suppliers,SSO-02 requires a risk assessment of service providers and suppliers before engagement and at intervals. Third-Party Risk Management performs that assessment and tracks its findings.
+I.SC-01,SSO-03 Directory of Service Providers and Suppliers,"SSO-03 requires a directory of service providers and suppliers with the services they deliver. Supply Chain Risk maintains the inventory of suppliers of software, models, datasets and cloud services that risk management depends on."
+R.IC.R,OPS-21 Involvement of Cloud Customers in the Event of Incidents,OPS-21 requires cloud customers to be involved and informed in the event of incidents affecting them. Recovery Activity & Restoration provides customers timely updates on restoration and remediation status.
+P.PS,OPS-24 Separation of Datasets in the Cloud Infrastructure,OPS-24 requires separation of customer datasets in the shared cloud infrastructure. Platform Security hardens the multi-tenant platform so tenant isolation is enforced at build and runtime.
+D.SA-03,PSS-02 Identification of Vulnerabilities of the Cloud Service,PSS-02 requires the provider to identify vulnerabilities in the cloud service it delivers. Vulnerability Testing identifies and drives mitigation of exploitable weaknesses in systems and applications.
+R.IC.P,PSS-03 Online Register of Known Vulnerabilities,PSS-03 requires an online register of known vulnerabilities for cloud customers. Public Updates / Disclosures manages approved external communications about security issues.
+P.IM,PSS-09 Authorisation Mechanisms,PSS-09 requires authorisation mechanisms in the cloud service that enforce the roles and rights concept. Identity Management enforces least privilege and separation of duties for human and machine entities.
+G.LR-04,INQ-04 Limiting Access to or Disclosure of Data in Investigation Requests,INQ-04 requires access to or disclosure of data in investigation requests to be limited to what is legally required. Cybersecurity Regulatory Compliance keeps disclosure practice aligned with legal obligations.
+P.AT-02,DEV-04 Safety Training and Awareness Programme Regarding Continuous Software Delivery,DEV-04 requires a security training and awareness programme for personnel involved in continuous software delivery. Cybersecurity Training delivers role-based security awareness to those teams.
+M.CM,"DEV-05 Risk Assessment, Categorisation and Prioritisation of Changes","DEV-05 requires changes to be risk-assessed, categorised and prioritised before implementation. Change Management ensures every change is risk-assessed and approved."

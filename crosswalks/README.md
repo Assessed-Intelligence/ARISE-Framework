@@ -12,35 +12,35 @@ Every file contains `arise_control_id`, the external reference column(s) from th
 
 | Source | Type | File | Mapped Rows |
 |--------|------|------|-------------|
-| AIUC-1 Certificate | Criteria | `arise-to-aiuc-1-certificate.csv` | 74 |
+| AIUC-1 Certificate | Criteria | `arise-to-aiuc-1-certificate.csv` | 69 |
 | African Union Continental Artificial Intelligence Strategy (July 2024) | Framework | `arise-to-african-union-continental-artificial-intelligence-strategy-j.csv` | 93 |
-| BSI C5 :2020 | Criteria | `arise-to-bsi-c5-2020.csv` | 82 |
+| BSI C5 :2020 | Criteria | `arise-to-bsi-c5-2020.csv` | 127 |
 | California AB 2013 & SB 942 (Private Sector AI Governance) | Regulation | `arise-to-california-ab-2013-sb-942-private-sector-ai-governance.csv` | 8 |
 | California FEHA Revisions (Automated-Decision Systems) | Regulation | `arise-to-california-feha-revisions-automated-decision-systems.csv` | 5 |
 | California SB 53 (Transparency in Frontier AI Act) | Regulation | `arise-to-california-sb-53-transparency-in-frontier-ai-act.csv` | 8 |
-| Colorado AI Act | Regulation | `arise-to-colorado-ai-act.csv` | 10 |
+| Colorado AI Act | Regulation | `arise-to-colorado-ai-act.csv` | 11 |
 | Colorado SB 26-189 | Regulation | `arise-to-colorado-sb-26-189.csv` | 6 |
-| ETSI Standard - EN 304 223 - V2.1.1 | Framework | `arise-to-etsi-standard-en-304-223-v2-1-1.csv` | 44 |
-| EU 2016/679 (GDPR) | Framework | `arise-to-eu-2016-679-gdpr.csv` | 25 |
-| EU AI Act | Regulation | `arise-to-eu-ai-act.csv` | 57 |
+| ETSI Standard - EN 304 223 - V2.1.1 | Framework | `arise-to-etsi-standard-en-304-223-v2-1-1.csv` | 43 |
+| EU 2016/679 (GDPR) | Framework | `arise-to-eu-2016-679-gdpr.csv` | 35 |
+| EU AI Act | Regulation | `arise-to-eu-ai-act.csv` | 73 |
 | ForHumanity CORE | Criteria | `arise-to-forhumanity-core.csv` | 75 |
 | ForHumanity Cybersecurity | Criteria | `arise-to-forhumanity-cybersecurity.csv` | 55 |
-| HIPAA Security Rule | Regulation | `arise-to-hipaa-security-rule.csv` | 24 |
-| Health Sector Coordinating Council (HSCC) AI TPR  and Supply Chain | Framework | `arise-to-health-sector-coordinating-council-hscc-ai-tpr-and-supply-ch.csv` | 50 |
-| ISO 22701 | Criteria | `arise-to-iso-22701.csv` | 7 |
-| ISO 27001 | Framework | `arise-to-iso-27001.csv` | 71 |
+| HIPAA Security Rule | Regulation | `arise-to-hipaa-security-rule.csv` | 35 |
+| Health Sector Coordinating Council (HSCC) AI TPR  and Supply Chain | Framework | `arise-to-health-sector-coordinating-council-hscc-ai-tpr-and-supply-ch.csv` | 49 |
+| ISO/IEC 27701 | Criteria | `arise-to-iso-27701.csv` | 7 |
+| ISO 27001 | Framework | `arise-to-iso-27001.csv` | 98 |
 | ISO 42001 | Framework | `arise-to-iso-42001.csv` | 90 |
-| ISO 42005 | Framework | `arise-to-iso-42005.csv` | 6 |
+| ISO 42005 | Framework | `arise-to-iso-42005.csv` | 7 |
 | ISO 42006 | Framework | `arise-to-iso-42006.csv` | 4 |
-| ISO 5259 | Framework | `arise-to-iso-5259.csv` | 3 |
+| ISO 5259 | Framework | `arise-to-iso-5259.csv` | 4 |
 | ISO 9001 | Criteria | `arise-to-iso-9001.csv` | 111 |
 | Idaho (SB 1227 & SB 1297) | Regulation | `arise-to-idaho-sb-1227-sb-1297.csv` | 10 |
 | Local Law 144 - NYC | Regulation | `arise-to-local-law-144-nyc.csv` | 5 |
-| NIST 800-53 | Framework | `arise-to-nist-800-53.csv` | 83 |
+| NIST 800-53 | Framework | `arise-to-nist-800-53.csv` | 91 |
 | NIST AI RMF | Framework | `arise-to-nist-ai-rmf.csv` | 65 |
 | OECD Due Diligence Guidance for Responsible AI | Framework | `arise-to-oecd-due-diligence-guidance-for-responsible-ai.csv` | 14 |
-| OMB M-25-21 | Regulation | `arise-to-omb-m-25-21.csv` | 5 |
-| PCI DSS v4.0 | Framework | `arise-to-pci-dss-v4-0.csv` | 27 |
+| OMB M-25-21 | Regulation | `arise-to-omb-m-25-21.csv` | 7 |
+| PCI DSS v4.0 | Framework | `arise-to-pci-dss-v4-0.csv` | 38 |
 | Singapore Model AI Governance Framework | Framework | `arise-to-singapore-model-ai-governance-framework.csv` | 16 |
 | TX TRAIGA - HB 149 | Regulation | `arise-to-tx-traiga-hb-149.csv` | 7 |
 | Texas Responsible AI Governance Act (HB 2060 / TRAIGA) | Regulation | `arise-to-texas-responsible-ai-governance-act-hb-2060-traiga.csv` | 7 |
