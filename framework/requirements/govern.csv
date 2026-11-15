@@ -26,7 +26,7 @@ G.GV.A-02-req-02,G.GV.A-02,2,Integrate fairness checks in training/evaluation.
 G.GV.A-02-req-03,G.GV.A-02,2,Mandate mitigation plans on threshold breaches.
 G.GV.A-02-req-04,G.GV.A-02,3,"Proxy Variable Analysis & Trade-off Documentation: Analyze models for ""Proxy Bias"" (e.g., Zip Code acting as Race) and formally document the accepted trade-offs between Accuracy and Fairness (The Pareto Frontier)."
 G.GV.A-03-req-01,G.GV.A-03,1,Define inclusivity criteria for datasets and testing panels.
-G.GV.A-03-req-02,G.GV.A-03,2,Define inclusivity Define inclusivity criteria for datasets and testing panels. (Interpreted as: Apply criteria / Stakeholder Engagement)for datasets and testing panels.
+G.GV.A-03-req-02,G.GV.A-03,2,Define inclusivity criteria for datasets and testing panels.
 G.GV.A-03-req-03,G.GV.A-03,2,"Accessibility & Universal Design: Mandate that all AI interfaces and outputs meet accessibility standards (e.g., WCAG 2.1 AA) to ensure inclusivity for users with disabilities."
 G.GV.A-03-req-04,G.GV.A-03,3,Feedback Loops: Establish channels for marginalized or impacted communities to provide direct feedback on model performance and cultural relevance.
 G.GV.A-04-req-01,G.GV.A-04,1,Cultural review checklist prior to rollout.

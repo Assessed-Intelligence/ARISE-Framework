@@ -2,6 +2,28 @@
 
 Material changes to the ARISE Framework™ control library and crosswalks. Control and requirement IDs are permanent; see [framework/controls/README.md](framework/controls/README.md) for stability rules.
 
+## v2.2.0 — 2026-11-14
+
+Corrected ISO/IEC 42001 crosswalk and a new requirement-level ISO/IEC 42001 crosswalk.
+
+### Added
+
+- `crosswalks/arise-to-iso-42001-requirements.csv`: 393 rows, each mapping one ARISE requirement to one ISO/IEC 42001:2023 clause or Annex A control. Every clause from 4 to 10 and all 38 Annex A controls are covered. 94 rows give full coverage. The other 299 say in the rationale, in a sentence beginning "Partial:", what the ARISE requirement does not cover.
+
+### Fixed
+
+- `crosswalks/arise-to-iso-42001.csv` (90 → 100 rows):
+  - 34 rows cited clauses that are not in the standard (`8.2.2`–`8.2.9` and `10.3`). They now point to the Annex A controls covering the same subject, or to the real risk clauses 6.1, 8.2 and 8.3 where Annex A has no matching control.
+  - `9.2-9.4` is now `9.2`, because clause 9 ends at 9.3.
+  - Clause ranges such as `8.1-8.3` are written out as explicit lists.
+  - Every clause title now uses the official ISO/IEC 42001:2023 wording.
+  - v2.1.0 mapped none of the 38 Annex A controls. 10 rows were added so that every Annex A control has at least one ARISE mapping, and clause 10.1 is now mapped to `R.LL`.
+- `G.GV.A-03-req-02`: garbled requirement text is replaced with "Define inclusivity criteria for datasets and testing panels." The ID and priority are unchanged.
+
+### Release metadata
+
+- `crosswalks/README.md` documents the requirement-level schema and adds the new file to the index. `CITATION.cff` version bumped to 2.2.0.
+
 ## v2.1.0 — 2026-10-23
 
 Crosswalk correction release. The control library (controls, requirements, taxonomy) is unchanged from v2.0.0.

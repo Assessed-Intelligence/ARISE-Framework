@@ -8,6 +8,8 @@ These mappings indicate conceptual alignment; they are not certifications of com
 
 Every file contains `arise_control_id`, the external reference column(s) from the source standard, and `rationale` describing why the mapping holds.
 
+Requirement-level files (suffix `-requirements`) add `arise_requirement_id`, so each row maps one ARISE requirement to one clause or control in the external standard. Where a requirement covers only part of the external item, the rationale says so in a sentence beginning "Partial:".
+
 ## Index
 
 | Source | Type | File | Mapped Rows |
@@ -29,7 +31,8 @@ Every file contains `arise_control_id`, the external reference column(s) from th
 | Health Sector Coordinating Council (HSCC) AI TPR  and Supply Chain | Framework | `arise-to-health-sector-coordinating-council-hscc-ai-tpr-and-supply-ch.csv` | 49 |
 | ISO/IEC 27701 | Criteria | `arise-to-iso-27701.csv` | 7 |
 | ISO 27001 | Framework | `arise-to-iso-27001.csv` | 98 |
-| ISO 42001 | Framework | `arise-to-iso-42001.csv` | 90 |
+| ISO 42001 | Framework | `arise-to-iso-42001.csv` | 100 |
+| ISO 42001 (requirement level) | Framework | `arise-to-iso-42001-requirements.csv` | 393 |
 | ISO 42005 | Framework | `arise-to-iso-42005.csv` | 7 |
 | ISO 42006 | Framework | `arise-to-iso-42006.csv` | 4 |
 | ISO 5259 | Framework | `arise-to-iso-5259.csv` | 4 |
